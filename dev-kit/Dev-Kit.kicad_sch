@@ -7,7 +7,7 @@
 	(title_block
 		(title "Watch-HW")
 		(date "2025-05-09")
-		(rev "0")
+		(rev "2")
 		(company "https://github.com/ZSWatch/Watch-HW")
 	)
 	(lib_symbols)
