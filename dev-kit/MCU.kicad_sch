@@ -11567,7 +11567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
+		(property "Footprint" "Samtec:SHF-105-01-L-D-SM-TR"
 			(at 382.27 227.33 0)
 			(effects
 				(font
@@ -11594,7 +11594,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Samtec"
+		(property "manf" "Wurth Elektronik"
 			(at 382.27 227.33 0)
 			(effects
 				(font
@@ -11603,7 +11603,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SHF-105-01-L-D-TH-TR"
+		(property "manf#" "623310235521"
 			(at 382.27 227.33 0)
 			(effects
 				(font
@@ -11621,7 +11621,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "200-SHF-105-01-L-D-TH-TR"
+		(property "mouser#" "710-623310235521"
 			(at 382.27 227.33 0)
 			(effects
 				(font
