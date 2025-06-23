@@ -7,7 +7,7 @@
 	(title_block
 		(title "Watch-HW")
 		(date "2025-05-09")
-		(rev "0")
+		(rev "2")
 		(company "https://github.com/ZSWatch/Watch-HW")
 	)
 	(lib_symbols
@@ -7889,7 +7889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 280.67 143.51 0)
 			(effects
 				(font
@@ -8809,7 +8809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 271.78 232.41 0)
 			(effects
 				(font
@@ -10876,7 +10876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 91.44 223.52 0)
 			(effects
 				(font
@@ -11757,7 +11757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 344.17 193.04 0)
 			(effects
 				(font
@@ -12313,7 +12313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 83.82 189.23 0)
 			(effects
 				(font
@@ -12691,7 +12691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 195.58 223.52 0)
 			(effects
 				(font
@@ -13300,7 +13300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 205.74 146.05 0)
 			(effects
 				(font
@@ -13594,7 +13594,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 38.1 168.91 0)
 			(effects
 				(font
@@ -14086,7 +14086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
 			(at 133.35 189.23 0)
 			(effects
 				(font
