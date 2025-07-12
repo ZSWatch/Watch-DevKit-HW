@@ -6415,6 +6415,10 @@
 		(uuid "08d3e366-8c25-4708-8763-551a022dd983")
 	)
 	(no_connect
+		(at 152.4 114.3)
+		(uuid "3e5b9368-7df8-4ac4-a362-b62666ee401b")
+	)
+	(no_connect
 		(at 152.4 66.04)
 		(uuid "56778ee4-5760-4e8f-816a-4ab361bfc95c")
 	)
@@ -7511,16 +7515,6 @@
 			(type default)
 		)
 		(uuid "4d77230d-4738-4b66-9fed-3ce03a203d1d")
-	)
-	(wire
-		(pts
-			(xy 152.4 114.3) (xy 153.67 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d8638c3-bc31-4904-a036-38079358b962")
 	)
 	(wire
 		(pts
@@ -11318,17 +11312,6 @@
 			(justify left)
 		)
 		(uuid "4695c4e4-a0c2-4c3f-9377-ff0681f47083")
-	)
-	(hierarchical_label "APDS-INT"
-		(shape input)
-		(at 153.67 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "59b1b692-6215-4028-a9d9-97cb05df7586")
 	)
 	(hierarchical_label "MIC-EN"
 		(shape output)

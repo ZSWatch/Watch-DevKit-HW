@@ -4515,6 +4515,10 @@
 		(uuid "8014d6f2-31f2-48ac-b964-4ddc31f965b8")
 	)
 	(no_connect
+		(at 39.37 195.58)
+		(uuid "d865825b-2996-47c3-b474-3e7becf8491d")
+	)
+	(no_connect
 		(at 182.88 190.5)
 		(uuid "f5783bfe-7510-41a4-9aff-11050858f00d")
 	)
@@ -5633,16 +5637,6 @@
 			(type default)
 		)
 		(uuid "5ff03c55-98ba-44cc-96bc-49a74779d2b5")
-	)
-	(wire
-		(pts
-			(xy 39.37 195.58) (xy 40.64 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "604cba84-e1c0-4926-b1a0-60b44a83917a")
 	)
 	(wire
 		(pts
@@ -7322,17 +7316,6 @@
 			(justify right)
 		)
 		(uuid "5dc0e5f6-bac0-4fd8-8ca2-56ef1506d615")
-	)
-	(hierarchical_label "APDS-INT"
-		(shape output)
-		(at 40.64 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5fe7b7e5-552d-4404-9647-dcbbdc0ad30e")
 	)
 	(hierarchical_label "Buttons"
 		(shape output)
