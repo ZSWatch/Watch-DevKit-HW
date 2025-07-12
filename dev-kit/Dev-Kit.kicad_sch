@@ -492,16 +492,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 57.15) (xy 81.28 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8fc1e74-7d70-4259-b53c-f636686e70f8")
-	)
-	(wire
-		(pts
 			(xy 64.77 52.07) (xy 86.36 52.07)
 		)
 		(stroke
@@ -519,16 +509,6 @@
 			(type default)
 		)
 		(uuid "aa00a422-1802-4154-8bf3-ca2360ea7cd5")
-	)
-	(wire
-		(pts
-			(xy 81.28 106.68) (xy 66.04 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acd802d6-cbd8-44e0-b22d-b3db9f47c69d")
 	)
 	(wire
 		(pts
@@ -649,16 +629,6 @@
 			(type default)
 		)
 		(uuid "e85441e1-1c54-4457-880a-f8059155ac91")
-	)
-	(wire
-		(pts
-			(xy 64.77 57.15) (xy 81.28 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b7c5cb-116a-4e09-a9a9-9a54ddf37d4b")
 	)
 	(wire
 		(pts
@@ -817,16 +787,6 @@
 		(pin "~{RTC-INT}" output
 			(at 64.77 54.61 0)
 			(uuid "1b89b6ba-fdaa-4042-99a5-381aa29b58e2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "APDS-INT" output
-			(at 64.77 57.15 0)
-			(uuid "899bdf09-36b0-4f3c-a39e-b46656d98f5f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,16 +1009,6 @@
 		(pin "~{RTC-INT}" input
 			(at 66.04 109.22 0)
 			(uuid "86c732d1-e8ac-419e-a590-91d080341b4c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "APDS-INT" input
-			(at 66.04 106.68 0)
-			(uuid "eb712e72-99ff-4971-a731-71b32aa71b04")
 			(effects
 				(font
 					(size 1.27 1.27)
