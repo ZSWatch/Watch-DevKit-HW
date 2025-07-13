@@ -1,0 +1,32 @@
+# KiBot output for generating an HTML page for navigating the results
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/navigate_results_rb.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: navigate_results_rb
+  # category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    link_from_root: 'index.html'
+    logo: '@LOGO@'
+    logo_force_height: 40
+    logo_url: '@LOGO_URL@'
+    nav_bar: true
+    render_markdown: true
+    display_category_images: false
+    display_kibot_version: false
+    title: '@TITLE@'
+    title_url: '@LOGO_URL@'
+
+...
+definitions:
+  NAME: html_navigate_results
+  COMMENT: Results webpage in HTML format
+  DIR: HTML
+  TITLE: ''
+  LOGO: ''
+  LOGO_URL: ''

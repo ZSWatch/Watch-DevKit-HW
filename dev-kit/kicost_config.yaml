@@ -1,5 +1,0 @@
-kicost:
-  version: 1
-  # Prices are valid for a day
-  cache_ttl: 1
-  cache_path: ~/kicost_cache
