@@ -6092,7 +6092,7 @@
 	)
 	(text "NOTE: 1V8 <-> 3V0 level shifter\nNTS0104GU12 has internal pullups. Works for I2C.\nhttps://www.nxp.com/docs/en/data-sheet/NTS0104.pdf"
 		(exclude_from_sim no)
-		(at 318.77 191.135 0)
+		(at 309.245 191.135 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6349,6 +6349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c89997e-036e-4e54-bdb3-74e162c359fb")
+	)
+	(junction
+		(at 335.28 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d6728ae-d434-4aae-b33d-42eb84cfbdb4")
 	)
 	(junction
 		(at 69.85 237.49)
@@ -7018,7 +7024,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 81.28) (xy 339.09 81.28)
+			(xy 328.93 81.28) (xy 339.09 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7128,7 +7134,7 @@
 	)
 	(polyline
 		(pts
-			(xy 317.5 193.04) (xy 406.4 193.04)
+			(xy 307.34 193.04) (xy 406.4 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7288,6 +7294,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 68.58) (xy 339.09 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a265dd-f19f-49b3-8720-dc7b2f95f50b")
+	)
+	(wire
+		(pts
 			(xy 198.12 237.49) (xy 176.53 237.49)
 		)
 		(stroke
@@ -7325,6 +7341,16 @@
 			(type default)
 		)
 		(uuid "3b7a8af2-4487-4ebf-b31c-714ce3aa330a")
+	)
+	(wire
+		(pts
+			(xy 335.28 68.58) (xy 335.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e03fb4e-8b6e-40ee-b279-39d00064e885")
 	)
 	(wire
 		(pts
@@ -7508,6 +7534,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 35.56) (xy 335.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4e373a-fbe5-467a-980c-e8789217ca8e")
+	)
+	(wire
+		(pts
 			(xy 350.52 116.84) (xy 350.52 120.65)
 		)
 		(stroke
@@ -7658,7 +7694,7 @@
 	)
 	(polyline
 		(pts
-			(xy 317.5 12.7) (xy 317.5 193.04)
+			(xy 307.34 12.7) (xy 307.34 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7708,7 +7744,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 68.58) (xy 339.09 68.58)
+			(xy 328.93 68.58) (xy 335.28 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8168,6 +8204,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 49.53) (xy 335.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75893878-6c4b-4530-b066-a97851be1b2d")
+	)
+	(wire
+		(pts
 			(xy 48.26 255.27) (xy 49.53 255.27)
 		)
 		(stroke
@@ -8308,7 +8354,7 @@
 	)
 	(polyline
 		(pts
-			(xy 406.4 12.7) (xy 317.5 12.7)
+			(xy 406.4 12.7) (xy 307.34 12.7)
 		)
 		(stroke
 			(width 0)
@@ -8368,7 +8414,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 76.2) (xy 339.09 76.2)
+			(xy 328.93 76.2) (xy 339.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8378,7 +8424,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 73.66) (xy 339.09 73.66)
+			(xy 328.93 73.66) (xy 339.09 73.66)
 		)
 		(stroke
 			(width 0)
@@ -8388,7 +8434,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 86.36) (xy 351.79 87.63)
+			(xy 351.79 86.36) (xy 351.79 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8428,7 +8474,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 78.74) (xy 339.09 78.74)
+			(xy 328.93 78.74) (xy 339.09 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9678,6 +9724,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 88.9) (xy 335.28 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc40f81-a2d3-4aa0-9f57-0c5abd1c25bd")
+	)
+	(wire
+		(pts
 			(xy 60.96 90.17) (xy 59.69 90.17)
 		)
 		(stroke
@@ -10468,7 +10524,7 @@
 	)
 	(global_label "TOUCH-INT"
 		(shape output)
-		(at 337.82 73.66 180)
+		(at 328.93 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10478,7 +10534,7 @@
 		)
 		(uuid "693f7904-a955-4c50-9f98-33ae98cd586c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 324.1304 73.66 0)
+			(at 315.2404 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10622,7 +10678,7 @@
 	)
 	(global_label "TOUCH-RST"
 		(shape input)
-		(at 337.82 81.28 180)
+		(at 328.93 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10632,7 +10688,7 @@
 		)
 		(uuid "7b019558-bd98-4d34-95e2-8a066492b095")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.5862 81.28 0)
+			(at 314.6962 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10842,7 +10898,7 @@
 	)
 	(global_label "TOUCH-SCL"
 		(shape input)
-		(at 337.82 76.2 180)
+		(at 328.93 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10852,7 +10908,7 @@
 		)
 		(uuid "be8bd3e9-9851-4ad1-a382-8a993309d8ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.5257 76.2 0)
+			(at 314.6357 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10864,7 +10920,7 @@
 	)
 	(global_label "TOUCH-SDA"
 		(shape output)
-		(at 337.82 78.74 180)
+		(at 328.93 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10874,7 +10930,7 @@
 		)
 		(uuid "ca565096-d14c-4510-9160-b56e1d5061db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.4652 78.74 0)
+			(at 314.5752 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11272,7 @@
 	)
 	(global_label "DISPLAY-EN"
 		(shape input)
-		(at 337.82 68.58 180)
+		(at 328.93 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11226,7 +11282,7 @@
 		)
 		(uuid "fc284d8c-942b-44cf-b0e7-b6388249e7dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 323.2233 68.58 0)
+			(at 314.3333 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13756,6 +13812,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 335.28 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58f8ec30-acdc-4d5b-bcc7-0820d639857b")
+		(property "Reference" "#PWR0329"
+			(at 335.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 335.28 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "304e1712-d30d-4c81-83dd-116cbaa0e8ed")
+		)
+		(instances
+			(project "Dev-Kit"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
+					(reference "#PWR0329")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 184.15 248.92 0)
 		(unit 1)
@@ -14200,6 +14322,71 @@
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 335.28 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a25354d-eff7-46e7-9a85-24d45e1f6e2b")
+		(property "Reference" "#PWR0330"
+			(at 335.28 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "758fe30c-4d84-4f37-8d85-44d0a5a2b737")
+		)
+		(instances
+			(project "Dev-Kit"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
+					(reference "#PWR0330")
 					(unit 1)
 				)
 			)
@@ -15155,6 +15342,112 @@
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "IC301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 335.28 86.36 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7bfc6b13-aabb-4f8c-9f49-00d62f96ecac")
+		(property "Reference" "R316"
+			(at 332.74 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 332.74 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 335.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
+			(at 335.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 335.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 335.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0805-JW-104ELF"
+			(at 335.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805-JW-104ELF"
+			(at 335.28 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3291c8f3-7a61-4754-8ca4-e50fba1cb543")
+		)
+		(pin "2"
+			(uuid "543d66ee-c502-43fa-91a3-5e12212383d8")
+		)
+		(instances
+			(project "Dev-Kit"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
+					(reference "R316")
 					(unit 1)
 				)
 			)
@@ -17002,6 +17295,112 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 335.28 46.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d14c6737-1755-4442-b0d2-0fd9be5edccb")
+		(property "Reference" "R315"
+			(at 332.74 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 332.74 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 335.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
+			(at 335.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 335.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 335.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 335.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0805-JW-104ELF"
+			(at 335.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805-JW-104ELF"
+			(at 335.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1914ba59-3149-424c-a153-0430927c1693")
+		)
+		(pin "2"
+			(uuid "c1d184b8-6a81-4023-8295-ec4ff25f1da9")
+		)
+		(instances
+			(project "Dev-Kit"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
+					(reference "R315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 39.37 201.93 0)
 		(mirror y)
 		(unit 1)
@@ -17583,7 +17982,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 351.79 87.63 0)
+		(at 351.79 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17591,7 +17990,7 @@
 		(dnp no)
 		(uuid "e9796954-05ad-471e-bebc-797b0546fe4d")
 		(property "Reference" "#PWR0321"
-			(at 351.79 93.98 0)
+			(at 351.79 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17600,7 +17999,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 351.79 92.71 0)
+			(at 351.79 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17608,7 +18007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 351.79 87.63 0)
+			(at 351.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17617,7 +18016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 351.79 87.63 0)
+			(at 351.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17626,7 +18025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 351.79 87.63 0)
+			(at 351.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
