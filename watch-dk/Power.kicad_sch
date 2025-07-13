@@ -6932,7 +6932,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V0"
+		(property "Value" "+3V0"
 			(at 203.2 102.743 0)
 			(effects
 				(font
@@ -6969,6 +6969,33 @@
 			)
 		)
 		(property "CONFIG" ""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 200.66 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
 			(at 200.66 104.14 0)
 			(effects
 				(font
@@ -7721,7 +7748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1V8"
+		(property "Value" "+1V8"
 			(at 203.2 84.963 0)
 			(effects
 				(font
@@ -7758,6 +7785,33 @@
 			)
 		)
 		(property "CONFIG" ""
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 200.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
 			(at 200.66 86.36 0)
 			(effects
 				(font
