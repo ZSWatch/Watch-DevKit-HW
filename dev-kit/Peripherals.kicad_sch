@@ -7872,7 +7872,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 280.67 143.51 0)
 			(effects
 				(font
@@ -7908,7 +7908,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 280.67 143.51 0)
 			(effects
 				(font
@@ -7917,7 +7917,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 280.67 143.51 0)
 			(effects
 				(font
@@ -8792,7 +8792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 271.78 232.41 0)
 			(effects
 				(font
@@ -8828,7 +8828,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 271.78 232.41 0)
 			(effects
 				(font
@@ -8837,7 +8837,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 271.78 232.41 0)
 			(effects
 				(font
@@ -10859,7 +10859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 91.44 223.52 0)
 			(effects
 				(font
@@ -10895,7 +10895,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 91.44 223.52 0)
 			(effects
 				(font
@@ -10904,7 +10904,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 91.44 223.52 0)
 			(effects
 				(font
@@ -11740,7 +11740,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 344.17 193.04 0)
 			(effects
 				(font
@@ -11776,7 +11776,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 344.17 193.04 0)
 			(effects
 				(font
@@ -11785,7 +11785,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 344.17 193.04 0)
 			(effects
 				(font
@@ -12296,7 +12296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 83.82 189.23 0)
 			(effects
 				(font
@@ -12305,7 +12305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/18/2/bwb_bergstik-3370040.pdf"
 			(at 83.82 189.23 0)
 			(effects
 				(font
@@ -12332,7 +12332,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-905002ALF"
+		(property "manf#" "77311-818-05LF"
 			(at 83.82 189.23 0)
 			(effects
 				(font
@@ -12341,7 +12341,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-10129380-905002ALF"
+		(property "mouser#" "649-77311-818-05LF"
 			(at 83.82 189.23 0)
 			(effects
 				(font
@@ -12674,7 +12674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 195.58 223.52 0)
 			(effects
 				(font
@@ -12710,7 +12710,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 195.58 223.52 0)
 			(effects
 				(font
@@ -12719,7 +12719,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 195.58 223.52 0)
 			(effects
 				(font
@@ -13283,7 +13283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 205.74 146.05 0)
 			(effects
 				(font
@@ -13319,7 +13319,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 205.74 146.05 0)
 			(effects
 				(font
@@ -13328,7 +13328,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 205.74 146.05 0)
 			(effects
 				(font
@@ -13577,7 +13577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 38.1 168.91 0)
 			(effects
 				(font
@@ -13613,7 +13613,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 38.1 168.91 0)
 			(effects
 				(font
@@ -13622,7 +13622,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 38.1 168.91 0)
 			(effects
 				(font
@@ -14069,7 +14069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 133.35 189.23 0)
 			(effects
 				(font
@@ -14078,7 +14078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/18/2/bwb_bergstik-3370040.pdf"
 			(at 133.35 189.23 0)
 			(effects
 				(font
@@ -14105,7 +14105,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-904002ALF"
+		(property "manf#" "77311-818-02LF"
 			(at 133.35 189.23 0)
 			(effects
 				(font
@@ -14114,7 +14114,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-10129380-904002ALF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 133.35 189.23 0)
 			(effects
 				(font
