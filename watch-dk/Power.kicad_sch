@@ -2275,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 151.13) (xy 261.62 147.32)
+			(xy 261.62 139.7) (xy 261.62 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 151.13) (xy 261.62 151.13)
+			(xy 270.51 139.7) (xy 261.62 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2645,7 +2645,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 153.67) (xy 270.51 153.67)
+			(xy 267.97 142.24) (xy 270.51 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2715,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 156.21) (xy 269.24 156.21)
+			(xy 270.51 144.78) (xy 269.24 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2835,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 148.59) (xy 267.97 148.59)
+			(xy 270.51 137.16) (xy 267.97 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2855,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 148.59) (xy 267.97 147.32)
+			(xy 267.97 137.16) (xy 267.97 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3055,7 +3055,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 156.21) (xy 269.24 158.75)
+			(xy 269.24 144.78) (xy 269.24 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3501,7 +3501,7 @@
 	)
 	(hierarchical_label "VSYS"
 		(shape output)
-		(at 267.97 153.67 180)
+		(at 267.97 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5085,7 +5085,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 275.59 151.13 0)
+		(at 275.59 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5094,7 +5094,7 @@
 		(fields_autoplaced yes)
 		(uuid "40d1f28e-749d-430f-80ca-0cc60803fd97")
 		(property "Reference" "X103"
-			(at 278.13 151.1299 0)
+			(at 278.13 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +5103,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 278.13 153.6699 0)
+			(at 278.13 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,7 +5112,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 275.59 151.13 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +5121,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/18/2/bwb_bergstik-3370040.pdf"
-			(at 275.59 151.13 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5130,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 275.59 151.13 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5139,7 @@
 			)
 		)
 		(property "manf" "Amphenol FCI"
-			(at 275.59 151.13 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +5148,7 @@
 			)
 		)
 		(property "manf#" "77311-818-02LF"
-			(at 275.59 151.13 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +5157,7 @@
 			)
 		)
 		(property "mouser#" "649-10129380-904002ALF"
-			(at 275.59 151.13 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5166,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 275.59 151.13 0)
+			(at 275.59 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5640,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 158.75 0)
+		(at 269.24 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5648,7 +5648,7 @@
 		(dnp no)
 		(uuid "74b316b2-053d-4d0b-90ee-fde78f1a37cc")
 		(property "Reference" "#PWR0120"
-			(at 269.24 165.1 0)
+			(at 269.24 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +5657,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 163.83 0)
+			(at 269.24 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5665,7 +5665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 158.75 0)
+			(at 269.24 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5674,7 +5674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 158.75 0)
+			(at 269.24 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5683,7 +5683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 158.75 0)
+			(at 269.24 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5692,7 +5692,7 @@
 			)
 		)
 		(property "Mfr." ""
-			(at 269.24 158.75 0)
+			(at 269.24 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5701,7 +5701,7 @@
 			)
 		)
 		(property "Mfr. No." ""
-			(at 269.24 158.75 0)
+			(at 269.24 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,7 +5710,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 269.24 158.75 0)
+			(at 269.24 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5719,7 @@
 			)
 		)
 		(property "Order Number" ""
-			(at 269.24 158.75 0)
+			(at 269.24 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6578,7 +6578,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 261.62 147.32 0)
+		(at 261.62 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6587,7 +6587,7 @@
 		(fields_autoplaced yes)
 		(uuid "964128f7-2884-4103-a31d-7d6e3ae93f79")
 		(property "Reference" "#PWR0118"
-			(at 261.62 151.13 0)
+			(at 261.62 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6596,7 +6596,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 261.62 143.51 0)
+			(at 261.62 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6604,7 +6604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 147.32 0)
+			(at 261.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,7 +6613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 147.32 0)
+			(at 261.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6622,7 +6622,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 147.32 0)
+			(at 261.62 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7092,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 267.97 147.32 0)
+		(at 267.97 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7101,7 +7101,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb454cd9-1d9f-4aaf-8b73-a584af2847e2")
 		(property "Reference" "#PWR0119"
-			(at 267.97 151.13 0)
+			(at 267.97 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,7 +7110,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 267.97 143.51 0)
+			(at 267.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7118,7 +7118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 147.32 0)
+			(at 267.97 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7127,7 +7127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 147.32 0)
+			(at 267.97 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,7 +7136,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 267.97 147.32 0)
+			(at 267.97 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

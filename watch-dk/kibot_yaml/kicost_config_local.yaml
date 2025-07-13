@@ -1,9 +1,3 @@
-# KiCost configuration file
-# Create a copy of this file locally, called kibost_config_local.yaml
-# kibost_config_local.yaml should NOT be shared as it contains API keys
-# By default, kicost_config_local.yaml is in the .gitignore
-# To run KiCost, you can run the following:
-# ./kibot_launch.sh -v <VARIANT> --costs
 kicost:
   version: 1
   # Prices are valid for a day
@@ -14,21 +8,22 @@ kicost:
 # Add any API option here
 # Avoid secrets
 APIs:
-  Digi-Key:
+  # Digi-Key:
     # Digi-Key Client ID for a registered APP
-    client_id: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    # client_id: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     # Digi-Key Client Secret for a registered APP
-    client_secret: xxxxxxxxxxxxxxxx
+    # client_secret: xxxxxxxxxxxxxxxx
 
     # Use the sandbox server, doesn't count the usage, but returns old data
     # sandbox: false
     # Only enabled if the client_id and client_secret are defined
-    enable: true
+    # enable: true
     # Directory for the APIs caches
-    cache_path: ~/.cache/kicost/Digi-Key
+    # cache_path: ~/.cache/kicost/Digi-Key
   Mouser:
     # Mouser Part API key
-    key: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+    # NOTE: This is set via environment
+    # key: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     # Only enabled if the key is defined
     enable: true
     # Directory for the APIs caches
@@ -64,14 +59,14 @@ APIs:
     # cache_path: ./nexar
   TME:
     # TME token (anonymous or private)
-    token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    # token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     # TME application secret
-    app_secret: xxxxxxxxxxxxxxxxxxxx
+    # app_secret: xxxxxxxxxxxxxxxxxxxx
     # Only enabled if the token and app_secret are defined
-    enable: true
+    # enable: true
     # Country where we are buying
     # country: US
     # Language for the texts
     # language: EN
     # Directory for the APIs caches
-    cache_path: ~/.cache/kicost/TME
+    # cache_path: ~/.cache/kicost/TME
