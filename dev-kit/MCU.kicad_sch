@@ -11654,7 +11654,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 53.34 68.58 180)
+		(at 53.34 66.04 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11678,8 +11679,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
-			(at 53.34 68.58 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11688,7 +11689,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf"
-			(at 53.34 68.58 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +11698,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 53.34 68.58 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +11707,7 @@
 			)
 		)
 		(property "manf" "Amphenol FCI"
-			(at 53.34 68.58 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,8 +11715,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
-			(at 53.34 68.58 0)
+		(property "manf#" "77311-818-02LF"
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11723,8 +11724,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
-			(at 53.34 68.58 0)
+		(property "mouser#" "649-77311-818-02LF"
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +11734,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 53.34 68.58 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13265,7 +13266,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 63.5 234.95 180)
+		(at 63.5 232.41 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13289,8 +13291,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
-			(at 63.5 234.95 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 63.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13299,7 +13301,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf"
-			(at 63.5 234.95 0)
+			(at 63.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13308,7 +13310,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 63.5 234.95 0)
+			(at 63.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13317,7 +13319,7 @@
 			)
 		)
 		(property "manf" "Amphenol FCI"
-			(at 63.5 234.95 0)
+			(at 63.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13325,8 +13327,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
-			(at 63.5 234.95 0)
+		(property "manf#" "77311-818-02LF"
+			(at 63.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13334,8 +13336,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
-			(at 63.5 234.95 0)
+		(property "mouser#" "649-77311-818-02LF"
+			(at 63.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13344,7 +13346,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 63.5 234.95 0)
+			(at 63.5 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13431,7 +13433,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129378-936001BLF"
+		(property "manf#" "77311-818-03LF"
 			(at 218.44 274.32 0)
 			(effects
 				(font
@@ -13440,7 +13442,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012937893601BLF"
+		(property "mouser#" "649-77311-818-03LF"
 			(at 218.44 274.32 0)
 			(effects
 				(font
@@ -13953,7 +13955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 363.22 114.3 0)
 			(effects
 				(font
@@ -13989,7 +13991,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 363.22 114.3 0)
 			(effects
 				(font
@@ -13998,7 +14000,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 363.22 114.3 0)
 			(effects
 				(font
@@ -14575,7 +14577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 344.17 114.3 0)
 			(effects
 				(font
@@ -14611,7 +14613,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 344.17 114.3 0)
 			(effects
 				(font
@@ -14620,7 +14622,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 344.17 114.3 0)
 			(effects
 				(font
@@ -14810,7 +14812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 207.01 36.83 0)
 			(effects
 				(font
@@ -14846,7 +14848,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-906002ALF"
+		(property "manf#" "77311-802-06LF"
 			(at 207.01 36.83 0)
 			(effects
 				(font
@@ -14855,7 +14857,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090602ALF"
+		(property "mouser#" "649-77311-802-06LF"
 			(at 207.01 36.83 0)
 			(effects
 				(font
@@ -15251,7 +15253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Right"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 374.65 163.83 0)
 			(effects
 				(font
@@ -15287,7 +15289,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-902001BLF"
+		(property "manf#" "77311-818-02LF"
 			(at 374.65 163.83 0)
 			(effects
 				(font
@@ -15296,7 +15298,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-1012938090201BLF"
+		(property "mouser#" "649-77311-818-02LF"
 			(at 374.65 163.83 0)
 			(effects
 				(font

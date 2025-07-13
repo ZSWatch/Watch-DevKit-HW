@@ -5120,7 +5120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/18/2/bwb_bergstik-3370040.pdf"
 			(at 275.59 151.13 0)
 			(effects
 				(font
@@ -5147,7 +5147,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "10129380-904002ALF"
+		(property "manf#" "77311-818-02LF"
 			(at 275.59 151.13 0)
 			(effects
 				(font
@@ -6366,7 +6366,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 160.02 30.48 0)
+		(at 160.02 33.02 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6375,25 +6376,23 @@
 		(fields_autoplaced yes)
 		(uuid "9123a28c-e3d6-4bc1-87b5-24048db740a3")
 		(property "Reference" "X101"
-			(at 162.56 30.4799 0)
+			(at 160.02 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Battery"
-			(at 162.56 33.0199 0)
+			(at 160.02 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 160.02 30.48 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6401,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf"
-			(at 160.02 30.48 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6411,7 +6410,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 160.02 30.48 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +6419,7 @@
 			)
 		)
 		(property "manf" "Amphenol FCI"
-			(at 160.02 30.48 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +6428,7 @@
 			)
 		)
 		(property "manf#" "10129380-902001BLF"
-			(at 160.02 30.48 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +6437,7 @@
 			)
 		)
 		(property "mouser#" "649-1012938090201BLF"
-			(at 160.02 30.48 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6447,7 +6446,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 160.02 30.48 0)
+			(at 160.02 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
