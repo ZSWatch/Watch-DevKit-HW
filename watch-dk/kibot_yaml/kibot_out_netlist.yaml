@@ -1,0 +1,17 @@
+# KiBot output for generating netlist in KiCad format
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/netlist.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: netlist
+  category: '@DIR@'
+  dir: '@DIR@'
+
+definitions:
+  NAME: netlist
+  COMMENT: Schematic netlist in KiCad format
+  DIR: Netlist
