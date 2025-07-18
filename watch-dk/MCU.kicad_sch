@@ -11751,7 +11751,7 @@
 				)
 			)
 		)
-		(property "Value" "Power"
+		(property "Value" "Current"
 			(at 54.61 63.5 0)
 			(effects
 				(font
@@ -13363,7 +13363,7 @@
 				)
 			)
 		)
-		(property "Value" "Power"
+		(property "Value" "Current"
 			(at 261.62 186.69 0)
 			(effects
 				(font
@@ -14092,7 +14092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Touch Power"
+		(property "Value" "Touch Current"
 			(at 365.76 118.1099 0)
 			(effects
 				(font
@@ -14779,7 +14779,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IO Power"
+		(property "Value" "IO Current"
 			(at 341.63 118.1099 0)
 			(effects
 				(font
@@ -15561,7 +15561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED Power"
+		(property "Value" "LED Current"
 			(at 377.19 166.3699 90)
 			(effects
 				(font
