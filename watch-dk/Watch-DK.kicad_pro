@@ -703,7 +703,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -721,7 +721,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -773,6 +773,12 @@
           "label": "mouser#",
           "name": "mouser#",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "digikey#",
+          "name": "digikey#",
+          "show": false
         }
       ],
       "filter_string": "",
