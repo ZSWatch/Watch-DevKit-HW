@@ -12277,7 +12277,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "10k"
 			(at 349.25 144.7799 0)
 			(effects
 				(font
@@ -12331,7 +12331,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0402FR-074K7L"
+		(property "manf#" "RC0402FR-0710KL"
 			(at 346.71 143.51 0)
 			(effects
 				(font
@@ -12340,7 +12340,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "603-RC0402FR-074K7L"
+		(property "mouser#" "603-RC0402FR-0710KL"
 			(at 346.71 143.51 0)
 			(effects
 				(font
@@ -14050,7 +14050,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "10k"
 			(at 349.25 119.3799 0)
 			(effects
 				(font
@@ -14104,7 +14104,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0402FR-074K7L"
+		(property "manf#" "RC0402FR-0710KL"
 			(at 346.71 118.11 0)
 			(effects
 				(font
@@ -14113,7 +14113,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "603-RC0402FR-074K7L"
+		(property "mouser#" "603-RC0402FR-0710KL"
 			(at 346.71 118.11 0)
 			(effects
 				(font

@@ -6327,7 +6327,7 @@
 		(uuid "15344526-67c9-4598-82c1-8316eefda05f")
 	)
 	(junction
-		(at 227.33 193.04)
+		(at 215.9 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15b2ea2d-824c-48ea-ba78-c3bfb1b16333")
@@ -6507,7 +6507,7 @@
 		(uuid "9d6728ae-d434-4aae-b33d-42eb84cfbdb4")
 	)
 	(junction
-		(at 248.92 175.26)
+		(at 237.49 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc12149a-275f-408e-8844-a1e041acf8a8")
@@ -6555,7 +6555,7 @@
 		(uuid "f5137ebd-e7c9-473b-b771-93f759aa62c7")
 	)
 	(junction
-		(at 248.92 212.09)
+		(at 237.49 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb8dccd4-ade9-4401-9b17-de53d44ef483")
@@ -6684,7 +6684,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 172.72) (xy 248.92 175.26)
+			(xy 237.49 172.72) (xy 237.49 175.26)
 		)
 		(stroke
 			(width 0)
@@ -6724,7 +6724,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 175.26) (xy 251.46 176.53)
+			(xy 240.03 175.26) (xy 240.03 176.53)
 		)
 		(stroke
 			(width 0)
@@ -6885,7 +6885,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 181.61) (xy 251.46 182.88)
+			(xy 240.03 181.61) (xy 240.03 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7056,7 +7056,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 210.82) (xy 250.19 212.09)
+			(xy 238.76 210.82) (xy 238.76 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7378,7 +7378,7 @@
 	)
 	(polyline
 		(pts
-			(xy 287.02 157.48) (xy 287.02 220.98)
+			(xy 274.32 157.48) (xy 274.32 220.98)
 		)
 		(stroke
 			(width 1)
@@ -7440,7 +7440,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 210.82) (xy 247.65 212.09)
+			(xy 236.22 210.82) (xy 236.22 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7470,7 +7470,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 167.64) (xy 248.92 170.18)
+			(xy 237.49 167.64) (xy 237.49 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7520,7 +7520,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 198.12) (xy 228.6 198.12)
+			(xy 214.63 198.12) (xy 217.17 198.12)
 		)
 		(stroke
 			(width 0)
@@ -7571,7 +7571,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 175.26) (xy 251.46 175.26)
+			(xy 237.49 175.26) (xy 240.03 175.26)
 		)
 		(stroke
 			(width 0)
@@ -7662,7 +7662,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 212.09) (xy 250.19 212.09)
+			(xy 237.49 212.09) (xy 238.76 212.09)
 		)
 		(stroke
 			(width 0)
@@ -7672,7 +7672,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 170.18) (xy 248.92 170.18)
+			(xy 236.22 170.18) (xy 237.49 170.18)
 		)
 		(stroke
 			(width 0)
@@ -7975,7 +7975,7 @@
 	)
 	(polyline
 		(pts
-			(xy 287.02 157.48) (xy 191.77 157.48)
+			(xy 274.32 157.48) (xy 191.77 157.48)
 		)
 		(stroke
 			(width 1)
@@ -8126,7 +8126,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 175.26) (xy 248.92 187.96)
+			(xy 237.49 175.26) (xy 237.49 187.96)
 		)
 		(stroke
 			(width 0)
@@ -8176,7 +8176,7 @@
 	)
 	(polyline
 		(pts
-			(xy 287.02 220.98) (xy 191.77 220.98)
+			(xy 274.32 220.98) (xy 191.77 220.98)
 		)
 		(stroke
 			(width 1)
@@ -8389,7 +8389,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 193.04) (xy 228.6 193.04)
+			(xy 215.9 193.04) (xy 217.17 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8439,7 +8439,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 193.04) (xy 227.33 193.04)
+			(xy 214.63 193.04) (xy 215.9 193.04)
 		)
 		(stroke
 			(width 0)
@@ -8530,7 +8530,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 195.58) (xy 228.6 195.58)
+			(xy 214.63 195.58) (xy 217.17 195.58)
 		)
 		(stroke
 			(width 0)
@@ -9354,7 +9354,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 212.09) (xy 248.92 213.36)
+			(xy 237.49 212.09) (xy 237.49 213.36)
 		)
 		(stroke
 			(width 0)
@@ -9415,7 +9415,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 198.12) (xy 270.51 198.12)
+			(xy 257.81 198.12) (xy 259.08 198.12)
 		)
 		(stroke
 			(width 0)
@@ -9506,7 +9506,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 187.96) (xy 227.33 193.04)
+			(xy 215.9 187.96) (xy 215.9 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9556,7 +9556,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 195.58) (xy 270.51 195.58)
+			(xy 257.81 195.58) (xy 259.08 195.58)
 		)
 		(stroke
 			(width 0)
@@ -9808,7 +9808,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 200.66) (xy 270.51 200.66)
+			(xy 257.81 200.66) (xy 259.08 200.66)
 		)
 		(stroke
 			(width 0)
@@ -9938,7 +9938,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 181.61) (xy 227.33 182.88)
+			(xy 215.9 181.61) (xy 215.9 182.88)
 		)
 		(stroke
 			(width 0)
@@ -9968,7 +9968,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 212.09) (xy 248.92 212.09)
+			(xy 236.22 212.09) (xy 237.49 212.09)
 		)
 		(stroke
 			(width 0)
@@ -10078,7 +10078,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 172.72) (xy 248.92 172.72)
+			(xy 236.22 172.72) (xy 237.49 172.72)
 		)
 		(stroke
 			(width 0)
@@ -10432,7 +10432,7 @@
 	)
 	(global_label "QSPI-IO0"
 		(shape bidirectional)
-		(at 270.51 200.66 0)
+		(at 259.08 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10442,7 +10442,7 @@
 		)
 		(uuid "1f6592e1-4e85-470d-a3f1-0adb252e2d58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.7385 200.66 0)
+			(at 272.3085 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10630,7 +10630,7 @@
 	)
 	(global_label "QSPI-IO1"
 		(shape bidirectional)
-		(at 226.06 195.58 180)
+		(at 214.63 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10640,7 +10640,7 @@
 		)
 		(uuid "47aacd86-1f53-462d-8ae0-d0b2a806a660")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.8315 195.58 0)
+			(at 201.4015 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,7 +10740,7 @@
 	)
 	(global_label "QSPI-CLK"
 		(shape input)
-		(at 270.51 198.12 0)
+		(at 259.08 198.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10750,7 +10750,7 @@
 		)
 		(uuid "7058c3d8-26ea-4c4b-9f24-9cf995cb6a2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.0505 198.12 0)
+			(at 271.6205 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +10850,7 @@
 	)
 	(global_label "QSPI-IO3"
 		(shape bidirectional)
-		(at 270.51 195.58 0)
+		(at 259.08 195.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10860,7 +10860,7 @@
 		)
 		(uuid "7a31cc5a-f0e5-4b00-9138-6794cacb1f36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.7385 195.58 0)
+			(at 272.3085 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11158,7 +11158,7 @@
 	)
 	(global_label "QSPI-IO2"
 		(shape bidirectional)
-		(at 226.06 198.12 180)
+		(at 214.63 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11168,7 +11168,7 @@
 		)
 		(uuid "d216bc85-d0cc-42e5-8f6a-cbc3014d6c1a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.8315 198.12 0)
+			(at 201.4015 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11246,7 +11246,7 @@
 	)
 	(global_label "QSPI-CS"
 		(shape input)
-		(at 226.06 193.04 180)
+		(at 214.63 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11256,7 +11256,7 @@
 		)
 		(uuid "d92f64e2-938d-444a-a994-890068478c98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.6081 193.04 0)
+			(at 203.1781 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12139,7 +12139,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 227.33 181.61 0)
+		(at 215.9 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12148,7 +12148,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ddf61f9-65da-44aa-b366-67ca557a3436")
 		(property "Reference" "#PWR0617"
-			(at 227.33 185.42 0)
+			(at 215.9 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12157,7 +12157,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 227.33 177.8 0)
+			(at 215.9 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12165,7 +12165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 181.61 0)
+			(at 215.9 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,7 +12174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 181.61 0)
+			(at 215.9 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12183,7 +12183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 181.61 0)
+			(at 215.9 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13141,7 +13141,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 227.33 185.42 0)
+		(at 215.9 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13150,7 +13150,7 @@
 		(fields_autoplaced yes)
 		(uuid "3381be32-e853-4783-aa10-90ead6179a20")
 		(property "Reference" "R612"
-			(at 224.79 184.1499 0)
+			(at 213.36 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13159,7 +13159,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 224.79 186.6899 0)
+			(at 213.36 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13168,7 +13168,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 227.33 185.42 0)
+			(at 215.9 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13177,7 +13177,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 227.33 185.42 0)
+			(at 215.9 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13186,7 +13186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 185.42 0)
+			(at 215.9 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13195,7 +13195,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 227.33 185.42 0)
+			(at 215.9 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13204,7 +13204,7 @@
 			)
 		)
 		(property "manf" "YAGEO"
-			(at 227.33 185.42 0)
+			(at 215.9 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13213,7 +13213,7 @@
 			)
 		)
 		(property "manf#" "RC0404FR-07100KL"
-			(at 227.33 185.42 0)
+			(at 215.9 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13222,7 +13222,7 @@
 			)
 		)
 		(property "mouser#" "603-RC0404FR-07100KL"
-			(at 227.33 185.42 0)
+			(at 215.9 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13581,7 +13581,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 242.57 170.18 0)
+		(at 231.14 170.18 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13591,7 +13591,7 @@
 		(fields_autoplaced yes)
 		(uuid "404a24f6-9a50-40b9-bde1-18092dd65c49")
 		(property "Reference" "X606"
-			(at 242.57 163.83 0)
+			(at 231.14 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13599,7 +13599,7 @@
 			)
 		)
 		(property "Value" "Current"
-			(at 242.57 166.37 0)
+			(at 231.14 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13607,7 +13607,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 242.57 170.18 0)
+			(at 231.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13616,7 +13616,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf"
-			(at 242.57 170.18 0)
+			(at 231.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13625,7 +13625,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 242.57 170.18 0)
+			(at 231.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13634,7 +13634,7 @@
 			)
 		)
 		(property "manf" "Amphenol FCI"
-			(at 242.57 170.18 0)
+			(at 231.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13643,7 +13643,7 @@
 			)
 		)
 		(property "manf#" "77311-818-02LF"
-			(at 242.57 170.18 0)
+			(at 231.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13652,7 +13652,7 @@
 			)
 		)
 		(property "mouser#" "649-77311-818-02LF"
-			(at 242.57 170.18 0)
+			(at 231.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13661,7 +13661,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 242.57 170.18 0)
+			(at 231.14 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14521,7 +14521,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 213.36 0)
+		(at 237.49 213.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14531,7 +14531,7 @@
 		(fields_autoplaced yes)
 		(uuid "6998a691-a730-4374-93d6-6556a905569a")
 		(property "Reference" "#PWR0619"
-			(at 248.92 219.71 0)
+			(at 237.49 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14540,7 +14540,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 218.44 0)
+			(at 237.49 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14548,7 +14548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 213.36 0)
+			(at 237.49 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14557,7 +14557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 213.36 0)
+			(at 237.49 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14566,7 +14566,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 213.36 0)
+			(at 237.49 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15350,7 +15350,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 182.88 0)
+		(at 240.03 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15358,7 +15358,7 @@
 		(dnp no)
 		(uuid "70de52b0-274b-408d-8e78-7a9f7f6d55ce")
 		(property "Reference" "#PWR0620"
-			(at 251.46 189.23 0)
+			(at 240.03 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15367,7 +15367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 187.96 0)
+			(at 240.03 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15375,7 +15375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 182.88 0)
+			(at 240.03 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15384,7 +15384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 182.88 0)
+			(at 240.03 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15393,7 +15393,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 182.88 0)
+			(at 240.03 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18413,7 +18413,7 @@
 	)
 	(symbol
 		(lib_id "Misc:Jumper")
-		(at 238.76 171.45 0)
+		(at 227.33 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18421,7 +18421,7 @@
 		(dnp no)
 		(uuid "f63ebd49-9c91-432d-939d-f65dd39d13de")
 		(property "Reference" "J601"
-			(at 235.585 173.99 90)
+			(at 224.155 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18430,7 +18430,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 241.3 172.7199 0)
+			(at 229.87 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18440,7 +18440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 171.45 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18449,7 +18449,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/katalog/datasheet/60900213421.pdf"
-			(at 238.76 171.45 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18458,7 +18458,7 @@
 			)
 		)
 		(property "Description" "Generic jumper cap"
-			(at 238.76 171.45 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18467,7 +18467,7 @@
 			)
 		)
 		(property "manf" " Würth Elektronik"
-			(at 238.76 171.45 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18476,7 +18476,7 @@
 			)
 		)
 		(property "manf#" "60900213421"
-			(at 238.76 171.45 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18485,7 +18485,7 @@
 			)
 		)
 		(property "mouser#" "710-60900213421"
-			(at 238.76 171.45 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18494,7 +18494,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 238.76 171.45 0)
+			(at 227.33 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18578,7 +18578,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 251.46 179.07 180)
+		(at 240.03 179.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18586,7 +18586,7 @@
 		(dnp no)
 		(uuid "f7f8716e-3e65-46e0-9180-593b52f144c4")
 		(property "Reference" "C602"
-			(at 254 177.7935 0)
+			(at 242.57 177.7935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18595,7 +18595,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 254 180.3335 0)
+			(at 242.57 180.3335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18604,7 +18604,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 251.46 179.07 0)
+			(at 240.03 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18613,7 +18613,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
-			(at 251.46 179.07 0)
+			(at 240.03 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18622,7 +18622,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 179.07 0)
+			(at 240.03 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18631,7 +18631,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 251.46 179.07 0)
+			(at 240.03 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18640,7 +18640,7 @@
 			)
 		)
 		(property "manf" "KYOCERA AVX"
-			(at 251.46 179.07 0)
+			(at 240.03 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18649,7 +18649,7 @@
 			)
 		)
 		(property "manf#" "0402ZC104KAT4A"
-			(at 251.46 179.07 0)
+			(at 240.03 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18658,7 +18658,7 @@
 			)
 		)
 		(property "mouser#" "581-0402ZC104KAT4A"
-			(at 251.46 179.07 0)
+			(at 240.03 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18683,7 +18683,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 248.92 167.64 0)
+		(at 237.49 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18692,7 +18692,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa9774d3-1b22-4ea1-b489-e3c1479b3113")
 		(property "Reference" "#PWR0618"
-			(at 248.92 171.45 0)
+			(at 237.49 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18701,7 +18701,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 248.92 163.83 0)
+			(at 237.49 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18709,7 +18709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 167.64 0)
+			(at 237.49 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18718,7 +18718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 167.64 0)
+			(at 237.49 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18727,7 +18727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 167.64 0)
+			(at 237.49 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18749,7 +18749,7 @@
 	)
 	(symbol
 		(lib_id "Infineon:S25FS512SAGNFI010")
-		(at 248.92 199.39 0)
+		(at 237.49 199.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18757,7 +18757,7 @@
 		(dnp no)
 		(uuid "fbf847b0-94f2-42ad-aaf2-4af69fe90b16")
 		(property "Reference" "IC603"
-			(at 233.68 189.23 0)
+			(at 222.25 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18765,7 +18765,7 @@
 			)
 		)
 		(property "Value" "MX25U51245GZ4I00"
-			(at 240.665 209.55 0)
+			(at 229.235 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18773,7 +18773,7 @@
 			)
 		)
 		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
-			(at 248.92 199.39 0)
+			(at 237.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18782,7 +18782,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/819/MX25U51245G_2c_1_8V_2c_512Mb_2c_v1_4-3371129.pdf"
-			(at 248.92 199.39 0)
+			(at 237.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18791,7 +18791,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 199.39 0)
+			(at 237.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18800,7 +18800,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 248.92 199.39 0)
+			(at 237.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18809,7 +18809,7 @@
 			)
 		)
 		(property "manf" "Macronix"
-			(at 248.92 199.39 0)
+			(at 237.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18818,7 +18818,7 @@
 			)
 		)
 		(property "manf#" "MX25U51245GZ4I00"
-			(at 248.92 199.39 0)
+			(at 237.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18827,7 +18827,7 @@
 			)
 		)
 		(property "mouser#" "95-25U51245GZ4I00T"
-			(at 248.92 199.39 0)
+			(at 237.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
