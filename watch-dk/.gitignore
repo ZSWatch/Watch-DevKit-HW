@@ -44,3 +44,6 @@ fp-info-cache
 
 # Backup files
 *-backups/
+
+# Lock files
+*.lck
