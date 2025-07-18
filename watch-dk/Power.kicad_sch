@@ -5459,7 +5459,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "150k"
+		(property "Value" "100k"
 			(at 123.19 132.08 0)
 			(effects
 				(font
@@ -5513,7 +5513,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0402FR-07150KL"
+		(property "manf#" "RC0404FR-07100KL"
 			(at 120.65 130.81 0)
 			(effects
 				(font
@@ -5522,7 +5522,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "603-RC0402FR-07150KL"
+		(property "mouser#" "603-RC0404FR-07100KL"
 			(at 120.65 130.81 0)
 			(effects
 				(font

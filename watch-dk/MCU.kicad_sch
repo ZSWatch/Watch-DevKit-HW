@@ -3120,7 +3120,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NXP:NTS0104GU12"
+		(symbol "NXP:NTS0104GU12 (XQFN12)"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3141,7 +3141,7 @@
 				)
 			)
 			(property "Footprint" "Package_QFN:XQFN-12-1.7x2mm_P0.4mm"
-				(at 1.27 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3149,8 +3149,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.nxp.com/docs/en/package-information/SOT1174-1.pdf"
-				(at 1.27 2.54 0)
+			(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NTS0104.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3167,7 +3167,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NTS0104GU12_0_0"
+			(symbol "NTS0104GU12 (XQFN12)_0_0"
 				(rectangle
 					(start -10.16 8.89)
 					(end 10.16 -8.89)
@@ -3180,7 +3180,7 @@
 					)
 				)
 			)
-			(symbol "NTS0104GU12_1_0"
+			(symbol "NTS0104GU12 (XQFN12)_1_0"
 				(pin input line
 					(at -12.7 6.35 0)
 					(length 2.54)
@@ -13447,7 +13447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "NXP:NTS0104GU12")
+		(lib_id "NXP:NTS0104GU12 (XQFN12)")
 		(at 351.79 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13472,7 +13472,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFN:XQFN-12-1.7x2mm_P0.4mm"
-			(at 353.06 73.66 0)
+			(at 351.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13481,7 +13481,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/NTS0104.pdf"
-			(at 353.06 73.66 0)
+			(at 351.79 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
