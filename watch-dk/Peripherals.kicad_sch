@@ -8158,7 +8158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22ce91fb-60a0-4882-9711-ed0b94fc3598")
-		(property "Reference" "IC506"
+		(property "Reference" "IC507"
 			(at 373.38 125.73 0)
 			(effects
 				(font
@@ -8267,7 +8267,7 @@
 		(instances
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC506")
+					(reference "IC507")
 					(unit 1)
 				)
 			)
@@ -11035,7 +11035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8349b728-610c-4257-b037-f86870755baa")
-		(property "Reference" "#PWR0538"
+		(property "Reference" "#PWR0537"
 			(at 341.63 120.65 0)
 			(effects
 				(font
@@ -11085,7 +11085,7 @@
 		(instances
 			(project "Watch-DK"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0538")
+					(reference "#PWR0537")
 					(unit 1)
 				)
 			)
@@ -12330,7 +12330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aff88dc4-cb11-4e2f-9c56-ec1d33f40b46")
-		(property "Reference" "#PWR0537"
+		(property "Reference" "#PWR0538"
 			(at 345.44 160.02 0)
 			(effects
 				(font
@@ -12380,7 +12380,7 @@
 		(instances
 			(project "Watch-DK"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "#PWR0537")
+					(reference "#PWR0538")
 					(unit 1)
 				)
 			)
@@ -13430,7 +13430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c59d97dc-053d-4b2e-9543-f84e12d6274a")
-		(property "Reference" "IC507"
+		(property "Reference" "IC506"
 			(at 335.28 120.65 0)
 			(effects
 				(font
@@ -13538,7 +13538,7 @@
 		(instances
 			(project ""
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-					(reference "IC507")
+					(reference "IC506")
 					(unit 1)
 				)
 			)
