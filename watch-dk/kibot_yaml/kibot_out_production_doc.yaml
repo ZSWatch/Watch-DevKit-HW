@@ -1,0 +1,17 @@
+# KiBot output for copying production documentation
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: copy_files
+  category: '@DIR@'
+  dir: '@DIR@'
+
+...
+definitions:
+  NAME: production
+  COMMENT: Copy production documentation
+  DIR: Manufacturing/Production
