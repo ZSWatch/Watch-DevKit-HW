@@ -5,11 +5,10 @@
 ## Table of Content
 
 - [ZSWatch Hardware](#zswatch-hardware)
-  - [Table of Contents](#table-of-contents)
+  - [Table of Content](#table-of-content)
   - [About](#about)
-  - [Dock connector](#dock-connector)
   - [Directory structure](#directory-structure)
-  - [Purchasing](#purchasing)
+  - [External projects](#external-projects)
   - [Maintainer](#maintainer)
 
 ## About
@@ -28,6 +27,10 @@ Please check the [wiki](https://github.com/jakkra/ZSWatch/wiki) for more informa
   - `drawings`: 2D drawings for subcomponents, etc.
   - `images`
 - `production`: All production files
+
+## External projects
+
+- [KiBot automation flow](https://github.com/nguyen-v/KDT_Hierarchical_KiBot)
 
 ## Maintainer
 
