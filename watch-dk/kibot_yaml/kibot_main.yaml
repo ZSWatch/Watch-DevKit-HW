@@ -436,7 +436,7 @@ import:
       DIR: @SCHEMATIC_DIR@
       DEFAULT_FONT: 'Times New Roman'
 
-  # Fabrication Document in PDF format
+  # Fabrication document in PDF format
   - file: kibot_out_pdf_fabrication.yaml
     definitions:
       NAME: @PDF_FABRICATION_OUTPUT@
