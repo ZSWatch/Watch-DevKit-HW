@@ -19,10 +19,10 @@ env:
   kibot_output_dir: ../production/watch-dk
 
   # Used variant. We assume:
-  # DRAFT: only schematic in progress, will only generate schematic PDF, netlist and BoM
-  # PRELIMINARY: will generate both schematic and PCB documents, but no ERC/DRC
-  # CHECKED: will generate both schematic and PCB documents, with ERC/DRC
-  # RELEASED: similar to CHECKED, automatically selected when pushing a tag to main
+  # DRAFT: Only schematic in progress, will only generate schematic PDF, netlist and BoM
+  # PRELIMINARY: Will generate both schematic and PCB documents, but no ERC/DRC
+  # CHECKED: Will generate both schematic and PCB documents, with ERC/DRC
+  # RELEASED: Similar to CHECKED, automatically selected when pushing a tag to main
   kibot_variant: PRELIMINARY
 
   MOUSER_KEY: ${{ secrets.MOUSER_KEY }}
