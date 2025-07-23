@@ -193,13 +193,6 @@ jobs:
           name: Log-${{ env.kibot_variant }}
           path: log
 
-      - name: Upload Results
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ env.kibot_variant }}
-          path: production
-          if-no-files-found: ignore
-
       - name: Pull latest changes
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -237,7 +230,14 @@ jobs:
           find . -type f -iname \*.log -delete
           find . -type f -iname \*.ogv -delete
 
-      - name: Push Outputs
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.kibot_variant }}
+          path: production
+          if-no-files-found: ignore
+
+      - name: Push outputs
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           branch: ${{ github.ref_name }}

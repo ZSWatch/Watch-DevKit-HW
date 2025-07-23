@@ -272,7 +272,6 @@ import:
       GROUP_ROUND_SLOTS: @GROUP_ROUND_SLOTS@
 
   # Position file
-
   - file: kibot_out_csv_pos.yaml
     definitions:
       NAME: @CSV_POS_OUTPUT@
