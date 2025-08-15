@@ -2327,7 +2327,7 @@
 					)
 				)
 			)
-			(property "Footprint" "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf"
+			(property "Footprint" "Package_SON:X2SON-8_1.4x1mm_P0.35mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13448,7 +13448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "https://www.nxp.com/docs/en/data-sheet/PCA9306.pdf"
+		(property "Footprint" "Package_SON_Kampi:XSON-8_0.65x0.17mm_P0.35mm"
 			(at 345.44 130.81 0)
 			(effects
 				(font
@@ -13484,7 +13484,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "PCA9306JK"
+		(property "manf#" "PCA9306JKZ"
 			(at 345.44 130.81 0)
 			(effects
 				(font
