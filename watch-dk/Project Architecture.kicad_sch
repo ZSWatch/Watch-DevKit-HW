@@ -411,6 +411,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 27.94) (xy 154.94 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110bd0bc-7cdd-4b15-8e78-67d184df3e84")
+	)
+	(wire
+		(pts
 			(xy 100.33 101.6) (xy 82.55 101.6)
 		)
 		(stroke
@@ -518,16 +528,6 @@
 			(type default)
 		)
 		(uuid "497042e3-5e8e-4cb7-9ebf-0507485ff9e2")
-	)
-	(wire
-		(pts
-			(xy 113.03 128.27) (xy 82.55 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dd8d7a7-9688-489b-922e-7b8cddbe1d78")
 	)
 	(bus
 		(pts
@@ -728,26 +728,6 @@
 			(type default)
 		)
 		(uuid "8623598b-8c0f-4793-bbe7-c75cd6a144b7")
-	)
-	(wire
-		(pts
-			(xy 81.28 30.48) (xy 113.03 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92c22c45-9df8-4031-a418-a0eafdb42d77")
-	)
-	(wire
-		(pts
-			(xy 113.03 30.48) (xy 113.03 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "938c85b4-7ef6-42bd-9493-7f0f5cc3d421")
 	)
 	(wire
 		(pts
@@ -1063,16 +1043,6 @@
 				(justify right)
 			)
 		)
-		(pin "MIC-EN" input
-			(at 81.28 30.48 0)
-			(uuid "33014fe4-8fc2-4a90-8488-3a78a8f94939")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MIC-CLK" input
 			(at 81.28 35.56 0)
 			(uuid "bd487bc6-b4ba-4b0a-a3b2-8e2efd663997")
@@ -1176,6 +1146,16 @@
 		(pin "Data" output
 			(at 81.28 74.93 0)
 			(uuid "dbef254f-68b8-4eac-a0cc-f1fdad27723e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VMIC" input
+			(at 81.28 27.94 0)
+			(uuid "810db047-2031-423f-b951-63f86949173d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,16 +1273,6 @@
 		(pin "MIC-CLK" output
 			(at 82.55 123.19 0)
 			(uuid "b011bc5c-deda-4e2f-aa1e-0eaa632dcfe3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MIC-EN" output
-			(at 82.55 128.27 0)
-			(uuid "3ef54fdf-f668-429f-94bd-2fa670f6d799")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,6 +1510,16 @@
 		(pin "Buttons" input
 			(at 154.94 77.47 180)
 			(uuid "ac2256bc-3f3d-482b-96c9-f8b3d88bdddc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VMIC" output
+			(at 154.94 27.94 180)
+			(uuid "bb9f9c71-3334-4f88-97b4-0b0b828d5da0")
 			(effects
 				(font
 					(size 1.27 1.27)
