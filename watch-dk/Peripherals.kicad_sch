@@ -3998,8 +3998,8 @@
 		(uuid "f6b3a402-d26f-47bc-bc05-f7aa1b681931")
 	)
 	(no_connect
-		(at 208.28 83.82)
-		(uuid "1b833a9f-5486-411b-a0a7-6bb76ef3acb1")
+		(at 208.28 81.28)
+		(uuid "096abc45-6a20-41ed-bb17-8a9d9c01aa2a")
 	)
 	(no_connect
 		(at 182.88 82.55)
@@ -4603,16 +4603,6 @@
 		)
 		(uuid "292bfe49-e472-44db-b3e5-8ff4aee5d7c2")
 	)
-	(wire
-		(pts
-			(xy 209.55 81.28) (xy 208.28 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a72e32c-457d-46f9-95e1-816c4ba700a2")
-	)
 	(polyline
 		(pts
 			(xy 109.22 71.12) (xy 109.22 13.97)
@@ -4958,6 +4948,16 @@
 			(type default)
 		)
 		(uuid "4cde2732-a3f0-48fe-b039-19a40d777349")
+	)
+	(wire
+		(pts
+			(xy 208.28 83.82) (xy 209.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e4c798-fca0-4870-93bd-54cecb6d5932")
 	)
 	(polyline
 		(pts
@@ -6638,7 +6638,7 @@
 	)
 	(hierarchical_label "BMI270-INT"
 		(shape output)
-		(at 209.55 81.28 0)
+		(at 209.55 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
