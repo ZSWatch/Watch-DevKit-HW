@@ -1,2 +1,0 @@
-Transmission Line,					Impedance [ohms],		Tolerance [%],	Layer,	Trace Width [mm],	Gap [mm],	Ref. Layers
-Edge-Coupled Surface Microstrip,	90,						±15,			F.Cu,	0.175,				0.125,		Inner1

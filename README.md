@@ -1,38 +1,45 @@
-# ZSWatch Hardware
+# ZSWatch-Watch-DevKit
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
 
-## Table of Content
+## 📑 Table of Contents
 
-- [ZSWatch Hardware](#zswatch-hardware)
-  - [Table of Content](#table-of-content)
-  - [About](#about)
-  - [Directory structure](#directory-structure)
-  - [External projects](#external-projects)
-  - [Maintainer](#maintainer)
+- [ZSWatch-Watch-DevKit](#zswatch-watch-devkit)
+  - [📑 Table of Contents](#-table-of-contents)
+  - [📖 About](#-about)
+  - [📂 Directory Breakdown](#-directory-breakdown)
+  - [Purchasing](#purchasing)
+  - [👨‍💻 Maintainer](#-maintainer)
 
-## About
+## 📖 About
 
-Hardware repository for the [ZSWatch](https://github.com/jakkra/ZSWatch).
+The **ZSWatch-Watch-DevKit** project provides the hardware design and production files for a smartwatch development board tailored to the ZSWatch ecosystem.
+It is built with **KiCad** and integrates a full **CI/CD pipeline** using **KiBot**, ensuring reproducible outputs for documentation, manufacturing, and releases.
 
-![PCB Top side](/docs/images/Image_Complete.png)
+Key features:
 
-Please check the [wiki](https://github.com/jakkra/ZSWatch/wiki) for more information about the project.
+- 🛠️ Open-source hardware design
+- 📦 Automated generation of Gerber, BoM, and documentation via KiBot
+- 🔄 Workflow stages (DRAFT → PRELIMINARY → CHECKED → RELEASED) for structured releases
+- 📝 Clear documentation and changelog to track progress
+- 🌍 Designed with collaboration and transparency in mind
 
-## Directory structure
+Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more information about the project.
 
-- `cad`: 3D model of the complete PCB
-- `watch-dk`: All sources for the Watch development kit (Watch-DK)
-- `docs`: All kinds of project documentation like schematics, BOM, etc.
-  - `drawings`: 2D drawings for subcomponents, etc.
-  - `images`
-- `production`: All production files
+## 📂 Directory Breakdown
 
-## External projects
+- **`.github`**: GitHub related files
+- **`.gitignore`**: Ignored files list
+- **`devkit`**: KiCad project for the devkit
+- **`production`**: Manufacturing outputs (Gerbers, documentation, etc.)
+- **`CHANGELOG.md`**: Version history
+- **`LICENSE`**: Project license (GPL-3.0)
+- **`README.md`**: Project overview
 
-- [KiBot automation flow](https://github.com/nguyen-v/KDT_Hierarchical_KiBot)
+## Purchasing
 
-## Maintainer
+TBD
 
-- [Daniel Kampert](mailto:daniel.kameprt@kampis-elektroecke.de)
-- [Jakob Krantz](mail@jakobkrantz.se)
+## 👨‍💻 Maintainer
+
+- [Daniel Kampert](mailto:danielkameprt@kampis-elektroecke.de)
