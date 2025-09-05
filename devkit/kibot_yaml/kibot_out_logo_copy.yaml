@@ -1,0 +1,20 @@
+# KiBot output for copying files
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/copy_files.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: copy_files
+  dir: '@DIR@'
+  options:
+    files:
+      - source: Logos/ZSWatch_logo_with_text.png
+        source_type: files
+
+definitions:
+  NAME: copy_logo
+  COMMENT: Copy logo files
+  DIR: Logo
