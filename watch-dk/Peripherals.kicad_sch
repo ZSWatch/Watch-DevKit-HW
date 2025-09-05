@@ -3902,6 +3902,12 @@
 		(uuid "45e07a75-6db1-4400-b8c1-bcefba77c782")
 	)
 	(junction
+		(at 105.41 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51fdb01a-cf4c-4efd-8c47-172e8f142b8b")
+	)
+	(junction
 		(at 199.39 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3984,6 +3990,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dad6c82a-8dbe-4fb0-b963-bc7ae8a8cb16")
+	)
+	(junction
+		(at 105.41 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2b446c9-9131-4c44-b6ef-4ca68bfbde9e")
 	)
 	(junction
 		(at 316.23 54.61)
@@ -4126,7 +4138,7 @@
 	)
 	(polyline
 		(pts
-			(xy 118.11 72.39) (xy 118.11 146.05)
+			(xy 134.62 72.39) (xy 134.62 146.05)
 		)
 		(stroke
 			(width 1)
@@ -4667,7 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 128.27) (xy 99.06 128.27)
+			(xy 97.79 128.27) (xy 105.41 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4848,7 +4860,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 125.73) (xy 99.06 125.73)
+			(xy 97.79 125.73) (xy 105.41 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5035,6 +5047,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 125.73) (xy 115.57 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0d5d65-5b30-4fb1-9b45-d08def9776aa")
+	)
+	(wire
+		(pts
 			(xy 316.23 54.61) (xy 322.58 54.61)
 		)
 		(stroke
@@ -5115,7 +5137,7 @@
 	)
 	(polyline
 		(pts
-			(xy 60.96 146.05) (xy 118.11 146.05)
+			(xy 60.96 146.05) (xy 134.62 146.05)
 		)
 		(stroke
 			(width 1)
@@ -5566,6 +5588,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 128.27) (xy 105.41 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fc041a-f074-4add-a24a-a1b8e8c9475c")
+	)
+	(wire
+		(pts
 			(xy 199.39 45.72) (xy 199.39 46.99)
 		)
 		(stroke
@@ -5644,6 +5676,16 @@
 			(type default)
 		)
 		(uuid "a10d5620-8d43-4d05-80de-511ab27247f6")
+	)
+	(wire
+		(pts
+			(xy 105.41 124.46) (xy 105.41 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1943016-b38d-4c6b-8665-4843421414b9")
 	)
 	(wire
 		(pts
@@ -6085,6 +6127,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 128.27) (xy 115.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c878c3f4-122e-4c36-b031-dc422d739edf")
+	)
+	(wire
+		(pts
 			(xy 86.36 96.52) (xy 86.36 105.41)
 		)
 		(stroke
@@ -6187,7 +6239,7 @@
 	)
 	(polyline
 		(pts
-			(xy 60.96 72.39) (xy 118.11 72.39)
+			(xy 60.96 72.39) (xy 134.62 72.39)
 		)
 		(stroke
 			(width 1)
@@ -6484,7 +6536,7 @@
 	)
 	(hierarchical_label "MIC-DATA"
 		(shape output)
-		(at 99.06 128.27 0)
+		(at 115.57 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6726,7 +6778,7 @@
 	)
 	(hierarchical_label "MIC-CLK"
 		(shape input)
-		(at 99.06 125.73 0)
+		(at 115.57 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11498,6 +11550,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 129.54 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad677cc8-f71d-46af-8d7d-736b665fa47b")
+		(property "Reference" "TP504"
+			(at 107.95 133.477 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MIC-Data"
+			(at 107.95 130.937 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 110.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 105.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 105.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 105.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 105.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "155ed54c-4974-4fa3-ac4b-1c1d463a16c7")
+		)
+		(instances
+			(project "Watch-DK"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "TP504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V8")
 		(at 33.02 27.94 0)
 		(unit 1)
@@ -12204,6 +12359,108 @@
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
 					(reference "#PWR0506")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 105.41 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "bae1c2c3-f23e-4b30-a915-8accaf2feb33")
+		(property "Reference" "TP503"
+			(at 107.95 120.523 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MIC-CLK"
+			(at 107.95 123.063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 110.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" ""
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" ""
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" ""
+			(at 105.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c5aa6d6-48dd-4ade-9c30-c1d08282cc1e")
+		)
+		(instances
+			(project "Watch-DK"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+					(reference "TP503")
 					(unit 1)
 				)
 			)
