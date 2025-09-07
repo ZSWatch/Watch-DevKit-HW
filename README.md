@@ -9,6 +9,7 @@
   - [📖 About](#-about)
   - [📂 Directory Breakdown](#-directory-breakdown)
   - [Purchasing](#purchasing)
+  - [Ressources](#ressources)
   - [👨‍💻 Maintainer](#-maintainer)
 
 ## 📖 About
@@ -39,6 +40,10 @@ Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more inform
 ## Purchasing
 
 TBD
+
+## Ressources
+
+- [KiBot Template](https://github.com/nguyen-v/KDT_Hierarchical_KiBot)
 
 ## 👨‍💻 Maintainer
 
