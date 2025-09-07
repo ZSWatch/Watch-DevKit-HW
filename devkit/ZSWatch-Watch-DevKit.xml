@@ -1,23 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/__w/Watch-DK-HW/Watch-DK-HW/devkit/ZSWatch-Watch-DevKit.kicad_sch</source>
-    <date>2025-09-06T18:02:51+0000</date>
+    <source>/__w/Watch-DevKit-HW/Watch-DevKit-HW/devkit/ZSWatch-Watch-DevKit.kicad_sch</source>
+    <date>2025-09-07T18:30:40+0000</date>
     <tool>Eeschema 9.0.1+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">cbe73d0</textvar>
-    <textvar name="GIT_HASH_SCH">cbe73d0</textvar>
+    <textvar name="GIT_HASH_PCB">c205610</textvar>
+    <textvar name="GIT_HASH_SCH">c205610</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
-    <textvar name="RELEASE_BODY_1.2.0">Version 1.2.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_1.2.0">___________________________________
+
+Fixed
+
+-   Fix wrong orientation for SWD header (#117)
+
+___________________________________
+
+Added
+
+-   Add pull-up resistor for display enable signal. Can be disabled via GPIO. (#123)
+
+-   Add new KiBot template (#116)
+
+-   Add orientation marker for IMU (#124)
+
+-   Add power LEDs (#128)
+
+-   Add reset button (#131)
+
+-   Add testpoints for microphone I2S (#145)
+
+___________________________________
+
+Changed
+
+-   Shrink down the PCB to save costs (#115)
+
+-   Replace pin headers with THT to make them more robust (#121)
+
+-   Rename "Power" jumpers to "Current" (#129)
+
+-   Replace level shifter for RTC with PCA9306GF (#133)
+
+-   Switch back to old LED driver (#134)
+
+-   Power microphone from PMIC (#145)
+
+___________________________________
+
+Removed
+
+-   Remove APDS-9306 interrupt (#122)</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">05-Sep-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-09-05</textvar>
-    <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 not found.</textvar>
+    <textvar name="RELEASE_DATE">07-Sep-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-09-07</textvar>
+    <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 - 2025-09-07</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION"/>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
@@ -60,7 +102,7 @@
     <textvar name="SHEET_NAME_7">Revision History</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZSWatch-Watch-DevKit</title>

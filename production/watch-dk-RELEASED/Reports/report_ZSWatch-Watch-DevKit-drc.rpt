@@ -1,0 +1,151 @@
+** Drc report for ZSWatch-Watch-DevKit.kicad_pcb **
+** Created on 2025-09-07T18:25:14+0000 **
+
+** Found 39 DRC violations **
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_DFN_Kampi'.
+    ; warning
+    @(253.9 mm, 171.4 mm): Footprint Q403
+[lib_footprint_mismatch]: Footprint 'SOT-666' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(246.8 mm, 127.7875 mm): Footprint IC602
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(166.0 mm, 166.0 mm): Footprint S503
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(222.2 mm, 129.2 mm): Footprint TP502
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(166.0 mm, 120.0 mm): Footprint S504
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Samtec'.
+    ; warning
+    @(253.75 mm, 162.677 mm): Footprint X601
+[lib_footprint_mismatch]: Footprint 'QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias' does not match copy in library 'Package_DFN_QFN'.
+    ; warning
+    @(225.38779 mm, 123.8304 mm): Footprint IC401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Molex'.
+    ; warning
+    @(208.25 mm, 116.7 mm): Footprint X509
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Broadcom'.
+    ; warning
+    @(229.2925 mm, 173.55 mm): Footprint IC501
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_QFN'.
+    ; warning
+    @(207.85 mm, 122.35 mm): Footprint IC505
+[lib_footprint_mismatch]: Footprint 'WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm' does not match copy in library 'Package_SON'.
+    ; warning
+    @(235.995 mm, 157.65 mm): Footprint IC603
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(216.4 mm, 118.7 mm): Footprint TP403
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_SON_Kampi'.
+    ; warning
+    @(210.3 mm, 173.975 mm): Footprint IC506
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(213.4 mm, 118.7 mm): Footprint TP404
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Knowles'.
+    ; warning
+    @(168.485 mm, 173.575 mm): Footprint MK501
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Molex'.
+    ; warning
+    @(227.2 mm, 116.7 mm): Footprint X402
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Micro Crystal'.
+    ; warning
+    @(207.1 mm, 174.535 mm): Footprint IC507
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_LGA_Kampi'.
+    ; warning
+    @(243.3 mm, 173.7575 mm): Footprint IC504
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(222.2 mm, 133.3 mm): Footprint TP501
+[lib_footprint_mismatch]: Footprint 'USB_C_Receptacle_Amphenol_12401610E4-2A' does not match copy in library 'Connector_USB'.
+    ; warning
+    @(246.8 mm, 118.2 mm): Footprint X603
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(254.7 mm, 142.2 mm): Footprint TP601
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_LGA_Kampi'.
+    ; warning
+    @(219.1 mm, 173.55 mm): Footprint IC502
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(172.2 mm, 172.9 mm): Footprint TP503
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD_Kampi'.
+    ; warning
+    @(218.73841 mm, 124.6594 mm): Footprint L401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'uBlox'.
+    ; warning
+    @(251.0 mm, 150.75 mm): Footprint M601
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_LGA_Kampi'.
+    ; warning
+    @(237.0625 mm, 173.225 mm): Footprint IC503
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Inductor_SMD_Kampi'.
+    ; warning
+    @(219.24641 mm, 122.1194 mm): Footprint L402
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(191.0 mm, 166.0 mm): Footprint S502
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_DFN_Kampi'.
+    ; warning
+    @(252.0 mm, 177.0 mm): Footprint Q401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(170.2 mm, 176.6 mm): Footprint TP504
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(191.0 mm, 120.0 mm): Footprint S501
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(230.6 mm, 116.725 mm): Footprint TP402
+[lib_footprint_issues]: The current configuration does not include the footprint library 'EastRising'.
+    ; warning
+    @(171.7 mm, 142.1 mm): Footprint X608
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_QFN'.
+    ; warning
+    @(202.295 mm, 134.95 mm): Footprint IC604
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(237.3 mm, 125.8 mm): Footprint TP401
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_DFN_Kampi'.
+    ; warning
+    @(252.0 mm, 178.2 mm): Footprint Q404
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Testpoints'.
+    ; warning
+    @(237.3 mm, 123.6 mm): Footprint TP405
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Package_DFN_Kampi'.
+    ; warning
+    @(253.9 mm, 174.9 mm): Footprint Q402
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Wuerth'.
+    ; warning
+    @(239.3 mm, 135.7 mm): Footprint S601
+
+** Found 0 unconnected pads **
+
+** Found 7 Footprint errors **
+[duplicate_footprints]: Duplicate footprints
+    ; warning
+    @(163.0 mm, 157.0 mm): Footprint REF**
+    @(205.0 mm, 157.0 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    ; warning
+    @(205.0 mm, 128.0 mm): Footprint REF**
+    @(205.0 mm, 157.0 mm): Footprint REF**
+[duplicate_footprints]: Duplicate footprints
+    ; warning
+    @(163.0 mm, 128.0 mm): Footprint REF**
+    @(205.0 mm, 157.0 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    ; warning
+    @(205.0 mm, 157.0 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    ; warning
+    @(163.0 mm, 157.0 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    ; warning
+    @(205.0 mm, 128.0 mm): Footprint REF**
+[extra_footprint]: Extra footprint
+    ; warning
+    @(163.0 mm, 128.0 mm): Footprint REF**
+
+** End of Report **
