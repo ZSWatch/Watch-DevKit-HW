@@ -14,6 +14,7 @@
 
 -	Change part number for SWD connector to 62201021121 (#157)
 -	Set pull-up for Flash CS to NA (#158)
+-   Center the mounting holes for the display (#159)
 
 ## [1.2.0] - 2025-09-07
 
