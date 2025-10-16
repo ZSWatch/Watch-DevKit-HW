@@ -1,5 +1,3 @@
-View this project on [CADLAB.io](https://cadlab.io/project/29658). 
-
 # ZSWatch-Watch-DevKit
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
@@ -28,6 +26,8 @@ Key features:
 - 🌍 Designed with collaboration and transparency in mind
 
 Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more information about the project.
+
+You can also view this project on [CADLAB.io](https://cadlab.io/project/29658). 
 
 ## 📂 Directory Breakdown
 
