@@ -11712,7 +11712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+		(property "Datasheet" "https://gct.co/files/drawings/BD125.pdf"
 			(at 33.02 287.02 90)
 			(effects
 				(font
@@ -11730,7 +11730,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Wurth Elektronik"
+		(property "manf" "GCT"
 			(at 41.91 255.27 0)
 			(effects
 				(font
@@ -11739,7 +11739,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "62201021121"
+		(property "manf#" "BD125-10-A-0305-0580-L-B"
 			(at 41.91 255.27 0)
 			(effects
 				(font
@@ -11757,7 +11757,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "710-62201021121"
+		(property "mouser#" "640-BD12510A305580LB"
 			(at 41.91 255.27 0)
 			(effects
 				(font

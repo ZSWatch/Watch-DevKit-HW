@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+### Fixed
+-   Change part number for SWD connector to BD125-10-A-0305-0580-L-B (#164)
+
 ## [1.2.1] - 2025-09-26
 
 ### Added
