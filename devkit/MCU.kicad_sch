@@ -6259,7 +6259,7 @@
 	)
 	(text "Display"
 		(exclude_from_sim no)
-		(at 318.77 19.05 0)
+		(at 308.61 19.05 0)
 		(effects
 			(font
 				(size 3 3)
@@ -11093,7 +11093,7 @@
 		)
 	)
 	(global_label "TOUCH-SDA"
-		(shape output)
+		(shape bidirectional)
 		(at 328.93 80.01 180)
 		(fields_autoplaced yes)
 		(effects
@@ -11104,7 +11104,7 @@
 		)
 		(uuid "ca565096-d14c-4510-9160-b56e1d5061db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.5752 80.01 0)
+			(at 313.4639 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,7 +11334,7 @@
 			)
 		)
 	)
-	(global_label "DISPLAY-EN"
+	(global_label "TOUCH-EN"
 		(shape output)
 		(at 154.94 90.17 0)
 		(fields_autoplaced yes)
@@ -11346,7 +11346,7 @@
 		)
 		(uuid "f29c365c-040e-4277-b706-02108f87aa70")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5367 90.17 0)
+			(at 168.2062 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11400,7 +11400,7 @@
 			)
 		)
 	)
-	(global_label "DISPLAY-EN"
+	(global_label "TOUCH-EN"
 		(shape input)
 		(at 328.93 69.85 180)
 		(fields_autoplaced yes)
@@ -11412,7 +11412,7 @@
 		)
 		(uuid "fc284d8c-942b-44cf-b0e7-b6388249e7dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.3333 69.85 0)
+			(at 315.6638 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
