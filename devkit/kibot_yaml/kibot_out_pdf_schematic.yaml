@@ -15,6 +15,7 @@ outputs:
     color_theme: '@COLOR_THEME@'
     default_font: '@DEFAULT_FONT@'
 
+...
 definitions:
   NAME: pdf_schematic
   COMMENT: Schematic in PDF format

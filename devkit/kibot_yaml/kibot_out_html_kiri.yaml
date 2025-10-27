@@ -17,6 +17,7 @@ outputs:
     revision: 'HEAD'
     zones: 'global'
 
+...
 definitions:
   NAME: html_kiri
   COMMENT: KiRi webpage

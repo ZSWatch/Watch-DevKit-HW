@@ -11,6 +11,7 @@ outputs:
   category: '@DIR@'
   dir: '@DIR@'
 
+...
 definitions:
   NAME: netlist
   COMMENT: Schematic netlist in KiCad format

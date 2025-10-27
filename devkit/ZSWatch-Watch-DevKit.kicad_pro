@@ -713,7 +713,7 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -817,7 +817,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "mouser#"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

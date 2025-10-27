@@ -12,16 +12,14 @@ outputs:
   dir: '@DIR@'
   options:
     format: XLSX
-    pre_transform: 
-      - _value_split
-      - @FILT_PRE_TRANSFORM@
+    group_fields: ['Value', '@MPN_FIELD@']
     count_smd_tht: true
     distributors:
         - Mouser
         - Digi-Key
         - TME
-        # - Arrow
-        # - Farnell
+        - Arrow
+        - Farnell
     xlsx:
       title: 'Bill of Materials'
       datasheet_as_link: 'Datasheet'
@@ -35,12 +33,11 @@ outputs:
       - "Row"
       - "Quantity Per PCB"
       - "References"
-      - "Value"
+      - "manf"
+      - "manf#"
       - "Datasheet"
       - "Footprint"
       - "Description"
-      - "manf"
-      - "manf#"
       # - "arrow#"
       # - "digikey#"
       # - "farnell#"
@@ -48,6 +45,7 @@ outputs:
       # - "newark#"
       # - "rs#"
       # - "tme#"
+
 ...
 definitions:
   NAME: xlsx_costs_bom
@@ -55,3 +53,4 @@ definitions:
   DIR: Manufacturing/Assembly
   KICOST_CONFIG: ''
   FILT_PRE_TRANSFORM: field_rename
+  MPN_FIELD: 'manf#'
