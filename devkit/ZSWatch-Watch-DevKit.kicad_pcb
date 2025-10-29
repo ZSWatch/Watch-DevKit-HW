@@ -11859,7 +11859,7 @@
 			(at 0.425 -0.175 180)
 			(size 0.65 0.17)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 5 "/Project Architecture/Peripherals/VBAT")
+			(net 147 "Net-(IC506-EN)")
 			(pinfunction "VCC_{2}")
 			(pintype "power_in")
 			(thermal_bridge_angle 45)
@@ -32091,7 +32091,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "200k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32153,7 +32153,7 @@
 				)
 			)
 		)
-		(property "manf#" "RC0402FR-07100KL"
+		(property "manf#" "RC0402FR-07200KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32166,7 +32166,7 @@
 				)
 			)
 		)
-		(property "mouser#" "603-RC0402FR-07100KL"
+		(property "mouser#" "603-RC0402FR-07200KL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52041,14 +52041,6 @@
 		(uuid "2e91948a-9d50-47ec-a2c1-250715549352")
 	)
 	(segment
-		(start 209.875 174.15)
-		(end 209.35 174.15)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "336ca0d8-8a59-4f04-a9c9-be69f93d8be4")
-	)
-	(segment
 		(start 227.8 117.5)
 		(end 226.8 116.5)
 		(width 0.2)
@@ -52071,14 +52063,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "41057dfc-f041-4ea7-ab2c-4d0510fa6267")
-	)
-	(segment
-		(start 209.35 174.15)
-		(end 209.1 174.4)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "46b89bf5-c845-4cac-b6ad-738310b9fe86")
 	)
 	(segment
 		(start 203.87 177.23)
@@ -52143,14 +52127,6 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "b1a08bfe-e431-4a27-8ef8-cb9afecbb699")
-	)
-	(via
-		(at 209.1 174.4)
-		(size 0.45)
-		(drill 0.25)
-		(layers "F.Cu" "B.Cu")
-		(net 5)
-		(uuid "039f7244-05b1-46e1-81e3-ecdd678b7918")
 	)
 	(via
 		(at 228.4 119.8)
@@ -60870,6 +60846,14 @@
 		(layer "F.Cu")
 		(net 147)
 		(uuid "7b59e726-86fa-41d7-84dd-ae564deee56e")
+	)
+	(segment
+		(start 209.875 174.15)
+		(end 209.875 174.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 147)
+		(uuid "b1cca0dd-99cb-49eb-b938-38be4d8f9c16")
 	)
 	(segment
 		(start 209.89 174.79)

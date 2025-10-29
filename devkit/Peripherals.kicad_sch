@@ -4099,6 +4099,12 @@
 		(uuid "aaffecee-6f49-476d-895f-df32dafd6ca7")
 	)
 	(junction
+		(at 346.71 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b18f878a-ca70-4c63-aaea-61b32a6c3975")
+	)
+	(junction
 		(at 19.05 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4326,7 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 123.19) (xy 331.47 124.46)
+			(xy 346.71 107.95) (xy 346.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4346,7 +4352,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 116.84) (xy 331.47 118.11)
+			(xy 346.71 101.6) (xy 346.71 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4446,16 +4452,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 116.84) (xy 349.25 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ffcafe1-b5ee-40f5-b518-8bb0971fc13e")
-	)
-	(wire
-		(pts
 			(xy 199.39 43.18) (xy 199.39 45.72)
 		)
 		(stroke
@@ -4524,6 +4520,16 @@
 			(type default)
 		)
 		(uuid "17bdaaa0-0ae6-472d-b3f8-9cde25fe3822")
+	)
+	(wire
+		(pts
+			(xy 330.2 109.22) (xy 346.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17c94406-f1fa-4864-a22c-c2be1f2b2076")
 	)
 	(wire
 		(pts
@@ -4763,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 124.46) (xy 332.74 124.46)
+			(xy 330.2 124.46) (xy 332.74 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5793,7 +5799,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 118.11) (xy 346.71 119.38)
+			(xy 346.71 109.22) (xy 346.71 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6423,6 +6429,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 109.22) (xy 330.2 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac5c08b-d370-4834-85fd-6dadb70b6750")
+	)
+	(wire
+		(pts
 			(xy 313.69 118.11) (xy 313.69 116.84)
 		)
 		(stroke
@@ -6481,16 +6497,6 @@
 			(type default)
 		)
 		(uuid "c19a6790-9f16-4b65-89cd-7b8b6c44e0fc")
-	)
-	(wire
-		(pts
-			(xy 349.25 118.11) (xy 346.71 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c245b322-d25a-4e12-99b8-5108e321272c")
 	)
 	(wire
 		(pts
@@ -7026,17 +7032,6 @@
 		)
 		(uuid "3aaff746-b778-4d48-bbe4-706767a22970")
 	)
-	(hierarchical_label "VBAT"
-		(shape input)
-		(at 349.25 116.84 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c6c4cc7-8c93-4a73-a38c-99a181c103b9")
-	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 308.61 134.62 180)
@@ -7105,7 +7100,7 @@
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 331.47 116.84 90)
+		(at 346.71 101.6 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11441,7 +11436,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 331.47 120.65 0)
+		(at 346.71 105.41 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11451,7 +11446,7 @@
 		(fields_autoplaced yes)
 		(uuid "809b09ad-3f1b-44f3-870c-cd154d1546cc")
 		(property "Reference" "R503"
-			(at 328.93 119.38 0)
+			(at 344.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,8 +11454,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 328.93 121.92 0)
+		(property "Value" "200k"
+			(at 344.17 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11469,7 +11464,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 331.47 120.65 0)
+			(at 346.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11478,7 +11473,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf"
-			(at 331.47 120.65 0)
+			(at 346.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11487,7 +11482,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 331.47 120.65 0)
+			(at 346.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11496,7 +11491,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 331.47 120.65 0)
+			(at 346.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11505,7 +11500,7 @@
 			)
 		)
 		(property "manf" "YAGEO"
-			(at 331.47 120.65 0)
+			(at 346.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11513,8 +11508,8 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "RC0402FR-07100KL"
-			(at 331.47 120.65 0)
+		(property "manf#" "RC0402FR-07200KL"
+			(at 346.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,8 +11517,8 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "603-RC0402FR-07100KL"
-			(at 331.47 120.65 0)
+		(property "mouser#" "603-RC0402FR-07200KL"
+			(at 346.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

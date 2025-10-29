@@ -2,8 +2,13 @@
 
 ## [Unreleased]
 
-### Fixed
+### Changed
+
 -   Change part number for SWD connector to BD125-10-A-0305-0580-L-B (#164)
+
+### Fixed
+
+-   Fix wrong resistor for VREF2 pin for the level shifter (#172)
 
 ## [1.2.1] - 2025-09-26
 
