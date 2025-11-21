@@ -6,6 +6,7 @@
 
 - 	Add additional header for VSYS (#181)
 -	Add additional GPIO to I2S header (#180)
+-	Bring back ZSWatch logo (#182)
 
 ### Changed
 
