@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## Added
+
+- 	Add additional header for VSYS (#181)
+-	Add additional GPIO to I2S header (#180)
+
 ### Changed
 
 -   Change part number for SWD connector to BD125-10-A-0305-0580-L-B (#164)
@@ -16,7 +21,6 @@
 ### Added
 
 -   Add missing pull-ups for I2C lines (#158)
--	Add additional GPIO to I2S header (#180)
 
 ### Fixed
 
