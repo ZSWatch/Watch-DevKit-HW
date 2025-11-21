@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-## Added
+### Added
 
 - 	Add additional header for VSYS (#181)
 -	Add additional GPIO to I2S header (#180)
@@ -17,6 +17,10 @@
 
 -   Fix wrong resistor for VREF2 pin for the level shifter (#172)
 -	Fix wrong silkscreen for Display current (#179)
+
+### Removed
+
+-	Remove 0R and 5k1 CC resistors (#183)
 
 ## [1.2.1] - 2025-09-26
 

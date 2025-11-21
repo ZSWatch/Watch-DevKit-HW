@@ -6486,12 +6486,6 @@
 		(uuid "0387ba67-8872-46a5-bc5a-71b3887ec095")
 	)
 	(junction
-		(at 124.46 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0681be0f-6530-46cb-850e-9e15347b9762")
-	)
-	(junction
 		(at 109.22 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6606,12 +6600,6 @@
 		(uuid "5633f071-1ba3-402e-b321-26778e00513c")
 	)
 	(junction
-		(at 121.92 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c855224-90c2-4ab4-8da7-03a6106f78ac")
-	)
-	(junction
 		(at 109.22 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6652,12 +6640,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7924e77b-802c-42f6-8396-4e11a9a7727a")
-	)
-	(junction
-		(at 123.19 236.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7aeb1ba3-3bca-464e-a722-e41065045d5a")
 	)
 	(junction
 		(at 109.22 137.16)
@@ -7157,16 +7139,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 179.07) (xy 121.92 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14391312-10d7-41eb-8cd6-3670cb5ca748")
-	)
-	(wire
-		(pts
 			(xy 110.49 191.77) (xy 110.49 193.04)
 		)
 		(stroke
@@ -7415,16 +7387,6 @@
 			(type default)
 		)
 		(uuid "27a2e40f-b1b8-46db-91ff-1ffcfe068452")
-	)
-	(wire
-		(pts
-			(xy 124.46 181.61) (xy 124.46 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ee7e20-98da-442d-9e78-400144e67fc8")
 	)
 	(wire
 		(pts
@@ -7923,7 +7885,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 181.61) (xy 124.46 181.61)
+			(xy 109.22 181.61) (xy 160.02 181.61)
 		)
 		(stroke
 			(width 0)
@@ -8197,16 +8159,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 236.22) (xy 124.46 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7fdfe8-41be-454e-9428-ea33ad85f8ca")
-	)
-	(wire
-		(pts
 			(xy 358.14 115.57) (xy 356.87 115.57)
 		)
 		(stroke
@@ -8217,7 +8169,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 179.07) (xy 121.92 179.07)
+			(xy 109.22 179.07) (xy 160.02 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8681,16 +8633,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 181.61) (xy 109.22 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fa49665-817c-4653-9400-e02f505ac9cc")
-	)
-	(wire
-		(pts
 			(xy 388.62 82.55) (xy 388.62 143.51)
 		)
 		(stroke
@@ -8963,16 +8905,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 236.22) (xy 123.19 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9500c08f-bdfb-4016-a6e3-a43e26956870")
-	)
-	(wire
-		(pts
 			(xy 109.22 109.22) (xy 109.22 111.76)
 		)
 		(stroke
@@ -8990,16 +8922,6 @@
 			(type default)
 		)
 		(uuid "966408d0-1023-4e38-930a-afd3b7fba627")
-	)
-	(wire
-		(pts
-			(xy 123.19 236.22) (xy 123.19 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "967ee964-d74f-42a8-b88d-d27f15f55913")
 	)
 	(wire
 		(pts
@@ -9043,16 +8965,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 179.07) (xy 109.22 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99950b27-70a9-430f-9b6a-03aee134fa6c")
-	)
-	(wire
-		(pts
 			(xy 114.3 201.93) (xy 114.3 217.17)
 		)
 		(stroke
@@ -9070,16 +8982,6 @@
 			(type default)
 		)
 		(uuid "9a0243a3-4e7b-4ee7-95d7-135431b7431d")
-	)
-	(wire
-		(pts
-			(xy 134.62 181.61) (xy 160.02 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ba27beb-ae8a-4858-815d-529caa80d996")
 	)
 	(bus
 		(pts
@@ -9252,16 +9154,6 @@
 			(type default)
 		)
 		(uuid "a9f45b85-c46e-490d-bfef-f5c1b7382961")
-	)
-	(wire
-		(pts
-			(xy 134.62 179.07) (xy 160.02 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9fbc537-4e4d-4d96-b4c1-e14c1af1c203")
 	)
 	(wire
 		(pts
@@ -9859,16 +9751,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 215.9) (xy 121.92 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ec57a2-5bd6-41d4-8837-7093a2a0931c")
-	)
-	(wire
-		(pts
 			(xy 109.22 189.23) (xy 110.49 189.23)
 		)
 		(stroke
@@ -10280,16 +10162,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 236.22) (xy 123.19 236.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feec3824-d272-4fc8-b9e8-4d11dc55bc29")
-	)
-	(wire
-		(pts
 			(xy 109.22 104.14) (xy 109.22 106.68)
 		)
 		(stroke
@@ -10309,7 +10181,7 @@
 		(uuid "2d31b20d-81e8-48d1-bea9-54351021c880")
 	)
 	(label "USB-CC2"
-		(at 160.02 181.61 180)
+		(at 120.65 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10339,7 +10211,7 @@
 		(uuid "8268fb3a-5eab-4ecb-a069-9d62e7724843")
 	)
 	(label "D-"
-		(at 147.32 187.96 0)
+		(at 111.76 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10349,7 +10221,7 @@
 		(uuid "8c880655-3c69-4bad-b3ee-034f9eb85bda")
 	)
 	(label "USB-CC1"
-		(at 160.02 179.07 180)
+		(at 120.65 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10359,7 +10231,7 @@
 		(uuid "cf0bfcb3-8b92-45bd-ab33-13cbbfbafdbd")
 	)
 	(label "D+"
-		(at 147.32 193.04 0)
+		(at 111.76 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13824,111 +13696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 132.08 179.07 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53de4a2f-7e6e-492f-8f60-fc30aa3183c3")
-		(property "Reference" "R605"
-			(at 132.08 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 132.08 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/3/40/1/cr.pdf"
-			(at 132.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 132.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 132.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "Bourns"
-			(at 132.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CR0805-J/-000ELF"
-			(at 132.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "652-CR0805-J/-000ELF"
-			(at 132.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53514729-a9eb-4e55-ba22-c1d57753a711")
-		)
-		(pin "2"
-			(uuid "41fdf759-97ba-42e5-8d82-0ff95ee0e776")
-		)
-		(instances
-			(project "Dev-Kit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "R605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 147.32 242.57 0)
 		(unit 1)
@@ -14161,112 +13928,6 @@
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0621")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 121.92 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "5a26fe96-00ec-4227-b604-6dac874a118e")
-		(property "Reference" "R603"
-			(at 119.38 212.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5k1"
-			(at 119.38 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 121.92 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 121.92 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "Bourns"
-			(at 121.92 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CR0402-FX-5101GLF"
-			(at 121.92 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "652-CR0402-FX-5101GLF"
-			(at 121.92 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 121.92 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2cbdc8fb-0168-4c67-adaa-547863e85588")
-		)
-		(pin "2"
-			(uuid "c3cb4d81-8168-48e2-bf34-c0b429f73b94")
-		)
-		(instances
-			(project "Dev-Kit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -14720,111 +14381,6 @@
 			(project "Watch-DK"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0605")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 132.08 181.61 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67dd5f79-d139-4022-b3b0-5ebc4204624e")
-		(property "Reference" "R606"
-			(at 132.08 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 132.08 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 132.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/3/40/1/cr.pdf"
-			(at 132.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 132.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 132.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "Bourns"
-			(at 132.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CR0805-J/-000ELF"
-			(at 132.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "652-CR0805-J/-000ELF"
-			(at 132.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec0258f7-3e92-43b1-b6f1-f60f35e46b79")
-		)
-		(pin "2"
-			(uuid "72cc46c3-4d0d-4736-b245-85ee61962ceb")
-		)
-		(instances
-			(project "Dev-Kit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "R606")
 					(unit 1)
 				)
 			)
@@ -15407,71 +14963,6 @@
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X607")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f13364b-4125-4dde-a486-c32fdb92ef0b")
-		(property "Reference" "#PWR0612"
-			(at 123.19 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c410a1b9-8d5c-44f8-829f-b48f1642e6c5")
-		)
-		(instances
-			(project "Dev-Kit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0612")
 					(unit 1)
 				)
 			)
@@ -16992,112 +16483,6 @@
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "TP601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 124.46 213.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "bd026e42-58bc-48d2-a76d-63a9841e307a")
-		(property "Reference" "R604"
-			(at 127 212.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5k1"
-			(at 127 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 124.46 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 124.46 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "Bourns"
-			(at 124.46 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CR0402-FX-5101GLF"
-			(at 124.46 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "652-CR0402-FX-5101GLF"
-			(at 124.46 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 124.46 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d99c30c-1e85-4afe-8b43-16ad7621768b")
-		)
-		(pin "2"
-			(uuid "f3e9fa7b-e9c5-4843-b08d-73ba9944be9b")
-		)
-		(instances
-			(project "Dev-Kit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "R604")
 					(unit 1)
 				)
 			)
