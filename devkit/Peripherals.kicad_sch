@@ -1022,7 +1022,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x05"
+		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1038,8 +1038,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1064,7 +1064,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1091,10 +1091,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_1_1"
+			(symbol "Conn_01x06_1_1"
 				(rectangle
 					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1150,6 +1150,17 @@
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1241,6 +1252,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4462,7 +4491,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 55.88) (xy 78.74 55.88)
+			(xy 80.01 58.42) (xy 78.74 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4851,7 +4880,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 78.74 57.15)
+			(xy 78.74 58.42) (xy 78.74 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5765,6 +5794,16 @@
 			(type default)
 		)
 		(uuid "82528db2-8dad-4e0e-93b0-a9a877edbdfa")
+	)
+	(wire
+		(pts
+			(xy 78.74 55.88) (xy 80.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82635498-99b3-4a67-8a45-9e3ee99a291b")
 	)
 	(wire
 		(pts
@@ -7229,6 +7268,17 @@
 			(justify right)
 		)
 		(uuid "d965e607-b326-4744-8ebd-a99fbcf78aaf")
+	)
+	(hierarchical_label "GPIO"
+		(shape bidirectional)
+		(at 78.74 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e00b72d0-d444-4798-9b1e-83d13d95126c")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -12590,7 +12640,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 85.09 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12600,7 +12650,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac8be28f-7d71-4c60-b02b-b95e572e73c8")
 		(property "Reference" "X502"
-			(at 87.63 49.5299 0)
+			(at 87.63 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12609,7 +12659,7 @@
 			)
 		)
 		(property "Value" "I2S"
-			(at 87.63 52.0699 0)
+			(at 87.63 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12617,7 +12667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 85.09 50.8 0)
 			(effects
 				(font
@@ -12626,7 +12676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf"
+		(property "Datasheet" "~"
 			(at 85.09 50.8 0)
 			(effects
 				(font
@@ -12635,7 +12685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 85.09 50.8 0)
 			(effects
 				(font
@@ -12653,7 +12703,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "77311-818-05LF"
+		(property "manf#" "77311-818-06LF"
 			(at 85.09 50.8 0)
 			(effects
 				(font
@@ -12662,7 +12712,7 @@
 				(hide yes)
 			)
 		)
-		(property "mouser#" "649-77311-818-05LF"
+		(property "mouser#" "649-77311-818-06LF"
 			(at 85.09 50.8 0)
 			(effects
 				(font
@@ -12694,6 +12744,9 @@
 		)
 		(pin "5"
 			(uuid "cecfc7b4-d055-4c85-9ca3-3529a57bbc87")
+		)
+		(pin "6"
+			(uuid "9f5b7755-79f7-4723-a309-08280e133ffe")
 		)
 		(instances
 			(project "Dev-Kit"
@@ -13456,7 +13509,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 57.15 0)
+		(at 78.74 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13464,7 +13517,7 @@
 		(dnp no)
 		(uuid "ba88c117-391d-4db9-a3bc-fa17e1ef2442")
 		(property "Reference" "#PWR0506"
-			(at 78.74 63.5 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13473,7 +13526,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 62.23 0)
+			(at 78.74 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13481,7 +13534,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 57.15 0)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13490,7 +13543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 57.15 0)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,7 +13552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 57.15 0)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
