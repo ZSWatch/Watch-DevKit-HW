@@ -21696,7 +21696,7 @@
 				)
 			)
 		)
-		(property "Value" "Touch Current"
+		(property "Value" "Current"
 			(at 2.5 1 0)
 			(layer "F.SilkS")
 			(uuid "1d29395c-1049-4f73-9dd0-4729fb941e44")
@@ -23572,6 +23572,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23583,6 +23584,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25003,6 +25005,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25014,6 +25017,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)

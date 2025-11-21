@@ -9,6 +9,7 @@
 ### Fixed
 
 -   Fix wrong resistor for VREF2 pin for the level shifter (#172)
+-	Fix wrong silkscreen for Display current (#179)
 
 ## [1.2.1] - 2025-09-26
 
