@@ -28,8 +28,8 @@
 		(3 "B.Mask" user)
 		(17 "Dwgs.User" user "TitlePage")
 		(19 "Cmts.User" user "User.Comments")
-		(21 "Eco1.User" user "F.DNP")
-		(23 "Eco2.User" user "B.DNP")
+		(21 "Eco1.User" user)
+		(23 "Eco2.User" user)
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
 		(31 "F.CrtYd" user "F.Courtyard")
@@ -45,6 +45,8 @@
 		(51 "User.7" user "B.Dimensions")
 		(53 "User.8" user "F.TestPointList")
 		(55 "User.9" user "B.TestPointList")
+		(57 "User.10" user "F.DNP")
+		(59 "User.11" user "B.DNP")
 	)
 	(setup
 		(stackup
