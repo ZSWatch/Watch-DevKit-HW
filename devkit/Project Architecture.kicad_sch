@@ -167,7 +167,7 @@
 		)
 		(uuid ffd260c0-4471-4212-8ed2-093930a6baae)
 	)
-	(text "Page 5"
+	(text "Page 6"
 		(exclude_from_sim no)
 		(at 86.36 151.13 0)
 		(effects
@@ -177,11 +177,11 @@
 				(color 20 60 40 1)
 			)
 			(justify right bottom)
-			(href "#5")
+			(href "#6")
 		)
 		(uuid "1c6419dd-4317-4250-9e51-7d91ac81481c")
 	)
-	(text "Page 3"
+	(text "Page 4"
 		(exclude_from_sim no)
 		(at 215.265 23.495 0)
 		(effects
@@ -191,11 +191,11 @@
 				(color 20 60 40 1)
 			)
 			(justify right bottom)
-			(href "#3")
+			(href "#4")
 		)
 		(uuid "40c46166-725e-4696-88e1-fc6bcae6612f")
 	)
-	(text "Page 4"
+	(text "Page 5"
 		(exclude_from_sim no)
 		(at 85.725 76.2 0)
 		(effects
@@ -205,7 +205,7 @@
 				(color 20 60 40 1)
 			)
 			(justify right bottom)
-			(href "#4")
+			(href "#5")
 		)
 		(uuid "edcfc842-3b0d-4b1a-9bde-92f723be0a77")
 	)
