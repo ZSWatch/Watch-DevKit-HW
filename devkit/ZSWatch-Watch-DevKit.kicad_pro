@@ -684,7 +684,7 @@
       "svg": "",
       "vrml": "../cad/ZSWatch.wrl"
     },
-    "page_layout_descr_file": "${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A3.kicad_wks"
+    "page_layout_descr_file": "${KIPRJMOD}/templates/KDT_Template_PCB_GIT_A3.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -855,7 +855,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "${KIPRJMOD}/Templates/KDT_Template_GIT.kicad_wks",
+    "page_layout_descr_file": "${KIPRJMOD}/templates/KDT_Template_GIT.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
