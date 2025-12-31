@@ -7501,7 +7501,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 173.99) (xy 135.89 173.99)
+			(xy 109.22 173.99) (xy 165.1 173.99)
 		)
 		(stroke
 			(width 0)
@@ -9627,16 +9627,6 @@
 			(type default)
 		)
 		(uuid "d8ed6136-418f-497d-9cab-2484a977704d")
-	)
-	(wire
-		(pts
-			(xy 140.97 173.99) (xy 165.1 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d970100e-2927-4fad-91b3-2643e9741007")
 	)
 	(wire
 		(pts
@@ -16493,111 +16483,6 @@
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "TP601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 138.43 173.99 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd6f7e28-f9d7-49f2-8457-743b21d9114b")
-		(property "Reference" "R603"
-			(at 138.43 168.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 138.43 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 138.43 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/3/40/1/cr.pdf"
-			(at 138.43 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 138.43 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 138.43 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "Bourns"
-			(at 138.43 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "CR0805-J/-000ELF"
-			(at 138.43 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "652-CR0805-J/-000ELF"
-			(at 138.43 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a75598d-59a6-4b53-80b2-0a993c5091b9")
-		)
-		(pin "2"
-			(uuid "182fe13b-c3b4-434e-b260-713456a7d87c")
-		)
-		(instances
-			(project "ZSWatch-Watch-DevKit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "R603")
 					(unit 1)
 				)
 			)
