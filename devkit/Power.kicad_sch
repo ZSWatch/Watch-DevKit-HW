@@ -6011,7 +6011,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Lumex"
+		(property "manf" "SML-LX0402SUGC-TR"
 			(at 41.91 114.3 0)
 			(effects
 				(font
@@ -6020,7 +6020,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SML-LX0402SUGC-TR"
+		(property "manf#" "Lumex"
 			(at 41.91 114.3 0)
 			(effects
 				(font
@@ -6039,6 +6039,15 @@
 			)
 		)
 		(property "CONFIG" ""
+			(at 41.91 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 41.91 114.3 0)
 			(effects
 				(font
@@ -7760,7 +7769,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Lumex"
+		(property "manf" "SML-LX0402SUGC-TR"
 			(at 49.53 80.01 0)
 			(effects
 				(font
@@ -7769,7 +7778,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SML-LX0402SUGC-TR"
+		(property "manf#" "Lumex"
 			(at 49.53 80.01 0)
 			(effects
 				(font
@@ -7788,6 +7797,15 @@
 			)
 		)
 		(property "CONFIG" ""
+			(at 49.53 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 49.53 80.01 0)
 			(effects
 				(font
@@ -7866,7 +7884,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf" "Lumex"
+		(property "manf" "SML-LX0402SUGC-TR"
 			(at 41.91 160.02 0)
 			(effects
 				(font
@@ -7875,7 +7893,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "SML-LX0402SUGC-TR"
+		(property "manf#" "Lumex"
 			(at 41.91 160.02 0)
 			(effects
 				(font
@@ -7894,6 +7912,15 @@
 			)
 		)
 		(property "CONFIG" ""
+			(at 41.91 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 41.91 160.02 0)
 			(effects
 				(font
