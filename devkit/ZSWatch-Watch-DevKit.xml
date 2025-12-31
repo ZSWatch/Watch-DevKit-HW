@@ -2,14 +2,14 @@
 <export version="E">
   <design>
     <source>/__w/Watch-DevKit-HW/Watch-DevKit-HW/devkit/ZSWatch-Watch-DevKit.kicad_sch</source>
-    <date>2025-12-18T09:36:41+0000</date>
-    <tool>Eeschema 9.0.6+1</tool>
+    <date>2025-09-26T11:27:19+0000</date>
+    <tool>Eeschema 9.0.1+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
     <textvar name="COMPANY">ZSWatch</textvar>
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
-    <textvar name="GIT_HASH_PCB">15d213a</textvar>
+    <textvar name="GIT_HASH_PCB">77abae3</textvar>
     <textvar name="GIT_HASH_SCH">dbc49fa</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
@@ -78,8 +78,8 @@ Changed
 
 -   Center the mounting holes for the display (#159)</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">11-Dec-2025</textvar>
-    <textvar name="RELEASE_DATE_NUM">2025-12-11</textvar>
+    <textvar name="RELEASE_DATE">26-Sep-2025</textvar>
+    <textvar name="RELEASE_DATE_NUM">2025-09-26</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 - 2025-09-07</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 - 2025-09-26</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
@@ -124,7 +124,7 @@ Changed
     <textvar name="SHEET_NAME_7">Revision History</textvar>
     <textvar name="SHEET_NAME_8">......................................</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT">PRELIMINARY</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>ZSWatch-Watch-DevKit</title>
@@ -519,19 +519,21 @@ Changed
       <datasheet>https://www.mouser.de/datasheet/3/389/1/SSF-LXH100GD-RP.pdf</datasheet>
       <description>Light emitting diode</description>
       <fields>
-        <field name="manf">Lumex</field>
-        <field name="manf#">SML-LX0402SUGC-TR</field>
+        <field name="manf">SML-LX0402SUGC-TR</field>
+        <field name="manf#">Lumex</field>
         <field name="mouser#">696-SML-LX0402SUGCTR</field>
         <field name="CONFIG"/>
+        <field name="Sim.Pins">1=K 2=A</field>
         <field name="Footprint">LED_SMD:LED_0402_1005Metric</field>
         <field name="Datasheet">https://www.mouser.de/datasheet/3/389/1/SSF-LXH100GD-RP.pdf</field>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="manf" value="Lumex"/>
-      <property name="manf#" value="SML-LX0402SUGC-TR"/>
+      <property name="manf" value="SML-LX0402SUGC-TR"/>
+      <property name="manf#" value="Lumex"/>
       <property name="mouser#" value="696-SML-LX0402SUGCTR"/>
       <property name="CONFIG" value=""/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -545,19 +547,21 @@ Changed
       <datasheet>https://www.mouser.de/datasheet/3/389/1/SSF-LXH100GD-RP.pdf</datasheet>
       <description>Light emitting diode</description>
       <fields>
-        <field name="manf">Lumex</field>
-        <field name="manf#">SML-LX0402SUGC-TR</field>
+        <field name="manf">SML-LX0402SUGC-TR</field>
+        <field name="manf#">Lumex</field>
         <field name="mouser#">696-SML-LX0402SUGCTR</field>
         <field name="CONFIG"/>
+        <field name="Sim.Pins">1=K 2=A</field>
         <field name="Footprint">LED_SMD:LED_0402_1005Metric</field>
         <field name="Datasheet">https://www.mouser.de/datasheet/3/389/1/SSF-LXH100GD-RP.pdf</field>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="manf" value="Lumex"/>
-      <property name="manf#" value="SML-LX0402SUGC-TR"/>
+      <property name="manf" value="SML-LX0402SUGC-TR"/>
+      <property name="manf#" value="Lumex"/>
       <property name="mouser#" value="696-SML-LX0402SUGCTR"/>
       <property name="CONFIG" value=""/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -571,19 +575,21 @@ Changed
       <datasheet>https://www.mouser.de/datasheet/3/389/1/SSF-LXH100GD-RP.pdf</datasheet>
       <description>Light emitting diode</description>
       <fields>
-        <field name="manf">Lumex</field>
-        <field name="manf#">SML-LX0402SUGC-TR</field>
+        <field name="manf">SML-LX0402SUGC-TR</field>
+        <field name="manf#">Lumex</field>
         <field name="mouser#">696-SML-LX0402SUGCTR</field>
         <field name="CONFIG"/>
+        <field name="Sim.Pins">1=K 2=A</field>
         <field name="Footprint">LED_SMD:LED_0402_1005Metric</field>
         <field name="Datasheet">https://www.mouser.de/datasheet/3/389/1/SSF-LXH100GD-RP.pdf</field>
         <field name="Description">Light emitting diode</field>
       </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
-      <property name="manf" value="Lumex"/>
-      <property name="manf#" value="SML-LX0402SUGC-TR"/>
+      <property name="manf" value="SML-LX0402SUGC-TR"/>
+      <property name="manf#" value="Lumex"/>
       <property name="mouser#" value="696-SML-LX0402SUGCTR"/>
       <property name="CONFIG" value=""/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -1084,7 +1090,6 @@ Changed
     <comp ref="TP401">
       <value>VBUS-In</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -1092,7 +1097,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -1111,7 +1116,6 @@ Changed
     <comp ref="TP402">
       <value>VBAT</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -1119,7 +1123,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -1138,7 +1142,6 @@ Changed
     <comp ref="TP403">
       <value>VSYS</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -1146,7 +1149,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -1165,7 +1168,6 @@ Changed
     <comp ref="TP404">
       <value>+1V8</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -1173,7 +1175,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -1192,7 +1194,6 @@ Changed
     <comp ref="TP405">
       <value>+3V0</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -1200,7 +1201,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -1293,32 +1294,6 @@ Changed
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
       <tstamps>40d1f28e-749d-430f-80ca-0cc60803fd97</tstamps>
-    </comp>
-    <comp ref="X404">
-      <value>VSYS</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
-      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</datasheet>
-      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <fields>
-        <field name="manf">Amphenol FCI</field>
-        <field name="manf#">77311-818-04LF</field>
-        <field name="mouser#">649-77311-818-04LF</field>
-        <field name="CONFIG"/>
-        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
-        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</field>
-        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
-      </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="manf" value="Amphenol FCI"/>
-      <property name="manf#" value="77311-818-04LF"/>
-      <property name="mouser#" value="649-77311-818-04LF"/>
-      <property name="CONFIG" value=""/>
-      <property name="Sheetname" value="Power Management"/>
-      <property name="Sheetfile" value="Power.kicad_sch"/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8/"/>
-      <tstamps>9b02a542-2c92-4273-9dd7-c23870b1d45f</tstamps>
     </comp>
     <comp ref="C501">
       <value>100n</value>
@@ -1941,7 +1916,6 @@ Changed
     </comp>
     <comp ref="M501">
       <value>Vibrator DC Motor</value>
-      <datasheet>~</datasheet>
       <description>DC Motor</description>
       <fields>
         <field name="CONFIG"/>
@@ -1950,7 +1924,7 @@ Changed
         <field name="digikey#">1670-VC1027B902F-ND</field>
         <field name="mouser#"/>
         <field name="Footprint"/>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">DC Motor</field>
       </fields>
       <libsource lib="Motor" part="Motor_DC" description="DC Motor"/>
@@ -2047,15 +2021,15 @@ Changed
       <tstamps>4ac3172d-c50a-4bf3-b775-6105473a5f6c</tstamps>
     </comp>
     <comp ref="R503">
-      <value>200k</value>
+      <value>100k</value>
       <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
       <datasheet>https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="CONFIG"/>
         <field name="manf">YAGEO</field>
-        <field name="manf#">RC0402FR-07200KL</field>
-        <field name="mouser#">603-RC0402FR-07200KL</field>
+        <field name="manf#">RC0402FR-07100KL</field>
+        <field name="mouser#">603-RC0402FR-07100KL</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">https://www.mouser.com/catalog/specsheets/YAGEO_PYu_RC_Group_51_RoHS_L_12.pdf</field>
         <field name="Description">Resistor, small symbol</field>
@@ -2063,8 +2037,8 @@ Changed
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <property name="CONFIG" value=""/>
       <property name="manf" value="YAGEO"/>
-      <property name="manf#" value="RC0402FR-07200KL"/>
-      <property name="mouser#" value="603-RC0402FR-07200KL"/>
+      <property name="manf#" value="RC0402FR-07100KL"/>
+      <property name="mouser#" value="603-RC0402FR-07100KL"/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
       <property name="ki_keywords" value="R resistor"/>
@@ -2227,7 +2201,6 @@ Changed
     <comp ref="TP501">
       <value>MIC-CLK</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -2235,7 +2208,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2254,7 +2227,6 @@ Changed
     <comp ref="TP502">
       <value>MIC-Data</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -2262,7 +2234,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2281,7 +2253,6 @@ Changed
     <comp ref="TP503">
       <value>VIB-EN</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -2289,7 +2260,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2308,7 +2279,6 @@ Changed
     <comp ref="TP504">
       <value>VIB-PWM</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -2316,7 +2286,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -2360,22 +2330,22 @@ Changed
     </comp>
     <comp ref="X502">
       <value>I2S</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</datasheet>
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
         <field name="manf">Amphenol FCI</field>
-        <field name="manf#">77311-818-06LF</field>
-        <field name="mouser#">649-77311-818-06LF</field>
+        <field name="manf#">77311-818-05LF</field>
+        <field name="mouser#">649-77311-818-05LF</field>
         <field name="CONFIG"/>
-        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="manf" value="Amphenol FCI"/>
-      <property name="manf#" value="77311-818-06LF"/>
-      <property name="mouser#" value="649-77311-818-06LF"/>
+      <property name="manf#" value="77311-818-05LF"/>
+      <property name="mouser#" value="649-77311-818-05LF"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
@@ -2568,22 +2538,22 @@ Changed
     </comp>
     <comp ref="X510">
       <value>Current</value>
-      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</datasheet>
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <fields>
         <field name="manf">Amphenol FCI</field>
-        <field name="manf#">77311-818-03LF</field>
-        <field name="mouser#">649-77311-818-03LF</field>
+        <field name="manf#">77311-818-02LF</field>
+        <field name="mouser#">649-77311-818-02LF</field>
         <field name="CONFIG"/>
-        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
       </fields>
-      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="manf" value="Amphenol FCI"/>
-      <property name="manf#" value="77311-818-03LF"/>
-      <property name="mouser#" value="649-77311-818-03LF"/>
+      <property name="manf#" value="77311-818-02LF"/>
+      <property name="mouser#" value="649-77311-818-02LF"/>
       <property name="CONFIG" value=""/>
       <property name="Sheetname" value="Peripherals"/>
       <property name="Sheetfile" value="Peripherals.kicad_sch"/>
@@ -2887,141 +2857,6 @@ Changed
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
       <tstamps>bdd8e08a-575e-43b8-90b7-6de8faf29f11</tstamps>
     </comp>
-    <comp ref="JP601">
-      <value>SWDIO</value>
-      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>Jumper, 2-pole, closed/bridged</description>
-      <fields>
-        <field name="manf"/>
-        <field name="manf#"/>
-        <field name="mouser#"/>
-        <field name="CONFIG"/>
-        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, closed/bridged</field>
-      </fields>
-      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
-      <property name="manf" value=""/>
-      <property name="manf#" value=""/>
-      <property name="mouser#" value=""/>
-      <property name="CONFIG" value=""/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="Jumper SPST"/>
-      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
-      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
-      <tstamps>900fb913-b0ee-42a6-baf6-29131e6eb530</tstamps>
-    </comp>
-    <comp ref="JP602">
-      <value>SWDCLK</value>
-      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>Jumper, 2-pole, closed/bridged</description>
-      <fields>
-        <field name="manf"/>
-        <field name="manf#"/>
-        <field name="mouser#"/>
-        <field name="CONFIG"/>
-        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, closed/bridged</field>
-      </fields>
-      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
-      <property name="manf" value=""/>
-      <property name="manf#" value=""/>
-      <property name="mouser#" value=""/>
-      <property name="CONFIG" value=""/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="Jumper SPST"/>
-      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
-      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
-      <tstamps>a7eab86d-e8ae-434b-85ae-349df0a1063c</tstamps>
-    </comp>
-    <comp ref="JP603">
-      <value>Reset</value>
-      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>Jumper, 2-pole, closed/bridged</description>
-      <fields>
-        <field name="manf"/>
-        <field name="manf#"/>
-        <field name="mouser#"/>
-        <field name="CONFIG"/>
-        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, closed/bridged</field>
-      </fields>
-      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
-      <property name="manf" value=""/>
-      <property name="manf#" value=""/>
-      <property name="mouser#" value=""/>
-      <property name="CONFIG" value=""/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="Jumper SPST"/>
-      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
-      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
-      <tstamps>4a44eaf6-da29-4371-9cc0-5470037f8b81</tstamps>
-    </comp>
-    <comp ref="JP604">
-      <value>TxD</value>
-      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>Jumper, 2-pole, closed/bridged</description>
-      <fields>
-        <field name="manf"/>
-        <field name="manf#"/>
-        <field name="mouser#"/>
-        <field name="CONFIG"/>
-        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, closed/bridged</field>
-      </fields>
-      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
-      <property name="manf" value=""/>
-      <property name="manf#" value=""/>
-      <property name="mouser#" value=""/>
-      <property name="CONFIG" value=""/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="Jumper SPST"/>
-      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
-      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
-      <tstamps>d86fb921-7b72-433d-9267-4a12f6dc8ead</tstamps>
-    </comp>
-    <comp ref="JP605">
-      <value>RxD</value>
-      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</footprint>
-      <datasheet>~</datasheet>
-      <description>Jumper, 2-pole, closed/bridged</description>
-      <fields>
-        <field name="manf"/>
-        <field name="manf#"/>
-        <field name="mouser#"/>
-        <field name="CONFIG"/>
-        <field name="Footprint">Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, closed/bridged</field>
-      </fields>
-      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
-      <property name="manf" value=""/>
-      <property name="manf#" value=""/>
-      <property name="mouser#" value=""/>
-      <property name="CONFIG" value=""/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="MCU.kicad_sch"/>
-      <property name="exclude_from_bom"/>
-      <property name="ki_keywords" value="Jumper SPST"/>
-      <property name="ki_fp_filters" value="Jumper* TestPoint*2Pads* TestPoint*Bridge*"/>
-      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
-      <tstamps>605c07b9-c42d-450d-bf33-645870015bc9</tstamps>
-    </comp>
     <comp ref="M601">
       <value>NORA-B106</value>
       <footprint>uBlox:NORA-B106</footprint>
@@ -3098,6 +2933,60 @@ Changed
       <tstamps>d3069845-6df0-49a0-9126-0fd41172e0e9</tstamps>
     </comp>
     <comp ref="R603">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0402-FX-5101GLF</field>
+        <field name="mouser#">652-CR0402-FX-5101GLF</field>
+        <field name="CONFIG"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0402-FX-5101GLF"/>
+      <property name="mouser#" value="652-CR0402-FX-5101GLF"/>
+      <property name="CONFIG" value=""/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>5a26fe96-00ec-4227-b604-6dac874a118e</tstamps>
+    </comp>
+    <comp ref="R604">
+      <value>5k1</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0402-FX-5101GLF</field>
+        <field name="mouser#">652-CR0402-FX-5101GLF</field>
+        <field name="CONFIG"/>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0402-FX-5101GLF"/>
+      <property name="mouser#" value="652-CR0402-FX-5101GLF"/>
+      <property name="CONFIG" value=""/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>bd026e42-58bc-48d2-a76d-63a9841e307a</tstamps>
+    </comp>
+    <comp ref="R605">
       <value>0R</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>https://www.mouser.de/datasheet/3/40/1/cr.pdf</datasheet>
@@ -3121,7 +3010,168 @@ Changed
       <property name="ki_keywords" value="R resistor"/>
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
-      <tstamps>bd6f7e28-f9d7-49f2-8457-743b21d9114b</tstamps>
+      <tstamps>53de4a2f-7e6e-492f-8f60-fc30aa3183c3</tstamps>
+    </comp>
+    <comp ref="R606">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.de/datasheet/3/40/1/cr.pdf</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0805-J/-000ELF</field>
+        <field name="mouser#">652-CR0805-J/-000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">https://www.mouser.de/datasheet/3/40/1/cr.pdf</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0805-J/-000ELF"/>
+      <property name="mouser#" value="652-CR0805-J/-000ELF"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>67dd5f79-d139-4022-b3b0-5ebc4204624e</tstamps>
+    </comp>
+    <comp ref="R607">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0805-J/-000ELF</field>
+        <field name="mouser#">652-CR0805-J/-000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0805-J/-000ELF"/>
+      <property name="mouser#" value="652-CR0805-J/-000ELF"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>b0ce93c3-a17a-4f11-9a2a-0218d9561053</tstamps>
+    </comp>
+    <comp ref="R608">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0805-J/-000ELF</field>
+        <field name="mouser#">652-CR0805-J/-000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0805-J/-000ELF"/>
+      <property name="mouser#" value="652-CR0805-J/-000ELF"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>2c68c70b-ae03-49e3-bdf0-da75b46917b6</tstamps>
+    </comp>
+    <comp ref="R609">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0805-J/-000ELF</field>
+        <field name="mouser#">652-CR0805-J/-000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0805-J/-000ELF"/>
+      <property name="mouser#" value="652-CR0805-J/-000ELF"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>fe0b9f4d-cd73-429f-8726-cf2588428b7f</tstamps>
+    </comp>
+    <comp ref="R610">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0805-J/-000ELF</field>
+        <field name="mouser#">652-CR0805-J/-000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0805-J/-000ELF"/>
+      <property name="mouser#" value="652-CR0805-J/-000ELF"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>feec54ed-30cb-4baa-8f0f-064a8d8b633e</tstamps>
+    </comp>
+    <comp ref="R611">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="CONFIG"/>
+        <field name="manf">Bourns</field>
+        <field name="manf#">CR0805-J/-000ELF</field>
+        <field name="mouser#">652-CR0805-J/-000ELF</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="CONFIG" value=""/>
+      <property name="manf" value="Bourns"/>
+      <property name="manf#" value="CR0805-J/-000ELF"/>
+      <property name="mouser#" value="652-CR0805-J/-000ELF"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="MCU.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="dnp"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/"/>
+      <tstamps>32ec9a02-ada5-4ceb-af52-21853ea2a2f2</tstamps>
     </comp>
     <comp ref="R612">
       <value>100k</value>
@@ -3180,7 +3230,6 @@ Changed
     <comp ref="R614">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
-      <datasheet>~</datasheet>
       <description>Resistor, small symbol</description>
       <fields>
         <field name="CONFIG"/>
@@ -3188,7 +3237,7 @@ Changed
         <field name="manf#">CR0805-JW-104ELF</field>
         <field name="mouser#">652-CR0805-JW-104ELF</field>
         <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">Resistor, small symbol</field>
       </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
@@ -3285,7 +3334,6 @@ Changed
     <comp ref="TP601">
       <value>Reset</value>
       <footprint>Testpoints:TestPoint_Pad_D1.0mm</footprint>
-      <datasheet>~</datasheet>
       <description>test point</description>
       <fields>
         <field name="CONFIG"/>
@@ -3293,7 +3341,7 @@ Changed
         <field name="manf#"/>
         <field name="mouser#"/>
         <field name="Footprint">Testpoints:TestPoint_Pad_D1.0mm</field>
-        <field name="Datasheet">~</field>
+        <field name="Datasheet"/>
         <field name="Description">test point</field>
       </fields>
       <libsource lib="Connector" part="TestPoint" description="test point"/>
@@ -3312,22 +3360,22 @@ Changed
     <comp ref="X601">
       <value>DEBUG</value>
       <footprint>Samtec:SHF-105-01-L-D-SM-TR</footprint>
-      <datasheet>https://gct.co/files/drawings/BD125.pdf</datasheet>
+      <datasheet>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</datasheet>
       <description>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</description>
       <fields>
-        <field name="manf">GCT</field>
-        <field name="manf#">BD125-10-A-0305-0580-L-B</field>
+        <field name="manf">Wurth Elektronik</field>
+        <field name="manf#">62201021121</field>
         <field name="CONFIG"/>
-        <field name="mouser#">640-BD12510A305580LB</field>
+        <field name="mouser#">710-62201021121</field>
         <field name="Footprint">Samtec:SHF-105-01-L-D-SM-TR</field>
-        <field name="Datasheet">https://gct.co/files/drawings/BD125.pdf</field>
+        <field name="Datasheet">http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</field>
         <field name="Description">Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</field>
       </fields>
       <libsource lib="Connector" part="Conn_ARM_JTAG_SWD_10" description="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
-      <property name="manf" value="GCT"/>
-      <property name="manf#" value="BD125-10-A-0305-0580-L-B"/>
+      <property name="manf" value="Wurth Elektronik"/>
+      <property name="manf#" value="62201021121"/>
       <property name="CONFIG" value=""/>
-      <property name="mouser#" value="640-BD12510A305580LB"/>
+      <property name="mouser#" value="710-62201021121"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="Cortex Debug Connector ARM SWD JTAG"/>
@@ -3523,7 +3571,7 @@ Changed
       <tstamps>c61b3f8f-efae-4329-9503-bc2f0355ecb4</tstamps>
     </comp>
     <comp ref="X609">
-      <value>Current</value>
+      <value>Touch Current</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <datasheet>https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf</datasheet>
       <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
@@ -3766,6 +3814,27 @@ Changed
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x06">
       <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -3924,26 +3993,6 @@ Changed
         <pin num="7" name="~{HOLD(I}/O3)" type="passive"/>
         <pin num="8" name="VCC" type="power_in"/>
         <pin num="9" name="EP" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Jumper" part="Jumper_2_Bridged">
-      <description>Jumper, 2-pole, closed/bridged</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Jumper*</fp>
-        <fp>TestPoint*2Pads*</fp>
-        <fp>TestPoint*Bridge*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_2_Bridged</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Jumper, 2-pole, closed/bridged</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Knowles" part="SPK0641HT4H-1">
@@ -4373,9 +4422,6 @@ Changed
     <library logical="Device">
       <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
-    <library logical="Jumper">
-      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
-    </library>
     <library logical="Motor">
       <uri>/usr/share/kicad/symbols//Motor.kicad_sym</uri>
     </library>
@@ -4454,33 +4500,29 @@ Changed
       <node ref="M601" pin="J7" pinfunction="P1.10" pintype="bidirectional"/>
       <node ref="X502" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="7" name="/Project Architecture/MCU/GPIO" class="Default">
-      <node ref="M601" pin="C1" pinfunction="P0.10/TRACEDATA[1]" pintype="bidirectional"/>
-      <node ref="X502" pin="5" pinfunction="Pin_5" pintype="passive"/>
-    </net>
-    <net code="8" name="/Project Architecture/MCU/LIS2MDL-INT" class="Default">
+    <net code="7" name="/Project Architecture/MCU/LIS2MDL-INT" class="Default">
       <node ref="IC503" pin="7" pinfunction="INT/DRDY" pintype="passive"/>
       <node ref="M601" pin="E3" pinfunction="P0.21" pintype="bidirectional"/>
     </net>
-    <net code="9" name="/Project Architecture/MCU/MCLK" class="Default">
+    <net code="8" name="/Project Architecture/MCU/MCLK" class="Default">
       <node ref="M601" pin="F7" pinfunction="P1.07" pintype="bidirectional"/>
       <node ref="X502" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="10" name="/Project Architecture/MCU/MIC-CLK" class="Default">
+    <net code="9" name="/Project Architecture/MCU/MIC-CLK" class="Default">
       <node ref="M601" pin="C6" pinfunction="P0.00/XL1" pintype="bidirectional"/>
       <node ref="MK501" pin="2" pinfunction="CLK" pintype="input"/>
       <node ref="TP501" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="11" name="/Project Architecture/MCU/MIC-DATA" class="Default">
+    <net code="10" name="/Project Architecture/MCU/MIC-DATA" class="Default">
       <node ref="M601" pin="B6" pinfunction="P0.01/XL2" pintype="bidirectional"/>
       <node ref="MK501" pin="1" pinfunction="DATA" pintype="output"/>
       <node ref="TP502" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="12" name="/Project Architecture/MCU/PMIC-INT" class="Default">
+    <net code="11" name="/Project Architecture/MCU/PMIC-INT" class="Default">
       <node ref="IC401" pin="11" pinfunction="GPIO4" pintype="bidirectional"/>
       <node ref="M601" pin="G9" pinfunction="P1.13" pintype="bidirectional"/>
     </net>
-    <net code="13" name="/Project Architecture/MCU/SCL" class="Default">
+    <net code="12" name="/Project Architecture/MCU/SCL" class="Default">
       <node ref="IC401" pin="14" pinfunction="SCL" pintype="input"/>
       <node ref="IC501" pin="1" pinfunction="SCL" pintype="input"/>
       <node ref="IC502" pin="13" pinfunction="SCK" pintype="passive"/>
@@ -4491,7 +4533,7 @@ Changed
       <node ref="R501" pin="1" pintype="passive"/>
       <node ref="X504" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="14" name="/Project Architecture/MCU/SDA" class="Default">
+    <net code="13" name="/Project Architecture/MCU/SDA" class="Default">
       <node ref="IC401" pin="13" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="IC501" pin="2" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="IC502" pin="14" pinfunction="SDI" pintype="bidirectional"/>
@@ -4502,31 +4544,31 @@ Changed
       <node ref="R502" pin="1" pintype="passive"/>
       <node ref="X504" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="15" name="/Project Architecture/MCU/SW1" class="Default">
+    <net code="14" name="/Project Architecture/MCU/SW1" class="Default">
       <node ref="M601" pin="F3" pinfunction="P0.19" pintype="bidirectional"/>
       <node ref="S501" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="16" name="/Project Architecture/MCU/SW2" class="Default">
+    <net code="15" name="/Project Architecture/MCU/SW2" class="Default">
       <node ref="IC401" pin="15" pinfunction="SHPHLD" pintype="input"/>
       <node ref="S502" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="17" name="/Project Architecture/MCU/SW3" class="Default">
+    <net code="16" name="/Project Architecture/MCU/SW3" class="Default">
       <node ref="M601" pin="H1" pinfunction="P0.24" pintype="bidirectional"/>
       <node ref="S503" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="18" name="/Project Architecture/MCU/SW4" class="Default">
+    <net code="17" name="/Project Architecture/MCU/SW4" class="Default">
       <node ref="M601" pin="G2" pinfunction="P0.26/AIN5" pintype="bidirectional"/>
       <node ref="S504" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="20" name="/Project Architecture/MCU/USB-CC1" class="Default">
+    <net code="19" name="/Project Architecture/MCU/USB-CC1" class="Default">
       <node ref="IC401" pin="23" pinfunction="CC1" pintype="input"/>
-      <node ref="X603" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R605" pin="2" pintype="passive"/>
     </net>
-    <net code="21" name="/Project Architecture/MCU/USB-CC2" class="Default">
+    <net code="20" name="/Project Architecture/MCU/USB-CC2" class="Default">
       <node ref="IC401" pin="24" pinfunction="CC2" pintype="input"/>
-      <node ref="X603" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R606" pin="1" pintype="passive"/>
     </net>
-    <net code="23" name="/Project Architecture/MCU/USB-VBUS-In" class="Default">
+    <net code="22" name="/Project Architecture/MCU/USB-VBUS-In" class="Default">
       <node ref="IC602" pin="5" pinfunction="VBUS" pintype="passive"/>
       <node ref="Q402" pin="G" pinfunction="G" pintype="input"/>
       <node ref="Q403" pin="G" pinfunction="G" pintype="input"/>
@@ -4535,50 +4577,57 @@ Changed
       <node ref="R402" pin="1" pintype="passive"/>
       <node ref="R403" pin="1" pintype="passive"/>
       <node ref="R409" pin="1" pintype="passive"/>
-      <node ref="R603" pin="2" pintype="passive"/>
+      <node ref="X603" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X603" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X603" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="X603" pin="B9" pinfunction="VBUS" pintype="passive"/>
     </net>
-    <net code="24" name="/Project Architecture/MCU/USB-VBUS-Out" class="Default">
+    <net code="23" name="/Project Architecture/MCU/USB-VBUS-Out" class="Default">
       <node ref="M601" pin="B9" pinfunction="VBUS" pintype="power_in"/>
       <node ref="R412" pin="2" pintype="passive"/>
     </net>
-    <net code="25" name="/Project Architecture/MCU/VIB-EN" class="Default">
+    <net code="24" name="/Project Architecture/MCU/VIB-EN" class="Default">
       <node ref="IC505" pin="1" pinfunction="EN" pintype="input"/>
       <node ref="M601" pin="E9" pinfunction="P1.05" pintype="bidirectional"/>
       <node ref="TP503" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="26" name="/Project Architecture/MCU/VIB-PWM" class="Default">
+    <net code="25" name="/Project Architecture/MCU/VIB-PWM" class="Default">
       <node ref="IC505" pin="2" pinfunction="PWM" pintype="input"/>
       <node ref="M601" pin="F9" pinfunction="P1.15" pintype="bidirectional"/>
       <node ref="TP504" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="27" name="/Project Architecture/MCU/WS" class="Default">
+    <net code="26" name="/Project Architecture/MCU/WS" class="Default">
       <node ref="M601" pin="G7" pinfunction="P1.09" pintype="bidirectional"/>
       <node ref="X502" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="28" name="/Project Architecture/MCU/~{RTC-INT}" class="Default">
+    <net code="27" name="/Project Architecture/MCU/~{RTC-INT}" class="Default">
       <node ref="IC507" pin="3" pinfunction="~{INT}" pintype="output"/>
       <node ref="M601" pin="A3" pinfunction="P1.03/I2C" pintype="bidirectional"/>
     </net>
-    <net code="29" name="/Project Architecture/Peripherals/VBAT" class="Default">
+    <net code="28" name="/Project Architecture/Peripherals/VBAT" class="Default">
       <node ref="C403" pin="1" pintype="passive"/>
       <node ref="IC401" pin="19" pinfunction="V_{BAT}" pintype="power_out"/>
+      <node ref="IC506" pin="7" pinfunction="VCC_{2}" pintype="power_in"/>
+      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="R504" pin="2" pintype="passive"/>
+      <node ref="R505" pin="2" pintype="passive"/>
       <node ref="TP402" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X401" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="X402" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="X510" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="30" name="/Project Architecture/Peripherals/VMIC" class="Default">
+    <net code="29" name="/Project Architecture/Peripherals/VMIC" class="Default">
       <node ref="C404" pin="1" pintype="passive"/>
       <node ref="IC401" pin="29" pinfunction="LSOUT1/VOUTLDO1" pintype="bidirectional"/>
       <node ref="X503" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="31" name="/Project Architecture/Power Management/VBUS-In" class="Default">
+    <net code="30" name="/Project Architecture/Power Management/VBUS-In" class="Default">
       <node ref="C401" pin="1" pintype="passive"/>
       <node ref="IC401" pin="21" pinfunction="V_{BUS}" pintype="power_out"/>
       <node ref="R409" pin="2" pintype="passive"/>
       <node ref="TP401" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="32" name="/Project Architecture/Power Management/VSYS" class="Default">
+    <net code="31" name="/Project Architecture/Power Management/VSYS" class="Default">
       <node ref="C407" pin="1" pintype="passive"/>
       <node ref="C409" pin="1" pintype="passive"/>
       <node ref="C410" pin="1" pintype="passive"/>
@@ -4588,30 +4637,33 @@ Changed
       <node ref="R405" pin="2" pintype="passive"/>
       <node ref="TP403" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X403" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="X404" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="X404" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="X508" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="X510" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="33" name="DISPLAY-BLK" class="Default">
+    <net code="32" name="DISPLAY-BLK" class="Default">
       <node ref="IC601" pin="1" pinfunction="CTRL" pintype="passive"/>
       <node ref="M601" pin="D7" pinfunction="P0.23" pintype="bidirectional"/>
     </net>
-    <net code="34" name="DISPLAY-CLK" class="Default">
+    <net code="33" name="DISPLAY-CLK" class="Default">
       <node ref="M601" pin="B1" pinfunction="P0.08/TRACEDATA[3]" pintype="bidirectional"/>
       <node ref="X608" pin="8" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="35" name="DISPLAY-CS" class="Default">
+    <net code="34" name="DISPLAY-CS" class="Default">
       <node ref="M601" pin="B3" pinfunction="P0.11/TRACEDATA[0]" pintype="bidirectional"/>
       <node ref="X608" pin="9" pinfunction="CS" pintype="input"/>
     </net>
-    <net code="36" name="DISPLAY-DATA" class="Default">
+    <net code="35" name="DISPLAY-DATA" class="Default">
       <node ref="M601" pin="C2" pinfunction="P0.09/TRACEDATA[2]" pintype="bidirectional"/>
       <node ref="X608" pin="6" pinfunction="SDI/SDA" pintype="input"/>
     </net>
-    <net code="37" name="DISPLAY-DC" class="Default">
+    <net code="36" name="DISPLAY-DC" class="Default">
       <node ref="M601" pin="A2" pinfunction="P0.12/TRACECLK" pintype="bidirectional"/>
       <node ref="X608" pin="5" pinfunction="RS/DC" pintype="input"/>
+    </net>
+    <net code="37" name="DISPLAY-EN" class="Default">
+      <node ref="IC604" pin="12" pinfunction="OE" pintype="input"/>
+      <node ref="M601" pin="A5" pinfunction="P0.20" pintype="bidirectional"/>
+      <node ref="R613" pin="1" pintype="passive"/>
+      <node ref="R614" pin="2" pintype="passive"/>
     </net>
     <net code="38" name="DISPLAY-RST" class="Default">
       <node ref="M601" pin="B5" pinfunction="P0.03/NFC2" pintype="bidirectional"/>
@@ -4700,6 +4752,8 @@ Changed
       <node ref="R407" pin="1" pintype="passive"/>
       <node ref="R408" pin="1" pintype="passive"/>
       <node ref="R601" pin="1" pintype="passive"/>
+      <node ref="R603" pin="2" pintype="passive"/>
+      <node ref="R604" pin="1" pintype="passive"/>
       <node ref="R614" pin="1" pintype="passive"/>
       <node ref="S501" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="S502" pin="1" pinfunction="1" pintype="passive"/>
@@ -4709,9 +4763,7 @@ Changed
       <node ref="X401" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="X402" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="X403" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="X404" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="X404" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="X502" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="X502" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="X504" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="X601" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="X601" pin="5" pinfunction="GND" pintype="passive"/>
@@ -4826,9 +4878,8 @@ Changed
       <node ref="X508" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="62" name="Net-(IC506-EN)" class="Default">
-      <node ref="IC506" pin="7" pinfunction="VCC_{2}" pintype="power_in"/>
       <node ref="IC506" pin="8" pinfunction="EN" pintype="input"/>
-      <node ref="R503" pin="2" pintype="passive"/>
+      <node ref="R503" pin="1" pintype="passive"/>
     </net>
     <net code="63" name="Net-(IC506-SCL_{2})" class="Default">
       <node ref="IC506" pin="6" pinfunction="SCL_{2}" pintype="bidirectional"/>
@@ -4843,9 +4894,6 @@ Changed
     <net code="65" name="Net-(IC507-V_{DD})" class="Default">
       <node ref="C511" pin="1" pintype="passive"/>
       <node ref="IC507" pin="5" pinfunction="V_{DD}" pintype="power_in"/>
-      <node ref="R503" pin="1" pintype="passive"/>
-      <node ref="R504" pin="2" pintype="passive"/>
-      <node ref="R505" pin="2" pintype="passive"/>
       <node ref="X510" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
     <net code="66" name="Net-(IC601-ISET)" class="Default">
@@ -4888,142 +4936,139 @@ Changed
       <node ref="IC604" pin="11" pinfunction="VCCB" pintype="power_in"/>
       <node ref="R616" pin="1" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(JP601-A)" class="Default">
-      <node ref="JP601" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="X603" pin="A10" pinfunction="RX2-" pintype="bidirectional"/>
-      <node ref="X603" pin="B10" pinfunction="RX1-" pintype="bidirectional"/>
-    </net>
-    <net code="76" name="Net-(JP602-A)" class="Default">
-      <node ref="JP602" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="X603" pin="A11" pinfunction="RX2+" pintype="bidirectional"/>
-      <node ref="X603" pin="B11" pinfunction="RX1+" pintype="bidirectional"/>
-    </net>
-    <net code="77" name="Net-(JP603-A)" class="Default">
-      <node ref="JP603" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="X603" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
-      <node ref="X603" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
-    </net>
-    <net code="78" name="Net-(JP604-A)" class="Default">
-      <node ref="JP604" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="X603" pin="A3" pinfunction="TX1-" pintype="bidirectional"/>
-      <node ref="X603" pin="B3" pinfunction="TX2-" pintype="bidirectional"/>
-    </net>
-    <net code="79" name="Net-(JP605-A)" class="Default">
-      <node ref="JP605" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="X603" pin="A2" pinfunction="TX1+" pintype="bidirectional"/>
-      <node ref="X603" pin="B2" pinfunction="TX2+" pintype="bidirectional"/>
-    </net>
-    <net code="80" name="Net-(M601A-VDDH)" class="Default">
+    <net code="75" name="Net-(M601A-VDDH)" class="Default">
       <node ref="M601" pin="A7" pinfunction="VDD" pintype="power_in"/>
       <node ref="M601" pin="A8" pinfunction="VDDH" pintype="power_in"/>
       <node ref="M601" pin="B7" pinfunction="VDD" pintype="power_in"/>
       <node ref="X602" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="81" name="Net-(M601B-P0.04/AIN0)" class="Default">
+    <net code="76" name="Net-(M601B-P0.04/AIN0)" class="Default">
       <node ref="M601" pin="D8" pinfunction="P0.04/AIN0" pintype="bidirectional"/>
       <node ref="X605" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(M601B-P0.05/AIN1)" class="Default">
+    <net code="77" name="Net-(M601B-P0.05/AIN1)" class="Default">
       <node ref="M601" pin="E8" pinfunction="P0.05/AIN1" pintype="bidirectional"/>
       <node ref="X605" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(M601B-P0.22)" class="Default">
+    <net code="78" name="Net-(M601B-P0.22)" class="Default">
       <node ref="M601" pin="C8" pinfunction="P0.22" pintype="bidirectional"/>
       <node ref="X605" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(M601C-P1.14)" class="Default">
+    <net code="79" name="Net-(M601C-P1.14)" class="Default">
       <node ref="M601" pin="F8" pinfunction="P1.14" pintype="bidirectional"/>
       <node ref="X605" pin="4" pinfunction="Pin_4" pintype="passive"/>
     </net>
-    <net code="85" name="Net-(MK501-VDD)" class="Default">
+    <net code="80" name="Net-(MK501-VDD)" class="Default">
       <node ref="C502" pin="1" pintype="passive"/>
       <node ref="MK501" pin="4" pinfunction="VDD" pintype="power_in"/>
       <node ref="X503" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="86" name="Net-(Q401-PadD)" class="Default">
+    <net code="81" name="Net-(Q401-PadD)" class="Default">
       <node ref="Q401" pin="D" pinfunction="D" pintype="passive"/>
       <node ref="Q404" pin="G" pinfunction="G" pintype="input"/>
       <node ref="R403" pin="2" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(Q404-PadD)" class="Default">
+    <net code="82" name="Net-(Q404-PadD)" class="Default">
       <node ref="Q404" pin="D" pinfunction="D" pintype="passive"/>
       <node ref="R406" pin="2" pintype="passive"/>
     </net>
-    <net code="88" name="Net-(R603-Pad1)" class="Default">
+    <net code="83" name="Net-(X603-CC1)" class="Default">
       <node ref="R603" pin="1" pintype="passive"/>
-      <node ref="X603" pin="A4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="X603" pin="A9" pinfunction="VBUS" pintype="passive"/>
-      <node ref="X603" pin="B4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="X603" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="R605" pin="1" pintype="passive"/>
+      <node ref="X603" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
     </net>
-    <net code="89" name="Net-(X607-Pin_2)" class="Default">
+    <net code="84" name="Net-(X603-CC2)" class="Default">
+      <node ref="R604" pin="2" pintype="passive"/>
+      <node ref="R606" pin="2" pintype="passive"/>
+      <node ref="X603" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="Net-(X603-RX1+)" class="Default">
+      <node ref="R608" pin="2" pintype="passive"/>
+      <node ref="X603" pin="A11" pinfunction="RX2+" pintype="bidirectional"/>
+      <node ref="X603" pin="B11" pinfunction="RX1+" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="Net-(X603-RX1-)" class="Default">
+      <node ref="R607" pin="2" pintype="passive"/>
+      <node ref="X603" pin="A10" pinfunction="RX2-" pintype="bidirectional"/>
+      <node ref="X603" pin="B10" pinfunction="RX1-" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="Net-(X603-SBU1)" class="Default">
+      <node ref="R611" pin="2" pintype="passive"/>
+      <node ref="X603" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+      <node ref="X603" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="Net-(X603-TX1+)" class="Default">
+      <node ref="R609" pin="2" pintype="passive"/>
+      <node ref="X603" pin="A2" pinfunction="TX1+" pintype="bidirectional"/>
+      <node ref="X603" pin="B2" pinfunction="TX2+" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="Net-(X603-TX1-)" class="Default">
+      <node ref="R610" pin="2" pintype="passive"/>
+      <node ref="X603" pin="A3" pinfunction="TX1-" pintype="bidirectional"/>
+      <node ref="X603" pin="B3" pinfunction="TX2-" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="Net-(X607-Pin_2)" class="Default">
       <node ref="X607" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="X608" pin="11" pinfunction="VDDIO" pintype="input"/>
       <node ref="X608" pin="12" pinfunction="VDDIO" pintype="input"/>
     </net>
-    <net code="90" name="Net-(X608-CTP-VDD)" class="Default">
+    <net code="91" name="Net-(X608-CTP-VDD)" class="Default">
       <node ref="X608" pin="13" pinfunction="VDD" pintype="input"/>
       <node ref="X608" pin="14" pinfunction="VDD" pintype="input"/>
       <node ref="X608" pin="17" pinfunction="CTP-VDD" pintype="input"/>
       <node ref="X609" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="91" name="Net-(X608-LEDA1)" class="Default">
+    <net code="92" name="Net-(X608-LEDA1)" class="Default">
       <node ref="X608" pin="23" pinfunction="LEDA2" pintype="input"/>
       <node ref="X608" pin="24" pinfunction="LEDA1" pintype="input"/>
       <node ref="X610" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="92" name="QSPI-CLK" class="Default">
+    <net code="93" name="QSPI-CLK" class="Default">
       <node ref="IC603" pin="6" pinfunction="SCK" pintype="input"/>
       <node ref="M601" pin="F1" pinfunction="P0.17/QSPI_CLK" pintype="bidirectional"/>
     </net>
-    <net code="93" name="QSPI-CS" class="Default">
+    <net code="94" name="QSPI-CS" class="Default">
       <node ref="IC603" pin="1" pinfunction="~{CS}" pintype="passive"/>
       <node ref="M601" pin="E1" pinfunction="P0.18/QSPI_CS" pintype="bidirectional"/>
       <node ref="R612" pin="2" pintype="passive"/>
     </net>
-    <net code="94" name="QSPI-IO0" class="Default">
+    <net code="95" name="QSPI-IO0" class="Default">
       <node ref="IC603" pin="5" pinfunction="SI(I/O0)" pintype="passive"/>
       <node ref="M601" pin="D2" pinfunction="P0.13/QSPI[0]" pintype="bidirectional"/>
     </net>
-    <net code="95" name="QSPI-IO1" class="Default">
+    <net code="96" name="QSPI-IO1" class="Default">
       <node ref="IC603" pin="2" pinfunction="SO(I/O1)" pintype="passive"/>
       <node ref="M601" pin="E2" pinfunction="P0.14/QSPI[1]" pintype="bidirectional"/>
     </net>
-    <net code="96" name="QSPI-IO2" class="Default">
+    <net code="97" name="QSPI-IO2" class="Default">
       <node ref="IC603" pin="3" pinfunction="~{WP(I}/O2)" pintype="passive"/>
       <node ref="M601" pin="D1" pinfunction="P0.15/QSPI[2]" pintype="bidirectional"/>
     </net>
-    <net code="97" name="QSPI-IO3" class="Default">
+    <net code="98" name="QSPI-IO3" class="Default">
       <node ref="IC603" pin="7" pinfunction="~{HOLD(I}/O3)" pintype="passive"/>
       <node ref="M601" pin="F2" pinfunction="P0.16/QSPI[3]" pintype="bidirectional"/>
     </net>
-    <net code="98" name="RESETn" class="Default">
-      <node ref="JP603" pin="2" pinfunction="B" pintype="passive"/>
+    <net code="99" name="RESETn" class="Default">
       <node ref="M601" pin="J3" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="R611" pin="1" pintype="passive"/>
       <node ref="S601" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="TP601" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="X601" pin="10" pinfunction="~{RESET}" pintype="open_collector"/>
     </net>
-    <net code="99" name="RxD" class="Default">
-      <node ref="JP605" pin="2" pinfunction="B" pintype="passive"/>
+    <net code="100" name="RxD" class="Default">
       <node ref="M601" pin="H9" pinfunction="P1.11" pintype="bidirectional"/>
+      <node ref="R609" pin="1" pintype="passive"/>
       <node ref="X604" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="100" name="SWDCLK" class="Default">
-      <node ref="JP602" pin="2" pinfunction="B" pintype="passive"/>
+    <net code="101" name="SWDCLK" class="Default">
       <node ref="M601" pin="J2" pinfunction="SWDCLK" pintype="input"/>
+      <node ref="R608" pin="1" pintype="passive"/>
       <node ref="X601" pin="4" pinfunction="SWCLK/TCK" pintype="output"/>
     </net>
-    <net code="101" name="SWDIO" class="Default">
-      <node ref="JP601" pin="2" pinfunction="B" pintype="passive"/>
+    <net code="102" name="SWDIO" class="Default">
       <node ref="M601" pin="H2" pinfunction="SWDIO" pintype="bidirectional"/>
+      <node ref="R607" pin="1" pintype="passive"/>
       <node ref="X601" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
-    </net>
-    <net code="102" name="TOUCH-EN" class="Default">
-      <node ref="IC604" pin="12" pinfunction="OE" pintype="input"/>
-      <node ref="M601" pin="A5" pinfunction="P0.20" pintype="bidirectional"/>
-      <node ref="R613" pin="1" pintype="passive"/>
-      <node ref="R614" pin="2" pintype="passive"/>
     </net>
     <net code="103" name="TOUCH-INT" class="Default">
       <node ref="IC604" pin="2" pinfunction="A1" pintype="bidirectional"/>
@@ -5042,8 +5087,8 @@ Changed
       <node ref="M601" pin="C5" pinfunction="P0.02/NFC1" pintype="bidirectional"/>
     </net>
     <net code="107" name="TxD" class="Default">
-      <node ref="JP604" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="M601" pin="G8" pinfunction="P1.12" pintype="bidirectional"/>
+      <node ref="R610" pin="1" pintype="passive"/>
       <node ref="X604" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
     <net code="108" name="USB-D+" class="Default">
@@ -5150,40 +5195,43 @@ Changed
     <net code="141" name="unconnected-(M601B-P0.07/AIN3-PadD3)" class="Default">
       <node ref="M601" pin="D3" pinfunction="P0.07/AIN3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="142" name="unconnected-(M601B-P0.28/AIN7-PadJ8)" class="Default">
+    <net code="142" name="unconnected-(M601B-P0.10/TRACEDATA[1]-PadC1)" class="Default">
+      <node ref="M601" pin="C1" pinfunction="P0.10/TRACEDATA[1]" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="143" name="unconnected-(M601B-P0.28/AIN7-PadJ8)" class="Default">
       <node ref="M601" pin="J8" pinfunction="P0.28/AIN7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="143" name="unconnected-(M601B-P0.29-PadH7)" class="Default">
+    <net code="144" name="unconnected-(M601B-P0.29-PadH7)" class="Default">
       <node ref="M601" pin="H7" pinfunction="P0.29" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="144" name="unconnected-(M601B-P0.30-PadH8)" class="Default">
+    <net code="145" name="unconnected-(M601B-P0.30-PadH8)" class="Default">
       <node ref="M601" pin="H8" pinfunction="P0.30" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="145" name="unconnected-(M601B-P0.31-PadJ9)" class="Default">
+    <net code="146" name="unconnected-(M601B-P0.31-PadJ9)" class="Default">
       <node ref="M601" pin="J9" pinfunction="P0.31" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="146" name="unconnected-(M601C-P1.04-PadG4)" class="Default">
+    <net code="147" name="unconnected-(M601C-P1.04-PadG4)" class="Default">
       <node ref="M601" pin="G4" pinfunction="P1.04" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="147" name="unconnected-(M601C-P1.06-PadG1)" class="Default">
+    <net code="148" name="unconnected-(M601C-P1.06-PadG1)" class="Default">
       <node ref="M601" pin="G1" pinfunction="P1.06" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="148" name="unconnected-(M601C-P1.08-PadG5)" class="Default">
+    <net code="149" name="unconnected-(M601C-P1.08-PadG5)" class="Default">
       <node ref="M601" pin="G5" pinfunction="P1.08" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="149" name="unconnected-(X601-GNDDetect-Pad9)" class="Default">
+    <net code="150" name="unconnected-(X601-GNDDetect-Pad9)" class="Default">
       <node ref="X601" pin="9" pinfunction="GNDDetect" pintype="passive+no_connect"/>
     </net>
-    <net code="150" name="unconnected-(X601-KEY-Pad7)" class="Default">
+    <net code="151" name="unconnected-(X601-KEY-Pad7)" class="Default">
       <node ref="X601" pin="7" pinfunction="KEY" pintype="no_connect"/>
     </net>
-    <net code="151" name="unconnected-(X601-NC/TDI-Pad8)" class="Default">
+    <net code="152" name="unconnected-(X601-NC/TDI-Pad8)" class="Default">
       <node ref="X601" pin="8" pinfunction="NC/TDI" pintype="output+no_connect"/>
     </net>
-    <net code="152" name="unconnected-(X601-SWO/TDO-Pad6)" class="Default">
+    <net code="153" name="unconnected-(X601-SWO/TDO-Pad6)" class="Default">
       <node ref="X601" pin="6" pinfunction="SWO/TDO" pintype="input+no_connect"/>
     </net>
-    <net code="153" name="unconnected-(X608-SDO-Pad7)" class="Default">
+    <net code="154" name="unconnected-(X608-SDO-Pad7)" class="Default">
       <node ref="X608" pin="7" pinfunction="SDO" pintype="input+no_connect"/>
     </net>
   </nets>
