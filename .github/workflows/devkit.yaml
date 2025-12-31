@@ -228,16 +228,6 @@ jobs:
           name: Log-${{ env.kibot_variant }}
           path: log
 
-      - name: Clean up
-        shell: bash
-        run: |
-          rm -rf ${KICAD_LIBRARY}
-          find . -type f -iname \*.log -delete
-          find . -type f -iname \*.ogv -delete
-          find . -type f -iname \*.kicad_pro-bak -delete
-          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
-          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
-
       - name: Upload artifacts (results)
         uses: actions/upload-artifact@v4
         with:
@@ -251,6 +241,16 @@ jobs:
         with:
           name: CHANGELOG
           path: ${{ env.kibot_input_dir }}/CHANGELOG.md
+
+      - name: Clean up
+        shell: bash
+        run: |
+          rm -rf ${KICAD_LIBRARY}
+          find . -type f -iname \*.log -delete
+          find . -type f -iname \*.ogv -delete
+          find . -type f -iname \*.kicad_pro-bak -delete
+          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pro
+          rm ${{ env.kibot_input_dir }}/kibot_*.kicad_pcb
 
       - name: Pull latest changes
         shell: bash
