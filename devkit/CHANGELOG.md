@@ -16,7 +16,6 @@
 ### Added
 
 -   Add missing pull-ups for I2C lines (#158)
--	Add additional GPIO to I2S header (#180)
 
 ### Fixed
 

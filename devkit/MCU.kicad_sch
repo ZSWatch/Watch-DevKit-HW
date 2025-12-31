@@ -6616,6 +6616,10 @@
 		(uuid "08d3e366-8c25-4708-8763-551a022dd983")
 	)
 	(no_connect
+		(at 153.67 115.57)
+		(uuid "3e5b9368-7df8-4ac4-a362-b62666ee401b")
+	)
+	(no_connect
 		(at 153.67 67.31)
 		(uuid "56778ee4-5760-4e8f-816a-4ab361bfc95c")
 	)
@@ -7275,16 +7279,6 @@
 			(type default)
 		)
 		(uuid "2709bee0-00be-42d8-8f35-1b3b4f2d6816")
-	)
-	(wire
-		(pts
-			(xy 153.67 115.57) (xy 154.94 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27a2e40f-b1b8-46db-91ff-1ffcfe068452")
 	)
 	(wire
 		(pts
@@ -11460,17 +11454,6 @@
 			(justify left)
 		)
 		(uuid "2427ea1c-5a61-4df0-bfbe-1a95711a60b2")
-	)
-	(hierarchical_label "GPIO"
-		(shape bidirectional)
-		(at 154.94 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e434663-d6f6-4cb5-9e49-147a4c23b24c")
 	)
 	(hierarchical_label "MIC-DATA"
 		(shape input)
