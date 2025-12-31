@@ -34371,7 +34371,7 @@
 		(sheetname "/Project Architecture/MCU/")
 		(sheetfile "MCU.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -34714,7 +34714,7 @@
 		(sheetname "/Project Architecture/MCU/")
 		(sheetfile "MCU.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -35057,7 +35057,7 @@
 		(sheetname "/Project Architecture/MCU/")
 		(sheetfile "MCU.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -35400,7 +35400,7 @@
 		(sheetname "/Project Architecture/MCU/")
 		(sheetfile "MCU.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -35743,7 +35743,7 @@
 		(sheetname "/Project Architecture/MCU/")
 		(sheetfile "MCU.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
