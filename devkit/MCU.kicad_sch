@@ -14362,7 +14362,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Current"
+		(property "Value" "Touch Current"
 			(at 365.76 118.1099 0)
 			(effects
 				(font
