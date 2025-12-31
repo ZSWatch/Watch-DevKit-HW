@@ -13,7 +13,6 @@
 -   Change part number for SWD connector to BD125-10-A-0305-0580-L-B (#164)
 -	Replace 0R with closed jumper (#173)
 - 	USB VBUS In Improvements (#184)
-- 	Allow powering RTC from any voltage source (#186)
 
 ### Fixed
 
