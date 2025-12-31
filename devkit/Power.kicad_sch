@@ -2888,12 +2888,6 @@
 		(uuid "8b1c7230-0098-441d-8316-32ac4de91a47")
 	)
 	(junction
-		(at 80.01 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e2c0f6e-b74d-47f3-ae6f-a7baa8261e5c")
-	)
-	(junction
 		(at 231.14 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2904,12 +2898,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9190ce24-ef46-4a0e-b70a-d31c4d861648")
-	)
-	(junction
-		(at 80.01 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f064e6d-b7a7-41ab-a0c5-a70102e7219b")
 	)
 	(junction
 		(at 173.99 36.83)
@@ -3248,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 161.29) (xy 72.39 157.48)
+			(xy 254 137.16) (xy 254 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3318,16 +3306,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 185.42) (xy 80.01 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c4ef6df-409e-41ba-b77d-e97a1a50cb39")
-	)
-	(wire
-		(pts
 			(xy 41.91 118.11) (xy 41.91 121.92)
 		)
 		(stroke
@@ -3338,7 +3316,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 161.29) (xy 72.39 161.29)
+			(xy 262.89 137.16) (xy 254 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3445,16 +3423,6 @@
 			(type default)
 		)
 		(uuid "4379c926-edfa-4a61-b4ce-7483ce73fb46")
-	)
-	(wire
-		(pts
-			(xy 80.01 187.96) (xy 80.01 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43982979-2487-43aa-8408-a9a7dc63ade2")
 	)
 	(wire
 		(pts
@@ -3708,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 163.83) (xy 81.28 163.83)
+			(xy 260.35 139.7) (xy 262.89 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3808,7 +3776,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 166.37) (xy 80.01 166.37)
+			(xy 262.89 142.24) (xy 261.62 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3905,16 +3873,6 @@
 			(type default)
 		)
 		(uuid "812e1cea-6d4c-4227-828a-794edec4f386")
-	)
-	(wire
-		(pts
-			(xy 81.28 182.88) (xy 80.01 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82bb2486-8dd5-485e-ab81-868f39ae76ef")
 	)
 	(wire
 		(pts
@@ -4038,7 +3996,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 158.75) (xy 78.74 158.75)
+			(xy 262.89 134.62) (xy 260.35 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4068,7 +4026,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 158.75) (xy 78.74 157.48)
+			(xy 260.35 134.62) (xy 260.35 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4358,16 +4316,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 182.88) (xy 80.01 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfb8a09c-e16c-42d9-9f7a-2af191ed3b0b")
-	)
-	(wire
-		(pts
 			(xy 189.23 39.37) (xy 189.23 44.45)
 		)
 		(stroke
@@ -4398,7 +4346,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 166.37) (xy 80.01 168.91)
+			(xy 261.62 142.24) (xy 261.62 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4518,16 +4466,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 180.34) (xy 80.01 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbadfd57-edbf-4a8c-8fdb-8ec840b1fb2c")
-	)
-	(wire
-		(pts
 			(xy 236.22 29.21) (xy 236.22 30.48)
 		)
 		(stroke
@@ -4578,16 +4516,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 180.34) (xy 81.28 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2765b41-5efa-4773-ab5e-0f890c6d973b")
-	)
-	(wire
-		(pts
 			(xy 203.2 104.14) (xy 209.55 104.14)
 		)
 		(stroke
@@ -4635,16 +4563,6 @@
 			(type default)
 		)
 		(uuid "d54783e8-374e-49e7-8f0b-92138df66789")
-	)
-	(wire
-		(pts
-			(xy 80.01 185.42) (xy 80.01 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d623a78a-fc61-4a98-b04d-a18f27981715")
 	)
 	(wire
 		(pts
@@ -4828,16 +4746,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 187.96) (xy 80.01 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc997a6d-46fe-429d-af0d-720b9e01c1f8")
-	)
-	(wire
-		(pts
 			(xy 218.44 90.17) (xy 220.98 90.17)
 		)
 		(stroke
@@ -4865,16 +4773,6 @@
 			(type default)
 		)
 		(uuid "feaae449-f82a-4a65-a0f3-30742213e734")
-	)
-	(label "VSYS"
-		(at 78.74 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1b353cbf-5a6c-4e13-b452-8b536e367d09")
 	)
 	(label "VBUS-In"
 		(at 149.86 59.69 0)
@@ -4937,7 +4835,7 @@
 		(uuid "e5e22912-5162-4c86-8be4-7249f53f10df")
 	)
 	(label "VSYS"
-		(at 78.74 163.83 180)
+		(at 260.35 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6165,107 +6063,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 80.01 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f88ea1b-b573-4ddb-89d9-b3836471c257")
-		(property "Reference" "#PWR0433"
-			(at 80.01 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." ""
-			(at 80.01 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." ""
-			(at 80.01 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 80.01 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
-			(at 80.01 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c94e3f11-84be-4855-8728-fd8fd73be2cd")
-		)
-		(instances
-			(project "ZSWatch-Watch-DevKit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "#PWR0433")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 166.37 30.48 0)
 		(unit 1)
@@ -7394,7 +7191,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 86.36 161.29 0)
+		(at 267.97 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7403,7 +7200,7 @@
 		(fields_autoplaced yes)
 		(uuid "40d1f28e-749d-430f-80ca-0cc60803fd97")
 		(property "Reference" "X403"
-			(at 88.9 161.2899 0)
+			(at 270.51 137.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7412,7 +7209,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 88.9 163.8299 0)
+			(at 270.51 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,7 +7218,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 86.36 161.29 0)
+			(at 267.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7430,7 +7227,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf"
-			(at 86.36 161.29 0)
+			(at 267.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7236,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 161.29 0)
+			(at 267.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7245,7 @@
 			)
 		)
 		(property "manf" "Amphenol FCI"
-			(at 86.36 161.29 0)
+			(at 267.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7254,7 @@
 			)
 		)
 		(property "manf#" "77311-818-04LF"
-			(at 86.36 161.29 0)
+			(at 267.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +7263,7 @@
 			)
 		)
 		(property "mouser#" "649-77311-818-04LF"
-			(at 86.36 161.29 0)
+			(at 267.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +7272,7 @@
 			)
 		)
 		(property "CONFIG" ""
-			(at 86.36 161.29 0)
+			(at 267.97 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +8510,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 168.91 0)
+		(at 261.62 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8721,7 +8518,7 @@
 		(dnp no)
 		(uuid "74b316b2-053d-4d0b-90ee-fde78f1a37cc")
 		(property "Reference" "#PWR0430"
-			(at 80.01 175.26 0)
+			(at 261.62 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8730,7 +8527,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 173.99 0)
+			(at 261.62 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8738,7 +8535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 168.91 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +8544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 168.91 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8756,7 +8553,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 168.91 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +8562,7 @@
 			)
 		)
 		(property "Mfr." ""
-			(at 80.01 168.91 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8774,7 +8571,7 @@
 			)
 		)
 		(property "Mfr. No." ""
-			(at 80.01 168.91 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8783,7 +8580,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 80.01 168.91 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8792,7 +8589,7 @@
 			)
 		)
 		(property "Order Number" ""
-			(at 80.01 168.91 0)
+			(at 261.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +9970,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 72.39 157.48 0)
+		(at 254 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10182,7 +9979,7 @@
 		(fields_autoplaced yes)
 		(uuid "964128f7-2884-4103-a31d-7d6e3ae93f79")
 		(property "Reference" "#PWR0428"
-			(at 72.39 161.29 0)
+			(at 254 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10191,7 +9988,7 @@
 			)
 		)
 		(property "Value" "+3V0"
-			(at 72.39 153.67 0)
+			(at 254 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +9996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 157.48 0)
+			(at 254 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +10005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 157.48 0)
+			(at 254 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 72.39 157.48 0)
+			(at 254 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10435,118 +10232,6 @@
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
 					(reference "#PWR0422")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 86.36 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b02a542-2c92-4273-9dd7-c23870b1d45f")
-		(property "Reference" "X404"
-			(at 88.9 182.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 88.9 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 86.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_bergstik.pdf"
-			(at 86.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 86.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" "Amphenol FCI"
-			(at 86.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" "77311-818-04LF"
-			(at 86.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" "649-77311-818-04LF"
-			(at 86.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 86.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a85ee0d-92d1-418a-8d9c-ebe4a8949ae4")
-		)
-		(pin "2"
-			(uuid "63c47b81-5cb0-4d60-ab92-50c2b9de54d8")
-		)
-		(pin "4"
-			(uuid "cea5b2ce-c10b-4502-8244-df66ad0fcc80")
-		)
-		(pin "3"
-			(uuid "89e06dd3-a2f7-4eaf-84bf-a43febf82e4c")
-		)
-		(instances
-			(project "ZSWatch-Watch-DevKit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
-					(reference "X404")
 					(unit 1)
 				)
 			)
@@ -11135,7 +10820,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 78.74 157.48 0)
+		(at 260.35 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11144,7 +10829,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb454cd9-1d9f-4aaf-8b73-a584af2847e2")
 		(property "Reference" "#PWR0429"
-			(at 78.74 161.29 0)
+			(at 260.35 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11153,7 +10838,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 78.74 153.67 0)
+			(at 260.35 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +10846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 157.48 0)
+			(at 260.35 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,7 +10855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 157.48 0)
+			(at 260.35 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11179,7 +10864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 78.74 157.48 0)
+			(at 260.35 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
