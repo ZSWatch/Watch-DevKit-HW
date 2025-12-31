@@ -16,7 +16,6 @@ outputs:
       template: @TEMPLATE@
       exclude_filter: '_mechanical'
       csv_remove_leading_spaces: true
-
 ...
 definitions:
   NAME: csv_report

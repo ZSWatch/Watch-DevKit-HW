@@ -19,7 +19,7 @@ outputs:
       logo: false
       style: modern-blue
 
-    group_fields: ['Value', '@MPN_FIELD@']
+    group_fields: ['@MPN_FIELD@', 'Value']
 
     columns:
       - "Row"
@@ -34,7 +34,7 @@ outputs:
       # - "arrow#"
       # - "digikey#"
       # - "farnell#"
-      # - "mouser#"
+      - "mouser#"
       # - "newark#"
       # - "rs#"
       # - "tme#"

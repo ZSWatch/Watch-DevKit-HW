@@ -17,7 +17,6 @@ outputs:
     output: '%f-CPL%I%v.%x'
     separate_files_for_front_and_back: false
 
-...
 definitions:
   NAME: csv_position
   COMMENT: Position file in CSV format

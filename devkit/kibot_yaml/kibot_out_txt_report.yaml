@@ -17,7 +17,6 @@ outputs:
       exclude_filter: '_mechanical'
       mm_digits: 3
       display_trailing_zeros: True
-
 ...
 definitions:
   NAME: txt_fabrication_notes

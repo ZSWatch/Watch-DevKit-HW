@@ -15,7 +15,6 @@ outputs:
     overlay: true
     source: ["schematic", "pcb", "project"]
 
-...
 definitions:
   NAME: html_kicanvas
   COMMENT: KiCanvas webpage

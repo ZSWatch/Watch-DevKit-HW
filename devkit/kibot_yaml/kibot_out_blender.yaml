@@ -99,7 +99,6 @@ outputs:
     outputs:
       - type: render
 
-...
 definitions:
   NAME: blender
   COMMENT: PCB 3D model in PCB3D Blender format

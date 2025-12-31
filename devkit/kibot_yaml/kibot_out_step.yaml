@@ -13,7 +13,6 @@ outputs:
   options:
     output: '%f%I%v.%x'
 
-...
 definitions:
   NAME: step
   COMMENT: PCB 3D model in STEP format
