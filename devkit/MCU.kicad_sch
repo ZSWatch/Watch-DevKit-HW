@@ -2983,156 +2983,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Bridged"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Bridged"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_0_1"
-				(arc
-					(start -1.524 0.254)
-					(mid 0 0.762)
-					(end 1.524 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Bridged_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Misc:Jumper"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6906,6 +6756,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 209.55) (xy 147.32 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ad0a5d-51cd-46f1-b1b5-7914842ca897")
+	)
+	(wire
+		(pts
 			(xy 55.88 179.07) (xy 55.88 181.61)
 		)
 		(stroke
@@ -7218,7 +7078,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 231.14) (xy 133.35 231.14)
+			(xy 110.49 231.14) (xy 135.89 231.14)
 		)
 		(stroke
 			(width 0)
@@ -7285,6 +7145,16 @@
 			(type default)
 		)
 		(uuid "1f23be9d-4710-4aca-95b5-afdbd92427cc")
+	)
+	(wire
+		(pts
+			(xy 140.97 231.14) (xy 151.13 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2d0712-d108-4ea4-9241-a97c310337fd")
 	)
 	(wire
 		(pts
@@ -7671,6 +7541,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 201.93) (xy 114.3 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39c8ce05-e0a1-48b0-8f54-e58b00a2b7ca")
+	)
+	(wire
+		(pts
 			(xy 237.49 167.64) (xy 237.49 170.18)
 		)
 		(stroke
@@ -7769,16 +7649,6 @@
 			(type default)
 		)
 		(uuid "43d29f5b-565f-4e1b-92d6-de130c751631")
-	)
-	(wire
-		(pts
-			(xy 133.35 199.39) (xy 111.76 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43e07ca1-de0c-479f-99dc-7fadc05b0712")
 	)
 	(wire
 		(pts
@@ -8103,6 +7973,16 @@
 			(type default)
 		)
 		(uuid "556dbfda-18d6-412a-93b2-fc6b7a4215f0")
+	)
+	(wire
+		(pts
+			(xy 135.89 199.39) (xy 111.76 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558027b9-3286-46c9-9be4-b0efdbc938f1")
 	)
 	(wire
 		(pts
@@ -8651,16 +8531,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 199.39) (xy 151.13 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0c273c-469b-4872-be9e-cc94eda7f520")
-	)
-	(wire
-		(pts
 			(xy 109.22 132.08) (xy 107.95 132.08)
 		)
 		(stroke
@@ -8678,6 +8548,16 @@
 			(type default)
 		)
 		(uuid "7e57305c-8b5b-4c6b-9843-5e6bae736630")
+	)
+	(wire
+		(pts
+			(xy 140.97 199.39) (xy 151.13 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f655e33-febf-4dc3-a3cc-2044c798e4ee")
 	)
 	(wire
 		(pts
@@ -9063,7 +8943,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 222.25) (xy 133.35 222.25)
+			(xy 113.03 222.25) (xy 135.89 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9171,6 +9051,16 @@
 			(type default)
 		)
 		(uuid "a3d2e149-4bfb-462e-bc55-e610a3e8a7ff")
+	)
+	(wire
+		(pts
+			(xy 140.97 222.25) (xy 149.86 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b7255b-a9f6-4f0d-bda9-766e329bb90b")
 	)
 	(wire
 		(pts
@@ -9496,16 +9386,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 201.93) (xy 114.3 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf364334-4629-4f0f-98a4-859923028892")
-	)
-	(wire
-		(pts
 			(xy 109.22 114.3) (xy 107.95 114.3)
 		)
 		(stroke
@@ -9516,16 +9396,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 209.55) (xy 147.32 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1a0451d-74bc-4bed-899c-473120c84223")
-	)
-	(wire
-		(pts
 			(xy 237.49 212.09) (xy 237.49 213.36)
 		)
 		(stroke
@@ -9533,6 +9403,16 @@
 			(type default)
 		)
 		(uuid "c2314bd9-fb2c-4b83-bfbf-7ccad069955d")
+	)
+	(wire
+		(pts
+			(xy 140.97 201.93) (xy 151.13 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c401885c-0450-4241-926c-cfd81f16d00c")
 	)
 	(polyline
 		(pts
@@ -9728,7 +9608,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 209.55) (xy 133.35 209.55)
+			(xy 110.49 209.55) (xy 135.89 209.55)
 		)
 		(stroke
 			(width 0)
@@ -9776,16 +9656,6 @@
 			(type default)
 		)
 		(uuid "dcb194a4-26b3-4dcf-b4d7-269e037a8e1e")
-	)
-	(wire
-		(pts
-			(xy 143.51 231.14) (xy 151.13 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd28046f-64b9-4e30-8e05-9cf3f8b1f489")
 	)
 	(wire
 		(pts
@@ -10090,16 +9960,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 201.93) (xy 151.13 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d97656-dd56-4923-baf2-2c9cf032eb95")
-	)
-	(wire
-		(pts
 			(xy 41.91 135.89) (xy 41.91 137.16)
 		)
 		(stroke
@@ -10177,16 +10037,6 @@
 			(type default)
 		)
 		(uuid "f852afde-baa6-43a0-be81-1e93f7a17ee7")
-	)
-	(wire
-		(pts
-			(xy 143.51 222.25) (xy 149.86 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f88769f9-02c6-4ccb-9d0a-9224835e23ce")
 	)
 	(wire
 		(pts
@@ -12723,6 +12573,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 138.43 201.93 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2c68c70b-ae03-49e3-bdf0-da75b46917b6")
+		(property "Reference" "R608"
+			(at 138.43 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 138.43 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0805-J/-000ELF"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805-J/-000ELF"
+			(at 138.43 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18762f9c-feaa-4efb-8d35-74a574ed7b28")
+		)
+		(pin "2"
+			(uuid "5745fbeb-a8ea-4876-bdf4-5313548a1fcf")
+		)
+		(instances
+			(project "Dev-Kit"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
+					(reference "R608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "uBlox:NORA-B106")
 		(at 86.36 110.49 0)
 		(unit 1)
@@ -13060,6 +13015,111 @@
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "M601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 138.43 231.14 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "32ec9a02-ada5-4ceb-af52-21853ea2a2f2")
+		(property "Reference" "R611"
+			(at 138.43 233.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 138.43 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0805-J/-000ELF"
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805-J/-000ELF"
+			(at 138.43 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cfdaf3b-fd60-4445-9a20-d7c184663e7f")
+		)
+		(pin "2"
+			(uuid "2cd1f569-8cba-4a53-9e2e-1407c5e0acf4")
+		)
+		(instances
+			(project "Dev-Kit"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
+					(reference "R611")
 					(unit 1)
 				)
 			)
@@ -13720,110 +13780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 138.43 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a44eaf6-da29-4371-9cc0-5470037f8b81")
-		(property "Reference" "JP603"
-			(at 138.43 226.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Reset"
-			(at 138.43 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 138.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 138.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" ""
-			(at 138.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 138.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" ""
-			(at 138.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 138.43 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "58772e2a-57d3-49bd-b457-a52e76886628")
-		)
-		(pin "1"
-			(uuid "9d7add45-8dad-4890-a52e-43df63138639")
-		)
-		(instances
-			(project "ZSWatch-Watch-DevKit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "JP603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 132.08 179.07 90)
 		(mirror x)
@@ -14399,110 +14355,6 @@
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#FLG0603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 138.43 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "605c07b9-c42d-450d-bf33-645870015bc9")
-		(property "Reference" "JP605"
-			(at 138.43 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RxD"
-			(at 138.43 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 138.43 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 138.43 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" ""
-			(at 138.43 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 138.43 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" ""
-			(at 138.43 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 138.43 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "675a8e3e-f3e0-49aa-bdff-d2d357172573")
-		)
-		(pin "1"
-			(uuid "1cd355dd-256b-42d5-b083-14885b50abe1")
-		)
-		(instances
-			(project "ZSWatch-Watch-DevKit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "JP605")
 					(unit 1)
 				)
 			)
@@ -16117,110 +15969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 138.43 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "900fb913-b0ee-42a6-baf6-29131e6eb530")
-		(property "Reference" "JP601"
-			(at 138.43 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 138.43 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 138.43 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 138.43 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" ""
-			(at 138.43 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 138.43 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" ""
-			(at 138.43 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 138.43 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "369baa59-c162-4e8d-81f7-6804faf957eb")
-		)
-		(pin "1"
-			(uuid "9e4b330a-2d31-4ca6-9a10-be6650193c4e")
-		)
-		(instances
-			(project "ZSWatch-Watch-DevKit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "JP601")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 41.91 130.81 90)
 		(mirror x)
@@ -16660,110 +16408,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 138.43 201.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7eab86d-e8ae-434b-85ae-349df0a1063c")
-		(property "Reference" "JP602"
-			(at 138.43 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SWDCLK"
-			(at 138.43 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 138.43 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 138.43 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" ""
-			(at 138.43 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 138.43 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" ""
-			(at 138.43 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 138.43 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "14124efc-b2a6-41b6-aa81-285e4a62fe9a")
-		)
-		(pin "1"
-			(uuid "52e17bac-8f8c-4a30-9ec0-4b069273f130")
-		)
-		(instances
-			(project "ZSWatch-Watch-DevKit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "JP602")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 242.57 0)
 		(unit 1)
@@ -16889,6 +16533,109 @@
 			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#FLG0602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 138.43 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "b0ce93c3-a17a-4f11-9a2a-0218d9561053")
+		(property "Reference" "R607"
+			(at 138.43 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 138.43 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 138.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 138.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 138.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 138.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0805-J/-000ELF"
+			(at 138.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805-J/-000ELF"
+			(at 138.43 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0abfa0df-64cf-4fb1-af09-38eb39a1bebd")
+		)
+		(pin "2"
+			(uuid "ee75c81c-bfa5-4ed6-a99a-f1b7fdd6a9bb")
+		)
+		(instances
+			(project "Dev-Kit"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
+					(reference "R607")
 					(unit 1)
 				)
 			)
@@ -18614,110 +18361,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 138.43 222.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d86fb921-7b72-433d-9267-4a12f6dc8ead")
-		(property "Reference" "JP604"
-			(at 138.43 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TxD"
-			(at 138.43 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
-			(at 138.43 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 138.43 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf" ""
-			(at 138.43 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "manf#" ""
-			(at 138.43 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "mouser#" ""
-			(at 138.43 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 138.43 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb3ba819-f0bc-408e-bc20-efa3f3eb9041")
-		)
-		(pin "1"
-			(uuid "ed34186e-535b-4352-ab0f-ea0c31928c0b")
-		)
-		(instances
-			(project "ZSWatch-Watch-DevKit"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "JP604")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 347.98 36.83 0)
 		(unit 1)
@@ -19545,6 +19188,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 138.43 209.55 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "fe0b9f4d-cd73-429f-8726-cf2588428b7f")
+		(property "Reference" "R609"
+			(at 138.43 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 138.43 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 138.43 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 138.43 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 138.43 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 138.43 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0805-J/-000ELF"
+			(at 138.43 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805-J/-000ELF"
+			(at 138.43 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf7f40ff-5354-43e7-b9e1-1a8f981b0fb3")
+		)
+		(pin "2"
+			(uuid "09883e58-765b-4610-bb4f-6c8aa29e8384")
+		)
+		(instances
+			(project "Dev-Kit"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
+					(reference "R609")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V0")
 		(at 356.87 113.03 0)
 		(unit 1)
@@ -19641,6 +19389,111 @@
 			(project "Dev-Kit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0630")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 138.43 222.25 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "feec54ed-30cb-4baa-8f0f-064a8d8b633e")
+		(property "Reference" "R610"
+			(at 138.43 224.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 138.43 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 138.43 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 138.43 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
+			(at 138.43 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf" "Bourns"
+			(at 138.43 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "manf#" "CR0805-J/-000ELF"
+			(at 138.43 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser#" "652-CR0805-J/-000ELF"
+			(at 138.43 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "503bc8f5-d110-457f-8fd6-7270167ecf64")
+		)
+		(pin "2"
+			(uuid "6a8a400c-560d-4a51-83c6-a7025f66dab9")
+		)
+		(instances
+			(project "Dev-Kit"
+				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
+					(reference "R610")
 					(unit 1)
 				)
 			)
