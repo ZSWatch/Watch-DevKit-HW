@@ -105,7 +105,7 @@ definitions:
   DIR: Manufacturing/Assembly
   DOC_TITLE: Assembly
   COLOR_THEME: Altium_Theme
-  SHEET_WKS: ${KIPRJMOD}/templates/KDT_Template_PCB_GIT_A4.kicad_wks
+  SHEET_WKS: ${KIPRJMOD}/Templates/KDT_Template_PCB_GIT_A4.kicad_wks
   SCALING: 1.0
   FAB_EXCLUDE_FILTER: exclude_testpoints
   LAYER_TITLE_PAGE: TitlePage

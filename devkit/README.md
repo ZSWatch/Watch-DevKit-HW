@@ -49,7 +49,7 @@
     │  ├─ lib_fp          # Footprint libraries
     │  └─ lib_sym         # Symbol libraries
     │
-    ├─ logos              # Logos
+    ├─ Logos              # Logos
     │
     ├─ Manufacturing      # Assembly and fabrication documents
     │  ├─ Assembly        # Assembly documents (BoM, pos, notes)
@@ -60,7 +60,7 @@
     │
     ├─ Report             # Reports for ERC/DRC
     ├─ Schematic          # PDF of schematic
-    ├─ templates          # Title block templates
+    ├─ Templates          # Title block templates
     ├─ Testing
     │  └─ Testpoints      # Testpoints tables
     │
