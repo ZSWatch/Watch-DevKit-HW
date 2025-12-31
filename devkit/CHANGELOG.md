@@ -14,7 +14,6 @@
 -	Replace 0R with closed jumper (#173)
 - 	USB VBUS In Improvements (#184)
 - 	Allow powering RTC from any voltage source (#186)
--	Replace mounting holes with holes with a bigger margin (#187)
 
 ### Fixed
 
