@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/Watch-DevKit-HW/Watch-DevKit-HW/devkit/ZSWatch-Watch-DevKit.kicad_sch</source>
-    <date>2026-02-19T11:28:54+0000</date>
+    <date>2026-03-29T10:46:32+0000</date>
     <tool>Eeschema 9.0.7+1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
@@ -78,8 +78,8 @@ Changed
 
 -   Center the mounting holes for the display (#159)</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">19-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-19</textvar>
+    <textvar name="RELEASE_DATE">29-Mar-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-03-29</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 - 2025-09-07</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 - 2025-09-26</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>

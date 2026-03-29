@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.7+1*%
-%TF.CreationDate,2026-02-19T11:22:41+00:00*%
-%TF.ProjectId,ZSWatch-Watch-DevKit,5a535761-7463-4682-9d57-617463682d44,1.1.0+ (Unreleased)*%
+%TF.CreationDate,2026-03-29T10:40:43+00:00*%
+%TF.ProjectId,ZSWatch-Watch-DevKit,5a535761-7463-4682-9d57-617463682d44,1.2.2+ (Unreleased)*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.7+1) date 2026-02-19 11:22:41*
+G04 Created by KiCad (PCBNEW 9.0.7+1) date 2026-03-29 10:40:43*
 %MOMM*%
 %LPD*%
 G01*
