@@ -780,36 +780,6 @@
           "label": "digikey#",
           "name": "digikey#",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Distributor",
-          "name": "Distributor",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfr.",
-          "name": "Mfr.",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Order Number",
-          "name": "Order Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfr. No.",
-          "name": "Mfr. No.",
-          "show": false
         }
       ],
       "filter_string": "",
