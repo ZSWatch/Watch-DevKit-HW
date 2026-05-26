@@ -32,7 +32,7 @@ env:
   # PRELIMINARY: Will generate both schematic and PCB documents, but no ERC/DRC
   # CHECKED: Will generate both schematic and PCB documents, with ERC/DRC
   # RELEASED: Similar to CHECKED, automatically selected when pushing a tag to main
-  kibot_variant: PRELIMINARY
+  kibot_variant: CHECKED
 
   # Master branch (main or master). Can be changed for testing
   master_branch: main
