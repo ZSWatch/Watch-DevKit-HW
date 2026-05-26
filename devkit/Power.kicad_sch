@@ -2441,7 +2441,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V0"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -2462,7 +2462,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V0"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -2488,7 +2488,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2506,7 +2506,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V0_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2544,7 +2544,7 @@
 					)
 				)
 			)
-			(symbol "+3V0_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -6320,7 +6320,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 166.37 26.67 0)
+			(at 166.37 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,7 +7540,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 41.91 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7558,8 +7558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 41.91 97.79 0)
+		(property "Value" "+3V3"
+			(at 41.91 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7584,7 +7584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 41.91 101.6 0)
 			(effects
 				(font
@@ -7878,7 +7878,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 251.46 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7896,8 +7896,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 251.46 96.52 0)
+		(property "Value" "+3V3"
+			(at 251.46 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +7922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 251.46 100.33 0)
 			(effects
 				(font
@@ -10207,7 +10207,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 72.39 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10225,8 +10225,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 72.39 153.67 0)
+		(property "Value" "+3V3"
+			(at 72.39 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,7 +10251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 72.39 157.48 0)
 			(effects
 				(font
@@ -10710,7 +10710,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 251.46 78.74 0)
+			(at 251.46 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +10776,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 254 107.4419 0)
 			(effects
 				(font
@@ -11188,7 +11188,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 78.74 153.67 0)
+			(at 78.74 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)

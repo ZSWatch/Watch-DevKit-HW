@@ -12510,7 +12510,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 191.77 34.29 0)
+			(at 191.77 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13140,7 +13140,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 33.02 24.13 0)
+			(at 33.02 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13408,7 +13408,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 128.27 43.18 0)
+			(at 128.27 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14122,7 +14122,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 204.47 34.29 0)
+			(at 204.47 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16029,7 +16029,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 78.74 40.64 0)
+			(at 78.74 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

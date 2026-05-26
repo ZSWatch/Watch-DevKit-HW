@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Change 3V0 to 3V3 supply (#198)
+
 ## [1.2.2] - 2025-12-31
 
 ### Added

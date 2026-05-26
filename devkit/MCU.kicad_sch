@@ -4448,7 +4448,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V0"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -4469,7 +4469,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V0"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -4495,7 +4495,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4513,7 +4513,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V0_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -4551,7 +4551,7 @@
 					)
 				)
 			)
-			(symbol "+3V0_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -7673,7 +7673,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 111.76) (xy 261.62 111.76)
+			(xy 231.14 111.76) (xy 232.41 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8016,7 +8016,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 114.3) (xy 261.62 114.3)
+			(xy 231.14 114.3) (xy 232.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -11000,7 +11000,7 @@
 	)
 	(global_label "RxD"
 		(shape input)
-		(at 261.62 114.3 0)
+		(at 232.41 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11010,7 +11010,7 @@
 		)
 		(uuid "9ec231a3-be56-47d4-8543-08966318e82b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1733 114.3 0)
+			(at 238.9633 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11352,7 +11352,7 @@
 	)
 	(global_label "TxD"
 		(shape output)
-		(at 261.62 111.76 0)
+		(at 232.41 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11362,7 +11362,7 @@
 		)
 		(uuid "f0172415-13b9-4a15-8bc3-e7d9e69e2d36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.8709 111.76 0)
+			(at 238.6609 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12175,7 +12175,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 60.96 58.42 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12372,7 +12372,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 232.41 69.85 0)
+			(at 232.41 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13161,6 +13161,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3dbd0200-8346-49d7-ad11-0bca61eb63fa")
 		(property "Reference" "#PWR0603"
 			(at 41.91 242.57 0)
@@ -13172,7 +13173,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 41.91 234.95 0)
+			(at 41.91 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13897,7 +13898,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 331.47 33.02 0)
+			(at 331.47 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13944,7 +13945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 379.73 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13962,8 +13963,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 379.73 153.67 0)
+		(property "Value" "+3V3"
+			(at 379.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13988,7 +13989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 379.73 157.48 0)
 			(effects
 				(font
@@ -14286,7 +14287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 53.34 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14304,7 +14305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
+		(property "Value" "+3V3"
 			(at 53.34 166.37 0)
 			(effects
 				(font
@@ -14330,7 +14331,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 53.34 171.45 0)
 			(effects
 				(font
@@ -15160,7 +15161,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 355.6 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15178,8 +15179,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 355.6 33.02 0)
+		(property "Value" "+3V3"
+			(at 355.6 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15204,7 +15205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 355.6 36.83 0)
 			(effects
 				(font
@@ -17362,6 +17363,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cdd42ded-c215-4623-91bd-560d843f8a9f")
 		(property "Reference" "#PWR0625"
 			(at 349.25 116.84 0)
@@ -17373,7 +17375,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 349.25 109.22 0)
+			(at 349.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18237,7 +18239,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 347.98 33.02 0)
+			(at 347.98 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18874,7 +18876,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 237.49 163.83 0)
+			(at 237.49 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19045,7 +19047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
+		(lib_id "power:+3V3")
 		(at 356.87 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19063,8 +19065,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V0"
-			(at 356.87 109.22 0)
+		(property "Value" "+3V3"
+			(at 356.87 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19089,7 +19091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 356.87 113.03 0)
 			(effects
 				(font
