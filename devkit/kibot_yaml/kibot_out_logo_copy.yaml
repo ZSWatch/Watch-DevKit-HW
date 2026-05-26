@@ -8,14 +8,13 @@ outputs:
 - name: @NAME@
   comment: '@COMMENT@'
   type: copy_files
-  dir: '@DIR@'
+  dir: Logos
   options:
     files:
-      - source: Logos/ZSWatch_logo_with_text.png
+      - source: @LOGO@
         source_type: files
 
-...
 definitions:
   NAME: copy_logo
   COMMENT: Copy logo files
-  DIR: Logo
+  LOGO: logos/Logo.png

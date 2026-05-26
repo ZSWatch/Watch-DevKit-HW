@@ -556,7 +556,7 @@ definitions:
   COMPANY: ZSWatch
   DESIGNER: Daniel Kampert
 
-  LOGO: 'logos/ZSWatch_logo_with_text.png'
+  LOGO: 'Logos/ZSWatch_logo_with_text.png'
   GIT_URL: 'https://github.com/ZSWatch/Watch-DevKit-HW'
 
   # Preflight ==================================================================
