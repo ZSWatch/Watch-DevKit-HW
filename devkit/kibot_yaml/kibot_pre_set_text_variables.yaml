@@ -6,6 +6,7 @@ kibot:
 
 preflight:
   update_xml: true
+  fill_zones: true
   set_text_variables:
 
     # Git related information
