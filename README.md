@@ -1,6 +1,8 @@
 # ZSWatch-Watch-DevKit
 
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
+[![PCB](https://github.com/ZSWatch/Watch-DevKit-HW/actions/workflows/devkit.yaml/badge.svg)](https://github.com/ZSWatch/Watch-DevKit-HW/actions/workflows/devkit.yaml)
+[![Documentation](https://img.shields.io/badge/Documentation-HTML-007ec6?longCache=true&style=flat&logo=asciidoctor&colorA=555555)](https://zswatch.github.io/Watch-DevKit-HW/)
 
 ## 📑 Table of Contents
 
