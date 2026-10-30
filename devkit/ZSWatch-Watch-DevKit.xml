@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/Watch-DevKit-HW/Watch-DevKit-HW/devkit/ZSWatch-Watch-DevKit.kicad_sch</source>
-    <date>2026-10-30T06:52:44</date>
+    <date>2026-10-30T07:31:43</date>
     <tool>Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
@@ -10,7 +10,7 @@
     <textvar name="DESIGNER">Daniel Kampert</textvar>
     <textvar name="FABRICATION_NOTES"/>
     <textvar name="GIT_HASH_PCB">639ecbe</textvar>
-    <textvar name="GIT_HASH_SCH">0f698a3</textvar>
+    <textvar name="GIT_HASH_SCH">d88b75c</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
     <textvar name="PCB_VARIANT">CHECKED</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
