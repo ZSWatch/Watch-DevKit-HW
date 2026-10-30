@@ -27,17 +27,22 @@ Key features:
 
 Please check the [wiki](https://github.com/ZSWatch/ZSWatch/wiki) for more information about the project.
 
-You can also view this project on [CADLAB.io](https://cadlab.io/project/29658). 
+You can also view this project on [CADLAB.io](https://cadlab.io/project/29658).
 
 ## 📂 Directory Breakdown
 
 - **`.github`**: GitHub related files
 - **`.gitignore`**: Ignored files list
+- **`cad`**: Mechanical design files
 - **`devkit`**: KiCad project for the devkit
-- **`production`**: Manufacturing outputs (Gerbers, documentation, etc.)
+- **`docs`**: Drawings and documentation
+- **`scripts`**: Additional scripts for CI/CD
 - **`CHANGELOG.md`**: Version history
 - **`LICENSE`**: Project license (GPL-3.0)
 - **`README.md`**: Project overview
+
+The manufacturing outputs (Gerbers, BoM, documentation, etc.) are not part of the repository. They are
+attached to each [release](https://github.com/ZSWatch/Watch-DevKit-HW/releases) and published on GitHub Pages.
 
 ## Purchasing
 

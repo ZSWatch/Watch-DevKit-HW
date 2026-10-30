@@ -13,6 +13,9 @@ outputs:
     options:
       output: '@OUTPUT_NAME@.md'
       template: @TEMPLATE@
+      # The template uses no images of the schematic or the PCB. Otherwise KiBot
+      # splits their PDFs and leaves one file per page in the output directories
+      collect_images: 'no'
 
 ...
 definitions:

@@ -12,7 +12,7 @@ outputs:
   dir: '@DIR@'
   options:
     format: XLSX
-    group_fields: ['Value', '@MPN_FIELD@']
+    group_fields: ['Value', '@MPN_FIELD@', '@ASSEMBLY_FIELD@']
     count_smd_tht: true
     distributors:
         - Mouser
@@ -38,6 +38,8 @@ outputs:
       - "Datasheet"
       - "Footprint"
       - "Description"
+      - field: "@ASSEMBLY_FIELD@"
+        name: "Assembly"
       # - "arrow#"
       # - "digikey#"
       # - "farnell#"
@@ -54,3 +56,4 @@ definitions:
   KICOST_CONFIG: ''
   FILT_PRE_TRANSFORM: field_rename
   MPN_FIELD: 'manf#'
+  ASSEMBLY_FIELD: 'assembly'

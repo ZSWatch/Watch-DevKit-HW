@@ -56,7 +56,7 @@ groups:
       - @PDF_SCHEMATIC_OUTPUT@
       - @MD_README_OUTPUT@
       - @HTML_NAV_RES_OUTPUT@
-      - @HTML_KIRI_OUTPUT@
+#      - @HTML_KIRI_OUTPUT@
 
   - name: draft_group
     outputs:
@@ -96,6 +96,7 @@ groups:
   - name: bom
     outputs:
       - @CSV_BOM_OUTPUT@
+      - @CSV_MOUSER_CART_OUTPUT@
     # - @XLSX_BOM_OUTPUT@
       - @HTML_IBOM_OUTPUT@
       - @HTML_BOM_OUTPUT@
@@ -152,19 +153,26 @@ import:
       NAME: @FILT_TP_EXCLUDE@
       COMMENT: Exclude only testpoints
 
+  - file: kibot_filt_exclude_enclosed.yaml
+    definitions:
+      NAME: @FILT_ENCLOSED_EXCLUDE@
+      COMMENT: Exclude enclosed components
+      ASSEMBLY_FIELD: @ASSEMBLY_FIELD@
+      ASSEMBLY_ENCLOSED: @ASSEMBLY_ENCLOSED@
+
   - file: kibot_filt_testpoints.yaml
     definitions:
       NAME: @FILT_TP_TOP_ONLY@
       COMMENT: Select only top testpoints
       EXCLUDE_BOTTOM: true
-      EXCLUDE_REFS: @EXCLUDE_REFS@
+      EXCLUDE_REFS: "@EXCLUDE_REFS@"
 
   - file: kibot_filt_testpoints.yaml
     definitions:
       NAME: @FILT_TP_BOTTOM_ONLY@
       COMMENT: Select only bottom testpoints
       EXCLUDE_TOP: true
-      EXCLUDE_REFS: @EXCLUDE_REFS@
+      EXCLUDE_REFS: "@EXCLUDE_REFS@"
 
   # Preflights =================================================================
 
@@ -279,6 +287,7 @@ import:
       NAME: @CSV_POS_OUTPUT@
       COMMENT: Position file in CSV format
       DIR: @ASSEMBLY_DIR@
+      EXCLUDE_FILTER: @FILT_ENCLOSED_EXCLUDE@
 
   # Manufacturer-specific manufacturing outputs ================================
 
@@ -314,12 +323,25 @@ import:
       DIR: @ASSEMBLY_DIR@
       MPN_FIELD: @MPN_FIELD@
       MAN_FIELD: @MAN_FIELD@
+      ASSEMBLY_FIELD: @ASSEMBLY_FIELD@
 
   - file: kibot_out_html_bom.yaml
     definitions:
       NAME: @HTML_BOM_OUTPUT@
       COMMENT: Bill of Materials in HTML format
       DIR: @ASSEMBLY_DIR@
+      MPN_FIELD: @MPN_FIELD@
+      MAN_FIELD: @MAN_FIELD@
+      ASSEMBLY_FIELD: @ASSEMBLY_FIELD@
+
+  # Mouser cart for the BoM import (CSV)
+  - file: kibot_out_csv_mouser_cart.yaml
+    definitions:
+      NAME: @CSV_MOUSER_CART_OUTPUT@
+      COMMENT: Mouser cart in CSV format
+      DIR: @ASSEMBLY_DIR@
+      FILTER: @FILT_MOUSER_ONLY@
+      MOUSER_FIELD: @MOUSER_FIELD@
       MPN_FIELD: @MPN_FIELD@
       MAN_FIELD: @MAN_FIELD@
 
@@ -330,6 +352,7 @@ import:
       COMMENT: Bill of Materials in XLSX format
       DIR: @ASSEMBLY_DIR@
       FILT_PRE_TRANSFORM: @FILT_FIELD_RENAME@
+      ASSEMBLY_FIELD: @ASSEMBLY_FIELD@
 
   # Interactive HTML BOM. Needs netlist.
   - file: kibot_out_html_ibom.yaml
@@ -434,7 +457,8 @@ import:
     definitions:
       NAME: @COPY_LOGO@
       COMMENT: Copy logo
-      DIR: @COPY_LOGO_DIR@
+      OUTDIR: @COPY_LOGO_DIR@
+      SOURCE: @LOGO@
 
   # Schematic in PDF format
   - file: kibot_out_pdf_schematic.yaml
@@ -518,11 +542,11 @@ import:
       DIR: KiCanvas
 
   # Generate webpage with diffs between commits
-  - file: kibot_out_html_kiri.yaml
-    definitions:
-      NAME: @HTML_KIRI_OUTPUT@
-      COMMENT: KiRI webpage
-      DIR: KiRI
+#  - file: kibot_out_html_kiri.yaml
+#    definitions:
+#      NAME: @HTML_KIRI_OUTPUT@
+#      COMMENT: KiRI webpage
+#      DIR: KiRI
 
   # README.md file generation
   - file: kibot_out_md_report.yaml
@@ -568,6 +592,15 @@ definitions:
 
   MPN_FIELD: 'manf#'
   MAN_FIELD: 'manf'
+
+  # Field with the Mouser part number for the Mouser cart
+  MOUSER_FIELD: 'mouser#'
+
+  # Components with the value ASSEMBLY_ENCLOSED in the field ASSEMBLY_FIELD are
+  # not assembled, they are supplied loose with the board. They are listed in the
+  # BoM (column ASSEMBLY_FIELD), but not in the position file
+  ASSEMBLY_FIELD: 'assembly'
+  ASSEMBLY_ENCLOSED: 'Enclosed'
 
   # Drill table and drill map parameters =======================================
 
@@ -617,7 +650,7 @@ definitions:
   IMAGES_DIR: 'Images'
   3D_DIR: '3D'
   NETLIST_DIR: 'Netlist'
-  COPY_LOGO_DIR: '.'
+  COPY_LOGO_DIR: 'Images'
 
   RESOURCES_DIR: './kibot_resources'
   REPORT_TEMPLATE_DIR: '@RESOURCES_DIR@/templates'
@@ -641,6 +674,8 @@ definitions:
   FILT_FIELD_RENAME: field_rename
   FILT_TP_ONLY: only_testpoints
   FILT_TP_EXCLUDE: exclude_testpoints
+  FILT_MOUSER_ONLY: only_mouser
+  FILT_ENCLOSED_EXCLUDE: exclude_enclosed
   FILT_TP_TOP_ONLY: only_testpoints_top
   FILT_TP_BOTTOM_ONLY: only_testpoints_bottom
 
@@ -663,6 +698,7 @@ definitions:
   CSV_TP_BOTTOM_OUTPUT: csv_testpoints_bottom
 
   CSV_BOM_OUTPUT: csv_bom
+  CSV_MOUSER_CART_OUTPUT: csv_mouser_cart
   XLSX_BOM_OUTPUT: xlsx_bom
   HTML_IBOM_OUTPUT: html_bom_interactive
   HTML_BOM_OUTPUT: html_bom

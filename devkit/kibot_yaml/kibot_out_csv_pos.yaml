@@ -16,9 +16,12 @@ outputs:
     include_virtual: false
     output: '%f-CPL%I%v.%x'
     separate_files_for_front_and_back: false
+    columns: ['Ref', 'PosX', 'PosY', 'Rot', 'Side']
+    exclude_filter: '@EXCLUDE_FILTER@'
 
 ...
 definitions:
   NAME: csv_position
   COMMENT: Position file in CSV format
   DIR: Manufacturing/Assembly
+  EXCLUDE_FILTER: exclude_enclosed

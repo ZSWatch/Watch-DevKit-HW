@@ -1,0 +1,21 @@
+# KiBot Filter for excluding enclosed components
+# Enclosed components are listed in the BoM, but they are not assembled.
+# They are supplied loose with the board
+
+kibot:
+  version: 1
+
+filters:
+  - name: '@NAME@'
+    comment: '@COMMENT@'
+    type: generic
+    exclude_any:
+      - column: '@ASSEMBLY_FIELD@'
+        regex: '^\s*@ASSEMBLY_ENCLOSED@\s*$'
+
+...
+definitions:
+  COMMENT: Exclude enclosed components
+  NAME: exclude_enclosed
+  ASSEMBLY_FIELD: 'assembly'
+  ASSEMBLY_ENCLOSED: 'Enclosed'

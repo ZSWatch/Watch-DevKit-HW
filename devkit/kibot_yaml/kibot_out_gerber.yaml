@@ -14,7 +14,8 @@ outputs:
   options:
     subtract_mask_from_silk: true
     plot_footprint_refs: @PLOT_REFS@
-    plot_footprint_values: false
+    # Values that are visible on the silkscreen are labels of the board (e.g. "USB", "Reset")
+    plot_footprint_values: true
     create_gerber_job_file: false
 
 ...

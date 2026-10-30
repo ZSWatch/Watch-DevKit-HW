@@ -345,7 +345,7 @@
 		(start 43.489 33.5022)
 		(end 43.489 44.0022)
 	)
-	(tbtext "${VARIANT}"
+	(tbtext "${PCB_VARIANT}"
 		(name "")
 		(pos 41.989 37.502)
 		(font
