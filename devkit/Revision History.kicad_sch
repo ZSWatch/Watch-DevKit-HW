@@ -11,7 +11,7 @@
 		(company "${COMPANY}")
 	)
 	(lib_symbols)
-	(text_box "${RELEASE_BODY_x.y.z}"
+	(text_box "${RELEASE_BODY_1.2.3}"
 		(exclude_from_sim no)
 		(at 220.98 35.56 0)
 		(size 58.42 111.76)
@@ -191,7 +191,7 @@
 		)
 		(uuid "ed7f1ff6-56f6-4427-ab7f-2ffe27717c3d")
 	)
-	(text_box "${RELEASE_TITLE_x.y.z}"
+	(text_box "${RELEASE_TITLE_1.2.3}"
 		(exclude_from_sim no)
 		(at 218.44 31.75 0)
 		(size 57.15 7.62)
