@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/__w/Watch-DevKit-HW/Watch-DevKit-HW/devkit/ZSWatch-Watch-DevKit.kicad_sch</source>
-    <date>2026-10-30T06:41:40</date>
+    <date>2026-10-30T06:52:44</date>
     <tool>Eeschema 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1</tool>
     <textvar name="ASSEMBLY_NOTES"/>
     <textvar name="BOARD_NAME">Watch-DevKit-HW</textvar>
@@ -12,7 +12,7 @@
     <textvar name="GIT_HASH_PCB">639ecbe</textvar>
     <textvar name="GIT_HASH_SCH">0f698a3</textvar>
     <textvar name="GIT_URL">https://github.com/ZSWatch/Watch-DevKit-HW</textvar>
-    <textvar name="PCB_VARIANT">PRELIMINARY</textvar>
+    <textvar name="PCB_VARIANT">CHECKED</textvar>
     <textvar name="PROJECT_NAME">ZSWatch Watch-DevKit</textvar>
     <textvar name="RELEASE_BODY_1.2.0">**Fixed:**
 
@@ -93,15 +93,15 @@
 **Removed:**
 
 - Remove 0R and 5k1 CC resistors (#183)</textvar>
+    <textvar name="RELEASE_BODY_1.2.3">Version 1.2.3 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_BODY_x.y.z">Version x.y.z not found.</textvar>
     <textvar name="RELEASE_DATE">2026-10-30</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-10-30</textvar>
     <textvar name="RELEASE_TITLE_1.2.0">Version 1.2.0 - 2025-09-07</textvar>
     <textvar name="RELEASE_TITLE_1.2.1">Version 1.2.1 - 2025-09-26</textvar>
     <textvar name="RELEASE_TITLE_1.2.2">Version 1.2.2 - 2025-12-31</textvar>
+    <textvar name="RELEASE_TITLE_1.2.3">Version 1.2.3 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_TITLE_x.y.z">Version x.y.z not found.</textvar>
     <textvar name="REVISION"/>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
