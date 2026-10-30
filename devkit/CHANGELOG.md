@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.2.3] - 2026-10-30
+
 **Changed:**
 
 - Project ported to KiCad 10 and updated to the latest KiCad template (KiBot configuration, CI/CD workflow, release skills)
@@ -76,10 +78,11 @@
 
 - Remove APDS-9306 interrupt (#122)
 
-[Unreleased]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.2...HEAD
-
+[unreleased]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.3...HEAD
+[1.2.3]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.2...1.2.3
 [1.2.2]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.1...1.2.2
-
 [1.2.1]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.0...1.2.1
-
 [1.2.0]: https://github.com/ZSWatch/Watch-DevKit-HW/compare/fc3844fb6a647a23e214f3085a47ce2212e0d98a...1.2.0
+
+**Full Changelog**:
+https://github.com/ZSWatch/Watch-DevKit-HW/compare/1.2.2...1.2.3
