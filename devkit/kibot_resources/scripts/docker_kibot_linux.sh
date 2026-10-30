@@ -1,6 +1,6 @@
 #!/bin/sh
 
-IMAGE="ghcr.io/inti-cmnb/kicad9_auto_full:latest"
+IMAGE="ghcr.io/inti-cmnb/kicad10_auto_full:latest"
 
 export USER_ID=$(id -u)
 export GROUP_ID=$(id -g)

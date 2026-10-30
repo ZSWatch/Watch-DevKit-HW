@@ -1,0 +1,57 @@
+# KiBot output for generating a Mouser cart for the BoM import (CSV)
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/bom.html
+# Upload the file at mouser.com -> BOM Tool. Only components with a Mouser
+# part number in the field MOUSER_FIELD are listed. Components with the same
+# Mouser part number are merged into one line. The quantity is for one board.
+
+kibot:
+  version: 1
+
+filters:
+  - name: '@FILTER@'
+    comment: 'Include only components with a Mouser part number'
+    type: generic
+    include_only:
+      - column: '@MOUSER_FIELD@'
+        regex: '\S'
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: bom
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    output: '%f-mouser_cart%I%v.%x'
+    format: CSV
+    exclude_filter: '@FILTER@'
+    csv:
+      hide_header: false
+      hide_pcb_info: true
+      hide_stats_info: true
+
+    group_fields: ['@MOUSER_FIELD@']
+
+    columns:
+      - field: "@MOUSER_FIELD@"
+        name: "Mouser Part Number"
+      - field: "@MPN_FIELD@"
+        name: "Manufacturer Part Number"
+      - field: "@MAN_FIELD@"
+        name: "Manufacturer"
+      - field: "Quantity Per PCB"
+        name: "Quantity"
+      - field: "Value"
+        name: "Customer Part Number"
+      - field: "References"
+        name: "Description"
+
+...
+definitions:
+  NAME: csv_mouser_cart
+  COMMENT: Mouser cart in CSV format
+  DIR: Manufacturing/Assembly
+  FILTER: only_mouser
+  MOUSER_FIELD: 'mouser#'
+  MPN_FIELD: 'Manufacturer Part Number'
+  MAN_FIELD: 'Manufacturer'

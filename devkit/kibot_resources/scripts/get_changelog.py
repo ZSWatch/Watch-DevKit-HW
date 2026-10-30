@@ -10,8 +10,9 @@ def parse_changelog(file_path, version, title_only, extra_spaces, separators):
         print(f"Error: File '{file_path}' not found.")
         sys.exit(1)
 
-    # Regex to match the version block and stop at the next version or any line with square brackets
-    version_pattern = re.compile(rf"## \[{version}\] - (\d{{4}}-\d{{2}}-\d{{2}})\n(.*?)(?=## \[|\[Unreleased\]:|\[\d+\.\d+\.\d+\]:|$)", re.DOTALL)
+    # Regex to match the version block and stop at the next version or at the link
+    # definitions at the end of the file ("[unreleased]: ...", "[1.0.0]: ...")
+    version_pattern = re.compile(rf"^## \[{re.escape(version)}\] - (\d{{4}}-\d{{2}}-\d{{2}})\n(.*?)(?=^## \[|^\[[^\]\n]+\]:|\Z)", re.DOTALL | re.MULTILINE)
     match = version_pattern.search(changelog)
 
     if not match:

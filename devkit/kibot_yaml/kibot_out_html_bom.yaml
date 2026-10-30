@@ -19,7 +19,7 @@ outputs:
       logo: false
       style: modern-blue
 
-    group_fields: ['Value', '@MPN_FIELD@']
+    group_fields: ['Value', '@MPN_FIELD@', '@ASSEMBLY_FIELD@']
 
     columns:
       - "Row"
@@ -31,6 +31,8 @@ outputs:
       - "Description"
       - "@MAN_FIELD@"
       - "@MPN_FIELD@"
+      - field: "@ASSEMBLY_FIELD@"
+        name: "Assembly"
       # - "arrow#"
       # - "digikey#"
       # - "farnell#"
@@ -46,3 +48,4 @@ definitions:
   DIR: Manufacturing/Assembly
   MPN_FIELD: 'Manufacturer Part Number'
   MAN_FIELD: 'Manufacturer'
+  ASSEMBLY_FIELD: 'assembly'

@@ -17,7 +17,9 @@ outputs:
       exclude_filter: '_mechanical'
       mm_digits: 3
       display_trailing_zeros: True
-
+      # The templates use no images of the schematic or the PCB. Otherwise KiBot
+      # splits their PDFs and leaves one file per page in the output directories
+      collect_images: 'no'
 ...
 definitions:
   NAME: txt_fabrication_notes
