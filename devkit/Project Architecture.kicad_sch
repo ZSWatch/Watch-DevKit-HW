@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "d5742f03-3b1a-42e5-a384-018bd4b919aa")
 	(paper "A4")
 	(title_block
@@ -22,7 +22,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0d0a5f85-423a-4c91-909f-8f4829b9a93a)
+		(uuid "0d0a5f85-423a-4c91-909f-8f4829b9a93a")
 	)
 	(arc
 		(start 60.96 34.29)
@@ -35,7 +35,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 1f986cde-39dc-4256-b7ab-1b87b0450a5a)
+		(uuid "1f986cde-39dc-4256-b7ab-1b87b0450a5a")
 	)
 	(arc
 		(start 63.5 62.23)
@@ -48,7 +48,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 475eac8c-bcd6-4178-93e0-d59cefc80fd7)
+		(uuid "475eac8c-bcd6-4178-93e0-d59cefc80fd7")
 	)
 	(arc
 		(start 59.69 46.99)
@@ -61,7 +61,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 602f2a6b-d9f6-47eb-afd4-baba9ea1f008)
+		(uuid "602f2a6b-d9f6-47eb-afd4-baba9ea1f008")
 	)
 	(arc
 		(start 221 41.89)
@@ -74,7 +74,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 6a9e2074-65cd-4a4a-84bf-6ceecf1db2b6)
+		(uuid "6a9e2074-65cd-4a4a-84bf-6ceecf1db2b6")
 	)
 	(arc
 		(start 224.81 54.59)
@@ -87,7 +87,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 74ec47f4-5d14-4868-94f6-a1b81869c9e3)
+		(uuid "74ec47f4-5d14-4868-94f6-a1b81869c9e3")
 	)
 	(arc
 		(start 62.23 120.65)
@@ -100,7 +100,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 84c0fd28-0211-4b06-b256-6c0b700c0ec4)
+		(uuid "84c0fd28-0211-4b06-b256-6c0b700c0ec4")
 	)
 	(arc
 		(start 223.54 64.75)
@@ -113,7 +113,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 910d85bb-30ec-4140-a43a-0fa0cba59ca3)
+		(uuid "910d85bb-30ec-4140-a43a-0fa0cba59ca3")
 	)
 	(arc
 		(start 60.96 45.72)
@@ -126,7 +126,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 9aef0ffd-70f2-4f9f-a053-c0f003eead1b)
+		(uuid "9aef0ffd-70f2-4f9f-a053-c0f003eead1b")
 	)
 	(arc
 		(start 64.77 137.16)
@@ -139,7 +139,7 @@
 		(fill
 			(type none)
 		)
-		(uuid b7347dca-925f-46cd-a43b-a0d430e2ae31)
+		(uuid "b7347dca-925f-46cd-a43b-a0d430e2ae31")
 	)
 	(arc
 		(start 62.23 109.22)
@@ -152,7 +152,7 @@
 		(fill
 			(type none)
 		)
-		(uuid d3290a4f-eff2-4235-84b7-33a4e12c6a53)
+		(uuid "d3290a4f-eff2-4235-84b7-33a4e12c6a53")
 	)
 	(arc
 		(start 60.96 121.92)
@@ -165,7 +165,7 @@
 		(fill
 			(type none)
 		)
-		(uuid ffd260c0-4471-4212-8ed2-093930a6baae)
+		(uuid "ffd260c0-4471-4212-8ed2-093930a6baae")
 	)
 	(text "Page 6"
 		(exclude_from_sim no)
@@ -1009,11 +1009,13 @@
 			(type solid)
 		)
 		(fill
-			(color 194 194 0 0.5000)
+			(color 194 194 0 0.5)
 		)
 		(uuid "82af773f-8c39-43b9-baa2-3658da6c8bb2")
 		(property "Sheetname" "Peripherals"
 			(at 71.12 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,6 +1025,8 @@
 		)
 		(property "Sheetfile" "Peripherals.kicad_sch"
 			(at 71.12 78.0546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,11 +1230,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 194 0 0.5000)
+			(color 0 194 0 0.5)
 		)
 		(uuid "8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7")
 		(property "Sheetname" "MCU"
 			(at 71.12 89.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,6 +1246,8 @@
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
 			(at 71.12 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,11 +1461,13 @@
 			(type solid)
 		)
 		(fill
-			(color 194 0 0 0.5000)
+			(color 194 0 0 0.5)
 		)
 		(uuid "cee9a3a2-28cd-4e6c-b23d-337f115f39e8")
 		(property "Sheetname" "Power Management"
 			(at 182.88 18.3384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,6 +1477,8 @@
 		)
 		(property "Sheetfile" "Power.kicad_sch"
 			(at 182.88 93.2946 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

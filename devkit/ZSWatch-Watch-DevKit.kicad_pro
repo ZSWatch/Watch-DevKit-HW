@@ -956,6 +956,6 @@
     "SHEET_NAME_7": "Revision History",
     "SHEET_NAME_8": "......................................",
     "SHEET_NAME_9": "......................................",
-    "VARIANT": "PRELIMINARY"
+    "PCB_VARIANT": "PRELIMINARY"
   }
 }
