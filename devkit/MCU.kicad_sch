@@ -12155,7 +12155,7 @@
 			(uuid "5f61f6de-e7cd-4f31-8b18-8f8a1fc8981c")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0607")
 					(unit 1)
@@ -12304,7 +12304,7 @@
 			(uuid "0f1a63c0-1977-40a3-8182-f9c61cbb6b2f")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X601")
 					(unit 1)
@@ -12429,7 +12429,7 @@
 			(uuid "6683556d-f7d8-4956-ad59-73e0666dd3d0")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X602")
 					(unit 1)
@@ -12506,7 +12506,7 @@
 			(uuid "9804cac0-4b2b-4ad6-b035-ca305f79695d")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0609")
 					(unit 1)
@@ -12583,7 +12583,7 @@
 			(uuid "b6f5c97d-593d-4676-9007-8948facf14e3")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0602")
 					(unit 1)
@@ -12661,7 +12661,7 @@
 			(uuid "165523fb-f910-4e6e-b5c3-0535eaba8c6d")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0615")
 					(unit 1)
@@ -12739,7 +12739,7 @@
 			(uuid "b171da9b-d7a1-4465-be58-11f9ecccc5c3")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0608")
 					(unit 1)
@@ -12894,7 +12894,7 @@
 			(uuid "8029f3b0-d127-4b01-a470-8e10dacb42e6")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0627")
 					(unit 1)
@@ -12972,7 +12972,7 @@
 			(uuid "a2e36906-f10e-4ddd-b92b-e019e92a52b9")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0617")
 					(unit 1)
@@ -13112,7 +13112,7 @@
 			(uuid "b85595a7-f376-481a-bf07-bbc1c357d26e")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "IC602")
 					(unit 1)
@@ -13190,7 +13190,7 @@
 			(uuid "4e14575a-0f45-4f19-ae00-0d7a1efc2f1c")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0614")
 					(unit 1)
@@ -13553,7 +13553,7 @@
 			(uuid "ea50fb45-f63a-441b-9a07-a1aa6c5a5fca")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "M601")
 					(unit 1)
@@ -13679,7 +13679,7 @@
 			(uuid "0afb93ee-c142-4e81-864e-927ea4fed116")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "R612")
 					(unit 1)
@@ -13799,7 +13799,7 @@
 			)
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "J603")
 					(unit 1)
@@ -13920,7 +13920,7 @@
 			(uuid "5f57b816-46d1-4d4f-801e-78b94bbfd6df")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0603")
 					(unit 1)
@@ -14073,7 +14073,7 @@
 			(uuid "310b9c0a-80f6-42fd-ad87-cf2e92fdbdc6")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "IC604")
 					(unit 1)
@@ -14198,7 +14198,7 @@
 			(uuid "673e9d6d-e376-4ff3-9bab-6ce6ea980c30")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X606")
 					(unit 1)
@@ -14327,7 +14327,7 @@
 			(uuid "d745784c-0209-41ad-9a78-b623aac35b7c")
 		)
 		(instances
-			(project ""
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X604")
 					(unit 1)
@@ -14528,7 +14528,7 @@
 			(uuid "04758642-b9bb-4f5a-b7e7-b55fe885d42f")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0613")
 					(unit 1)
@@ -14655,7 +14655,7 @@
 			(uuid "2362c79a-9d81-44df-9065-0ca086a76aac")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "C604")
 					(unit 1)
@@ -14733,7 +14733,7 @@
 			(uuid "304e1712-d30d-4c81-83dd-116cbaa0e8ed")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0621")
 					(unit 1)
@@ -14811,7 +14811,7 @@
 			(uuid "94163067-0899-4941-b9f6-2f5f63efc9fe")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0631")
 					(unit 1)
@@ -15139,7 +15139,7 @@
 			(uuid "e6d085df-5ab1-4ff8-9077-a94a86f2373c")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X609")
 					(unit 1)
@@ -15272,7 +15272,7 @@
 			(uuid "9efc41c9-7963-4b41-bf9e-ffa6305946da")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0605")
 					(unit 1)
@@ -15351,7 +15351,7 @@
 			(uuid "7ba6e0e0-b733-45c8-83b6-c52bb459276e")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0619")
 					(unit 1)
@@ -15428,7 +15428,7 @@
 			(uuid "758fe30c-4d84-4f37-8d85-44d0a5a2b737")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0622")
 					(unit 1)
@@ -15791,7 +15791,7 @@
 			(uuid "d9009b7b-7ccd-4450-92d0-72df9c932f4b")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "M601")
 					(unit 2)
@@ -15918,7 +15918,7 @@
 			(uuid "67856042-f030-4287-9adf-98198ea58545")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X607")
 					(unit 1)
@@ -16054,7 +16054,7 @@
 			(uuid "d52a3d9d-29a5-4eef-9247-b6caaa68a59d")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X605")
 					(unit 1)
@@ -16131,7 +16131,7 @@
 			(uuid "9466c83b-01ff-4a27-ad64-82786dc17af7")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0620")
 					(unit 1)
@@ -16209,7 +16209,7 @@
 			(uuid "f2b5890e-0945-4b2b-be16-490d485d411f")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0628")
 					(unit 1)
@@ -16344,7 +16344,7 @@
 			(uuid "52ca518f-5587-4cb1-a837-4beeb96df0ce")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "IC601")
 					(unit 1)
@@ -16470,7 +16470,7 @@
 			(uuid "543d66ee-c502-43fa-91a3-5e12212383d8")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "R614")
 					(unit 1)
@@ -16547,7 +16547,7 @@
 			(uuid "794d7f8d-43f4-4520-878d-80730f30a2c1")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0606")
 					(unit 1)
@@ -16673,7 +16673,7 @@
 			(uuid "c7eb2b5e-020d-442f-aba0-1ddcbaf31ec1")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X610")
 					(unit 1)
@@ -16924,7 +16924,7 @@
 			(uuid "37468999-3b51-4876-a97c-34d3c7a4515c")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "S601")
 					(unit 1)
@@ -17044,7 +17044,7 @@
 			)
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "J602")
 					(unit 1)
@@ -17165,7 +17165,7 @@
 			(uuid "fdd10f35-18ab-4e05-9029-0329fc04afa2")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0611")
 					(unit 1)
@@ -17242,7 +17242,7 @@
 			(uuid "0af15d43-1f31-4b9d-95d0-25a5f3f1c467")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0604")
 					(unit 1)
@@ -17521,7 +17521,7 @@
 			(uuid "93176a5f-9abe-45cd-98ac-3da487a15615")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0610")
 					(unit 1)
@@ -17722,7 +17722,7 @@
 			(uuid "98d764dd-2863-43b2-80d2-8b4a68052372")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "TP601")
 					(unit 1)
@@ -17967,7 +17967,7 @@
 			)
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "J604")
 					(unit 1)
@@ -18197,7 +18197,7 @@
 			(uuid "55184d78-fab5-4da9-860c-6047a2e91e1b")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X608")
 					(unit 1)
@@ -18560,7 +18560,7 @@
 			(uuid "d43bd6ea-8b94-4769-ba26-0812b8983f8d")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "M601")
 					(unit 3)
@@ -18686,7 +18686,7 @@
 			(uuid "e248bf65-b7ad-49f5-965d-8d89a8d90f82")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "R615")
 					(unit 1)
@@ -18807,7 +18807,7 @@
 			(uuid "7dadf1c4-1543-4f58-b322-28db78d33186")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0625")
 					(unit 1)
@@ -18932,7 +18932,7 @@
 			(uuid "a76f8ace-2524-4203-866a-b315c5129c7e")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "R616")
 					(unit 1)
@@ -19058,7 +19058,7 @@
 			(uuid "c1d184b8-6a81-4023-8295-ec4ff25f1da9")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "R613")
 					(unit 1)
@@ -19182,7 +19182,7 @@
 			(uuid "99c7d664-7eca-4b57-8919-c3ff247f7b3e")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "R601")
 					(unit 1)
@@ -19307,7 +19307,7 @@
 			(uuid "c668c5be-c383-4123-848a-b553493182b7")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "R602")
 					(unit 1)
@@ -19512,7 +19512,7 @@
 			(uuid "be666858-c228-4506-afd3-1ad40c553e85")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "C603")
 					(unit 1)
@@ -19589,7 +19589,7 @@
 			(uuid "23eb76ee-247d-43f8-a464-3c24962bc804")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0629")
 					(unit 1)
@@ -19791,7 +19791,7 @@
 			(uuid "ade5e038-5028-4357-85c2-cf0c9a01392d")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0623")
 					(unit 1)
@@ -19868,7 +19868,7 @@
 			(uuid "b838f981-bf88-4512-bece-b3093686421a")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0616")
 					(unit 1)
@@ -19945,7 +19945,7 @@
 			(uuid "fd56990e-e311-444d-875c-8beafe8873a4")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0601")
 					(unit 1)
@@ -20071,7 +20071,7 @@
 			(uuid "6a99d055-1335-4aa1-b2f1-e691bb0b56af")
 		)
 		(instances
-			(project "Watch-DK"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "C601")
 					(unit 1)
@@ -20148,7 +20148,7 @@
 			(uuid "1e9c2425-a57b-480a-85b8-5142d344278a")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0626")
 					(unit 1)
@@ -20268,7 +20268,7 @@
 			)
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "J601")
 					(unit 1)
@@ -20345,7 +20345,7 @@
 			(uuid "7286280f-9eaa-4d34-97aa-bb622abb8ef1")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0624")
 					(unit 1)
@@ -20470,7 +20470,7 @@
 			(uuid "1e92cc51-1151-494d-bc76-292e239b7fd3")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "C602")
 					(unit 1)
@@ -20548,7 +20548,7 @@
 			(uuid "2a98893e-6457-4761-8dcc-eaadc3906929")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0618")
 					(unit 1)
@@ -20692,7 +20692,7 @@
 			(uuid "eb6ca601-e91e-426c-b920-c741923e7c29")
 		)
 		(instances
-			(project "ZSWatch"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "IC603")
 					(unit 1)
@@ -20814,7 +20814,7 @@
 			(uuid "b520faf3-15a6-4e0f-b555-7402c6dc46fa")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0630")
 					(unit 1)
@@ -21006,7 +21006,7 @@
 			(uuid "112f5708-115c-4525-81b3-3a4d25e70e2e")
 		)
 		(instances
-			(project "Dev-Kit"
+			(project "ZSWatch-Watch-DevKit"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/c5103ceb-5325-4a84-a025-9638a412984e/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "X603")
 					(unit 1)

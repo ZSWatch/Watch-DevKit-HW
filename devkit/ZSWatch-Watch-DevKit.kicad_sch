@@ -631,7 +631,7 @@
 		)
 		(uuid "6b8d090b-e89a-4677-84e9-b64a5fead89e")
 	)
-	(text "Rev ${REVISION}"
+	(text "Revision ${REVISION}"
 		(exclude_from_sim no)
 		(at 394.97 59.69 0)
 		(effects
@@ -1896,4 +1896,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
